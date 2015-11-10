@@ -1,5 +1,6 @@
 #Ignore temp files
 *~
+.DS_Store
 
 #EXAMPLES
 # no .a files
