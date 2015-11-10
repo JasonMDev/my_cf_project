@@ -1,6 +1,15 @@
  /* Personal wireframing */
-
- * {
+ /** {
  	border: 1px dashed red
+ }*/
+
+ .jumbotron {
+ 	/*background: url("../img/landscape.jpg") no-repeat center center;*/
+ 	background-image: url("../img/landscape.jpg");
+ 	background-size: cover; 
+ }
+
+ .jumbotron p {
+ 	color: white;
  }
 
