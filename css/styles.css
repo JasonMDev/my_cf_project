@@ -3,10 +3,16 @@
  	border: 1px dashed red
  }*/
 
+ /*Styling: jumbotron*/
+
  .jumbotron {
  	/*background: url("../img/landscape.jpg") no-repeat center center;*/
- 	background-image: url("../img/landscape.jpg");
+ 	background-image: url("../img/workspace.jpg");
  	background-size: cover; 
+ }
+
+ .jumbotron h1 {
+ 	color: orange;
  }
 
  .jumbotron p {
