@@ -14,3 +14,9 @@ For "Course Goals," write down your professional learning goals. Are you changin
 ### 2015/11/09
 - Set up root folder and initiated Git version control.
 - Added ".gitignore" file
+
+### 2015/11/10
+Submitted lesson 1 and 2
+
+### 2015/11/11
+Did some admin
