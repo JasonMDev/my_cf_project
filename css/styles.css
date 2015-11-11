@@ -6,8 +6,8 @@
  /*Styling: jumbotron*/
 
  .jumbotron {
- 	/*background: url("../img/landscape.jpg") no-repeat center center;*/
- 	background-image: url("../img/workspace.jpg");
+ 	background: url("../img/workspace.jpg") no-repeat center top;
+ 	/*background-image: url("../img/workspace.jpg");*/
  	background-size: cover; 
  }
 
