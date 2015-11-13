@@ -26,13 +26,14 @@
  .container {
  	width: 80%;
  	margin: 0 auto; 
-
  }
+ 
  /*STYLING: Nested Tags in About Container*/
  .image {
  	display: inline-block;
 	float: left;	 
  }
+
  .mypic {
 	width: 100%;
  }
