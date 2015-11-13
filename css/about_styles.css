@@ -1,25 +1,11 @@
- /* Personal wireframing */
- /** {
- 	border: 1px dashed red
- }*/
+ /*STYLING: About Container*/
 
- /*STYLING:; jumbotron*/
-
- .jumbotron {
- 	background: url("../img/workspace.jpg") no-repeat center top;
- 	/*background-image: url("../img/workspace.jpg");*/
- 	background-size: cover; 
+ .container {
+ 	width: 80%;
+ 	margin: 0 auto; 
  }
 
- .jumbotron h1 {
- 	color: #662900;
- 	text-shadow: 0 0 1px #ffb380;
- }
-
- .jumbotron p {
- 	color: #ff6600;
- 	text-shadow: 0 0 1px #662900;
- }
+ 
 
 /* ============================================ */
 /* Good CSS Guide */
