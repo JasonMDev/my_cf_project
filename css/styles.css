@@ -8,7 +8,7 @@
 .jumbotron {
   background: url("../img/workspace.jpg") no-repeat center top;
  	/*background-image: url("../img/workspace.jpg");*/
- 	background-size: cover; 
+  background-size: cover; 
  }
 
 .jumbotron h1 {
@@ -17,8 +17,8 @@
 }
 
 .jumbotron p {
- 	color: #ff6600;
- 	text-shadow: 0 0 1px #662900;
+  color: #ff6600;
+  text-shadow: 0 0 1px #662900;
  }
 
 /* ============================================ */
