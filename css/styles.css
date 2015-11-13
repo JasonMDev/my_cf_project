@@ -1,22 +1,22 @@
- /* Personal wireframing */
- /** {
- 	border: 1px dashed red
- }*/
+/* Personal wireframing */
+/** {
+ 	border: 1px dashed red;
+}*/
 
- /*STYLING:; jumbotron*/
+/*STYLING:; jumbotron*/
 
- .jumbotron {
- 	background: url("../img/workspace.jpg") no-repeat center top;
+.jumbotron {
+  background: url("../img/workspace.jpg") no-repeat center top;
  	/*background-image: url("../img/workspace.jpg");*/
  	background-size: cover; 
  }
 
- .jumbotron h1 {
+.jumbotron h1 {
  	color: #662900;
  	text-shadow: 0 0 1px #ffb380;
- }
+}
 
- .jumbotron p {
+.jumbotron p {
  	color: #ff6600;
  	text-shadow: 0 0 1px #662900;
  }
