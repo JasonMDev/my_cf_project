@@ -1,5 +1,10 @@
- /*STYLING: About Container*/
+ /*STYLING: About Header*/
+ .header h1 {
+ 	text-align: center; 
+ }
 
+
+ /*STYLING: About Container*/
  .container {
  	width: 80%;
  	margin: 0 auto; 
