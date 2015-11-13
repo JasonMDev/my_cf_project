@@ -1,9 +1,20 @@
  /*Universal Styling*/
  * {box-sizing: border-box;}
-
+ 
  /*STYLING: About Header*/
  .header {
+ 	/* Positioning */
+ 	position: relative;
+ 	top: 10px;
+ 	z-index: 1;
+
+ 	/* Box-model */
  	margin-bottom: 50px;
+
+ 	/* Typography */
+
+ 	/* Visual */
+ 	background-color: #ff9933;
  } 
 
  .header h1 {
@@ -15,27 +26,26 @@
  .container {
  	width: 80%;
  	margin: 0 auto; 
+
+ }
+ /*STYLING: Nested Tags in About Container*/
+ .image {
+ 	display: inline-block;
+	float: left;	 
+ }
+ .mypic {
+	width: 100%;
  }
 
-/*STYLING: Nested Tags in About Container*/
-.image {
-	display: inline-block;
-	float: left;	 
-}
-
-.mypic {
-	width: 100%;
-}
-
-.column {
+ .column {	
 	display: inline-block;
 	float: left;
 	width: 30%;
 	padding: 0 20px;
-}
+ }
 
-.main-text {
+ .main-text {
 	clear: both;
-	padding-top: 60px;
-}
+	padding-top: 60px;	
+ }
  
