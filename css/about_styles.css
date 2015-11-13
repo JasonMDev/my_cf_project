@@ -1,4 +1,11 @@
+ /*Universal Styling*/
+ * {box-sizing: border-box;}
+
  /*STYLING: About Header*/
+ .header {
+ 	margin-bottom: 50px;
+ } 
+
  .header h1 {
  	text-align: center; 
  }
@@ -10,48 +17,25 @@
  	margin: 0 auto; 
  }
 
+/*STYLING: Nested Tags in About Container*/
+.image {
+	display: inline-block;
+	float: left;	 
+}
+
+.mypic {
+	width: 100%;
+}
+
+.column {
+	display: inline-block;
+	float: left;
+	width: 30%;
+	padding: 0 20px;
+}
+
+.main-text {
+	clear: both;
+	padding-top: 60px;
+}
  
-
-/* ============================================ */
-/* Good CSS Guide */
-/* (CSS not used. Kept for reference. ) */
-/* ============================================ */
-.selector,
-.selector-secondary,
-.selector[type="text"] {
-  padding: 15px;
-  margin-bottom: 15px;
-  background-color: rgba(0,0,0,.5);
-  box-shadow: 0 1px 2px #ccc, inset 0 1px 0 #fff;
-}
-
-/* STYLE GUIDE AND ORDER */
-.declaration-order {
-  /* Positioning */
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 100;
-
-  /* Box-model */
-  display: block;
-  float: right;
-  width: 100px;
-  height: 100px;
-
-  /* Typography */
-  font: normal 13px "Helvetica Neue", sans-serif;
-  line-height: 1.5;
-  color: #333;
-  text-align: center;
-
-  /* Visual */
-  background-color: #f5f5f5;
-  border: 1px solid #e5e5e5;
-  border-radius: 3px;
-
-  /* Misc */
-  opacity: 1;
-}
