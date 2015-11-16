@@ -50,4 +50,20 @@
   clear: both;
   padding-top: 60px;	
 }
- 
+
+/*Typography*/
+
+h1,
+h2,
+h3 {
+  font-family: Futura, Helvetica, Arial, sans-serif;
+} 
+
+p,
+li {
+  font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+.intro p {
+  font-family: Futura, Helvetica, Arial, sans-serif;
+}
