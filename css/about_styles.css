@@ -1,6 +1,20 @@
-/*Universal Styling*/
+/* ============================================ */
+/*               ABOUT CSS STYLESHEET            */
+/* ============================================ */
+/******************* PAGE.HTML ******************/
+/******************** Section *******************/
+/***************** [ CSS Group ] ****************/
+/***************** (  Remarks  ) ****************/
 
-* {box-sizing: border-box;}
+
+/******************* UNIVERSAL ******************/
+/****************** Wireframing *****************/
+/* Personal Wreframing */
+/** {
+  border: 1px dashed red;
+}*/
+
+/****************** ABOUT.HTML ******************/
  
 /*STYLING: About Header*/
 .header {
@@ -56,7 +70,7 @@
   margin-left: 50px;
 }
 
-/*Typography*/
+/***************** [ Typography ] ****************/
 
 h1,
 h2,
@@ -81,7 +95,7 @@ li {
   text-transform: uppercase;
 }
 
-/*Background and Colours*/
+/************ [ Background and Colours] ***********/
 
 body {
   background-color: #fffeea;

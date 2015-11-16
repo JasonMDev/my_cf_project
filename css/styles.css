@@ -1,9 +1,22 @@
-/* Personal wireframing */
+/* ============================================ */
+/*               MAIN CSS STYLESHEET            */
+/* ============================================ */
+/******************* PAGE.HTML ******************/
+/******************** Section *******************/
+/***************** [ CSS Group ] ****************/
+/***************** (  Remarks  ) ****************/
+
+
+/******************* UNIVERSAL ******************/
+/****************** Wireframing *****************/
+/* Personal Wreframing */
 /** {
  	border: 1px dashed red;
 }*/
 
-/*STYLING:; jumbotron*/
+/****************** INDEX.HTML ******************/
+
+/*STYLING: jumbotron*/
 
 .jumbotron {
   background: url("../img/workspace.jpg") no-repeat center top;
@@ -20,6 +33,23 @@
   color: #ff6600;
   text-shadow: 0 0 1px #662900;
  }
+
+/**** ABOUT.HTML ****/
+/** Linked by the "about_page.css" ****/
+
+
+
+/******************* ABOUT.HTML *****************/
+/****** (  Linked by the "about_page.css" ) *****/
+
+
+/******************* CONTACT.HTML ***************/
+
+
+
+
+
+
 
 /* ============================================ */
 /* Good CSS Guide */
