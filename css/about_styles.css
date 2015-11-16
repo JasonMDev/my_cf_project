@@ -51,6 +51,10 @@
   padding-top: 60px;	
 }
 
+#skill-list {
+  margin-left: 50px;
+}
+
 /*Typography*/
 
 h1,
@@ -66,4 +70,14 @@ li {
 
 .intro p {
   font-family: Futura, Helvetica, Arial, sans-serif;
+  font-size: 3em;
+  font-weight: 100;
+  -webkit-margin-before: 0em;
 }
+
+.skills h3 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
