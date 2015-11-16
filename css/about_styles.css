@@ -80,4 +80,15 @@ li {
   text-transform: uppercase;
 }
 
+/*Background and Colours*/
 
+body {
+  background-color: #fffeea;
+  color: #34595e;
+}
+
+.skills {
+  background-color: #5AD4C2;
+  color: #FFF;
+  padding: 25px 0;
+}
