@@ -1,113 +1,111 @@
 /* ============================================ */
-/*               ABOUT CSS STYLESHEET            */
+/* ============================================ */
+/*               ABOUT CSS STYLESHEET           */
 /* ============================================ */
 /******************* PAGE.HTML ******************/
-/******************** Section *******************/
+/*************** Styling: Section ***************/
 /***************** [ CSS Group ] ****************/
 /***************** (  Remarks  ) ****************/
-
+/* ============================================ */
 
 /******************* UNIVERSAL ******************/
 /****************** Wireframing *****************/
 /* Personal Wreframing */
-/** {
-  border: 1px dashed red;
-}*/
+/** { border: 1px dashed red; }*/
+* { box-sizing: border-box; }           /* A1#4 */
 
 /****************** ABOUT.HTML ******************/
- 
-/*STYLING: About Header*/
+/************* Styling: About Header ************/ 
 .header {
   /* Positioning */
-  position: relative;
+  position: relative; /* */
   top: 10px;
   z-index: 1;
 
   /* Box-model */
-  margin-bottom: 50px;
+  margin-bottom: 50px;                  /* A1#4 */
 
   /* Typography */
 
   /* Visual */
-  background-color: #ff9933;
+  background-color: #ff9933;            /* Own  */
 } 
 
 .header h1 {
-  text-align: center;
+  text-align: center;                   /* A1#4 */
   padding: 20px 0; 
 }
 
-
-/*STYLING: About Container*/
+/*********** Styling: About Container ***********/ 
 .container {
-  width: 80%;
-  margin: 0 auto; 
+  width: 80%;                          /* A1#4 */
+  margin: 0 auto;                      /* A1#4 */
 }
 
-/*STYLING: Nested Tags in About Container*/
+/*** Styling: Nested Tags in About Container ***/ 
 .image {
-  display: inline-block;
-  float: left;	 
+  display: inline-block;                /* A1#4 */
+  float: left;	                        /* A1#4 */ 
 }
 
 .mypic {
-  width: 100%;
+  width: 100%;                          /* A1#4 */
 }
 
 .column {	
-  display: inline-block;
-  float: left;
-  width: 30%;
-  padding: 0 20px;
+  display: inline-block;                /* A1#4 */
+  float: left;                          /* A1#4 */
+  width: 30%;                           /* A1#4 */
+  padding: 0 20px;                      /* A1#4 */
 }
 
 .main-text {
-  clear: both;
-  padding-top: 60px;	
+  clear: both;                          /* A1#4 */
+  padding-top: 60px;	                  /* A1#4 */
 }
 
 #skill-list {
-  margin-left: 50px;
+  margin-left: 50px;                    /* A1#5 */
 }
 
-/***************** [ Typography ] ****************/
+/***************** [ Typography ] ***************/
 
 h1,
 h2,
 h3 {
-  font-family: Futura, Helvetica, Arial, sans-serif;
+  font-family: Futura, Helvetica, Arial, sans-serif; /* A1#5 */
 } 
 
 p,
 li {
-  font-family: Georgia, Times, 'Times New Roman', serif;
+  font-family: Georgia, Times, 'Times New Roman', serif; /* A1#5 */
 }
 
 .intro p {
-  font-family: Futura, Helvetica, Arial, sans-serif;
-  font-size: 3em;
-  font-weight: 100;
-  -webkit-margin-before: 0em;
+  font-family: Futura, Helvetica, Arial, sans-serif; /* A1#5 */
+  font-size: 3em;                        /* A1#5 */
+  font-weight: 100;                      /* A1#5 */
+  -webkit-margin-before: 0em;            /* A1#5 */
 }
 
 .skills h3 {
-  text-align: center;
-  text-transform: uppercase;
+  text-align: center;                    /* A1#5 */
+  text-transform: uppercase;             /* A1#5 */
 }
 
-/************ [ Background and Colours] ***********/
+/************ [ Background and Colours] **********/
 
 body {
-  background-color: #fffeea;
-  color: #34595e;
+  background-color: #fffeea;             /* A1#5 */
+  color: #34595e;                        /* A1#5 */
 }
 
 .skills {
-  background-color: #5AD4C2;
-  color: #FFF;
-  padding: 25px 0;
+  background-color: #5AD4C2;             /* A1#5 */
+  color: #FFF;                           /* A1#5 */
+  padding: 25px 0;                       /* A1#5 */
 }
 
 .header h1 {
-  font-family: 'Bangers', cursive;
+  font-family: 'Bangers', cursive;       /* A1#5 */
 }

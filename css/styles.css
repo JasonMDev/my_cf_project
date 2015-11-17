@@ -1,42 +1,37 @@
 /* ============================================ */
+/* ============================================ */
 /*               MAIN CSS STYLESHEET            */
 /* ============================================ */
 /******************* PAGE.HTML ******************/
-/******************** Section *******************/
+/*************** Styling: Section ***************/
 /***************** [ CSS Group ] ****************/
 /***************** (  Remarks  ) ****************/
-
+/* ============================================ */
 
 /******************* UNIVERSAL ******************/
 /****************** Wireframing *****************/
+/************ ( Personal Wireframing ) **********/
 /* Personal Wreframing */
-/** {
- 	border: 1px dashed red;
-}*/
+/** { border: 1px dashed red; }*/
 
 /****************** INDEX.HTML ******************/
-
-/*STYLING: jumbotron*/
+/************** Styling: Jumbotron **************/
 
 .jumbotron {
-  background: url("../img/workspace.jpg") no-repeat center top;
-  /*background-image: url("../img/workspace.jpg");*/
-  background-size: cover; 
+  background: url("../img/workspace.jpg") no-repeat center top; /* Own  */
+  /*background-image: url("../img/workspace.jpg");*/            /* A1#1 */
+  background-size: cover;                                       /* A1#1 */
  }
 
 .jumbotron h1 {
-  color: #662900;
-  text-shadow: 0 0 1px #ffb380;
+  color: #662900;                                               /* Own  */
+  text-shadow: 0 0 1px #ffb380;                                 /* Own  */
 }
 
 .jumbotron p {
-  color: #ff6600;
-  text-shadow: 0 0 1px #662900;
+  color: #ff6600;                                               /* Own  */
+  text-shadow: 0 0 1px #662900;                                 /* Own  */
  }
-
-/**** ABOUT.HTML ****/
-/** Linked by the "about_page.css" ****/
-
 
 
 /******************* ABOUT.HTML *****************/
@@ -46,14 +41,10 @@
 /******************* CONTACT.HTML ***************/
 
 
-
-
-
-
-
+/* ============================================ */
 /* ============================================ */
 /* Good CSS Guide */
-/* (CSS not used. Kept for reference. ) */
+/**** (CSS not used. Kept for reference. ) ******/
 /* ============================================ */
 .selector,
 .selector-secondary,
