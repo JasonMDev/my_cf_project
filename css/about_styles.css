@@ -18,9 +18,9 @@
 /************* Styling: About Header ************/ 
 .header {
   /* Positioning */
-  position: relative;           /* Own in A1#4  */
-  top: 10px;                    /* Own in A1#4  */
-  z-index: 1;                   /* Own in A1#4  */
+  position: relative;            /* Own in A1#4 */
+  top: 10px;                     /* Own in A1#4 */
+  z-index: 1;                    /* Own in A1#4 */
 
   /* Box-model */
   margin-bottom: 50px;                  /* A1#4 */
@@ -33,13 +33,13 @@
 
 .header h1 {
   text-align: center;                   /* A1#4 */
-  padding: 20px 0;               /* Own in A1#4 */
+  padding: 20px 0;               /* Own in A1#5 */
 }
 
 /*********** Styling: About Container ***********/ 
 .container {
-  position: fixed;              /* Own in A1#4  */
-  top: 10px;                    /* Own in A1#4  */
+  position: fixed;               /* Own in A1#4 */
+  top: 10px;                     /* Own in A1#4 */
   width: 80%;                           /* A1#4 */
   margin: 0 auto;                       /* A1#4 */
   padding: 10px;                 /* Own in A1#5 */
@@ -48,7 +48,7 @@
   border-radius: 10px;           /* Own in A1#5 */
 }
 
-/*** Styling: Nested Tags in About Container ***/ 
+/*** Styling: Nested Tags in About Container ****/ 
 .image {
   display: inline-block;                /* A1#4 */
   float: left;	                        /* A1#4 */ 
