@@ -11,7 +11,7 @@
 /******************* UNIVERSAL ******************/
 /****************** Wireframing *****************/
 /* Personal Wreframing */
-/** { border: 1px dashed red; }     */
+/* { border: 1px dashed red; }     */
 * { box-sizing: border-box; }           /* A1#4 */
 
 /****************** ABOUT.HTML ******************/
@@ -19,9 +19,8 @@
 .header {
   /* Positioning */
   position: relative;            /* Own in A1#4 */
-  top: 10px;                     /* Own in A1#4 */
-  z-index: 1;                    /* Own in A1#4 */
-
+  top: 5px;                     /* Own in A1#4 */
+  
   /* Box-model */
   margin-bottom: 50px;                  /* A1#4 */
 
@@ -36,16 +35,24 @@
   padding: 20px 0;               /* Own in A1#5 */
 }
 
-/*********** Styling: About Container ***********/ 
-.container {
-  position: fixed;               /* Own in A1#4 */
-  top: 10px;                     /* Own in A1#4 */
-  width: 80%;                           /* A1#4 */
-  margin: 0 auto;                       /* A1#4 */
+/*********** Styling: Navigation Bar ***********/ 
+.navigationbar {
+  position: static;            /* Own in A1#5 */
+  width: 80%;                    /* Own in A1#5 */
+  margin: 0 auto;                /* Own in A1#5 */
   padding: 10px;                 /* Own in A1#5 */
   background-color: #f5f5f5;     /* Own in A1#5 */
   border: 5px solid #696200;     /* Own in A1#5 */
   border-radius: 10px;           /* Own in A1#5 */
+}
+
+/*********** Styling: About Container ***********/ 
+.container {
+  position: relative;            /* Own in A1#4 */
+  top: 10px;                     /* Own in A1#4 */
+  width: 80%;                           /* A1#4 */
+  margin: 0 auto;                       /* A1#4 */
+  
 }
 
 /*** Styling: Nested Tags in About Container ****/ 
