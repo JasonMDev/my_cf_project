@@ -35,6 +35,25 @@
   background-size: cover;                                       /* A1#5 */
  }
 
+/*************** [ Navigation Bar ] *************/
+
+.nav {
+  background-color: black;              /* A1#6 */
+}
+
+.nav ul li {
+  display: inline-block;                /* A1#6 */
+
+}
+
+.nav ul li a {
+  /* Typography */
+  text-transform: uppercase;            /* A1#6 */
+  letter-spacing: 0.05em;               /* A1#6 */
+
+  /* Visual */
+  color: #696200;                       /* A1#6 */
+}
 
 /***************** [ Typography ] ***************/
 
@@ -60,8 +79,11 @@ body {
 
 /******************** [ Visual] *****************/
 .row {
+  /* Box-model */
   padding: 10px;                 /* Own in A1#5 */
   margin: 10px;                  /* Own in A1#5 */
+
+  /* Visual */
   background-color: #f5f5f5;     /* Own in A1#5 */
   border: 5px solid #696200;     /* Own in A1#5 */
   border-radius: 10px;           /* Own in A1#5 */
