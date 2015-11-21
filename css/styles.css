@@ -38,21 +38,47 @@
 /*************** [ Navigation Bar ] *************/
 
 .nav {
-  background-color: black;              /* A1#6 */
+  /* Positioning */
+  position: fixed;                      /* A1#6 */
+  top: 0;                               /* A1#6 */
+
+  /* Box-model */
+  width: 100%;                          /* A1#6 */
+
+  /* Visual */
+  background-color: #3E3A00; /* A1#6 Changed  from black to own */
 }
 
+.nav ul {
+  /* Positioning */
+  /* Box-model */
+  float: right;                         /* A1#6 */
+  margin: 0;                            /* A1#6 */
+  /* Typography */
+  /* Visual */
+  /* Misc */
+}
+
+
+
 .nav ul li {
+  /* Positioning */
+  /* Box-model */
   display: inline-block;                /* A1#6 */
+  padding: 20px 10px 20px;              /* A1#6 */
 
 }
 
 .nav ul li a {
+  /* Positioning */
+  /* Box-model */
   /* Typography */
   text-transform: uppercase;            /* A1#6 */
   letter-spacing: 0.05em;               /* A1#6 */
 
   /* Visual */
-  color: #696200;                       /* A1#6 */
+  color: #ffb380;                       /* A1#6 */
+  /* Misc */
 }
 
 /***************** [ Typography ] ***************/
