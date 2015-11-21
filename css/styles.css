@@ -62,8 +62,6 @@
   /* Misc */
 }
 
-
-
 .nav ul li {
   /* Positioning */
   /* Box-model */
@@ -78,11 +76,16 @@
   /* Typography */
   text-transform: uppercase;            /* A1#6 */
   letter-spacing: 0.05em;               /* A1#6 */
-
   /* Visual */
   color: #ffb380;                       /* A1#6 */
   /* Misc */
 }
+
+.nav a:hover {
+  color: #ff0;                          /* A1#6 */
+  text-decoration: none;                /* A1#6 */
+}
+
 
 /***************** [ Typography ] ***************/
 
