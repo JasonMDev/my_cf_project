@@ -35,12 +35,12 @@
   background-size: cover;                                       /* A1#5 */
  }
 
-/*************** [ Navigation Bar ] *************/
-
+/*********** Styling: Navigation Bar ************/ 
 .nav {
   /* Positioning */
   position: fixed;                      /* A1#6 */
   top: 0;                               /* A1#6 */
+  z-index: 100;                  /* Own in A1#6 */
 
   /* Box-model */
   width: 100%;                          /* A1#6 */
