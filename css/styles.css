@@ -79,6 +79,8 @@
   /* Visual */
   color: #ffb380;                       /* A1#6 */
   /* Misc */
+  transition: color 600ms;              /* A1#6 */
+  -webkit-transition: color 600ms;      /* A1#6 */
 }
 
 .nav a:hover {
