@@ -13,7 +13,7 @@
 /************ ( Personal Wireframing ) **********/
 /* Personal Wreframing */
 /** { border: 1px dashed red; }*/
-* { box-sizing: border-box; }           /* A1#4 */
+* { box-sizing: border-box; }           /* A1#4 */  /* A1#4 */ /*nott need because of bootsrap.min*/
 
 /****************** INDEX.HTML ******************/
 /************** Styling: Jumbotron **************/
@@ -125,6 +125,12 @@
 .col-md-4 h2 {
   font-family: 'Indie Flower', cursive; /* Own in A1#5 */
 } 
+
+/************ [ Positioning ] ********************/
+.jumbotron {
+  position: static;               /* Own in A1#7 */ 
+  clear: both;                    /* Own in A1#7 */  
+}
 
 /************ [ Background and Colours] **********/
 body {

@@ -11,29 +11,10 @@
 /******************* UNIVERSAL ******************/
 /****************** Wireframing *****************/
 /* Personal Wreframing */
-/* { border: 1px dashed red; }     */
-* { box-sizing: border-box; }           /* A1#4 */
+/* { border: 1px dashed red; }  */   
+* { box-sizing: border-box; }           /* A1#4 */ /*nott need because of bootsrap.min*/
 
 /****************** ABOUT.HTML ******************/
-/************* Styling: About Header ************/ 
-.header {
-  /* Positioning */
-  position: relative;            /* Own in A1#4 */
-  top: 38px;                     /* Own in A1#6 */
-  
-  /* Box-model */
-  margin-bottom: 50px;                  /* A1#4 */
-
-  /* Typography */
-
-  /* Visual */
-  background-color: #ff9933;    /* Own in A1#4  */
-} 
-
-.header h1 {
-  text-align: center;                   /* A1#4 */
-  padding: 20px 0;               /* Own in A1#5 */
-}
 
 /*********** Styling: Navigation Bar ***********/ 
 .nav {
@@ -86,13 +67,35 @@
 .nav a:hover {
   color: #ff0;                          /* A1#6 */
   text-decoration: none;                /* A1#6 */
+  border: 2px double #696200;    /* Own in A1#7 */
+  border-style: double none;     /* Own in A1#7 */ 
 }
 
+/************* Styling: About Header ************/ 
+.header {
+  /* Positioning */
+  /*position: relative;            /* Own in A1#4 */
+  /*top: 38px;                     /* Own in A1#6 */
+  overflow: auto;
+
+  /* Box-model */
+  margin-bottom: 50px;                  /* A1#4 */
+
+  /* Typography */
+
+  /* Visual */
+  background-color: #ff9933;    /* Own in A1#4  */
+} 
+
+.header h1 {
+  text-align: center;                   /* A1#4 */
+  padding: 20px 0;               /* Own in A1#5 */
+}
 
 /*********** Styling: About Container ***********/ 
 .container {
-  position: relative;            /* Own in A1#4 */
-  top: 2px;                      /* Own in A1#6 */
+  /*position: relative;            /* Own in A1#4 */
+  /*top: 2px;                      /* Own in A1#6 */
   width: 80%;                           /* A1#4 */
   margin: 0 auto;                       /* A1#4 */
   
