@@ -12,7 +12,7 @@
 /****************** Wireframing *****************/
 /* Personal Wreframing */
 /* { border: 1px dashed red; }  */   
-* { box-sizing: border-box; }           /* A1#4 */ /*nott need because of bootsrap.min*/
+/** { box-sizing: border-box; }  /*Not needed because of bootsrap.min*/
 
 /****************** ABOUT.HTML ******************/
 

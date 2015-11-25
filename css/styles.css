@@ -121,6 +121,20 @@
   /* Misc */   
 }
 
+/*********** Styling: Accordion ************/
+
+.panel-heading {
+  background-color: #ffb380;     /* Own in A1#7 */
+}
+
+.panel-title {
+  font-family: 'Bangers', cursive; /* Own in A1#7 */
+}
+
+.panel-body {
+  font-family: 'Indie Flower', cursive; /* Own in A1#7 */
+}
+
 /***************** [ Typography ] ***************/
 
 .col-md-4 h2 {
