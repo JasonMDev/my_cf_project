@@ -13,7 +13,7 @@
 /************ ( Personal Wireframing ) **********/
 /* Personal Wreframing */
 /** { border: 1px dashed red; }*/
-* { box-sizing: border-box; }           /* A1#4 */  /* A1#4 */ /*nott need because of bootsrap.min*/
+/** { box-sizing: border-box; }  /*Not needed because of bootsrap.min*/
 
 /****************** INDEX.HTML ******************/
 /************** Styling: Jumbotron **************/
@@ -96,7 +96,8 @@
   /* Box-model */
   margin: 2px 5px;               /* Own in A1#7 */
   padding: 2px;                  /* Own in A1#7 */
-  /* Typography */
+  /* Typography */               /* Own in A1#7 */
+  font-size: 30px;
   /* Visual */
   background-color: #f5f5f5;     /* Own in A1#7 */
   border: 1px solid #f5f5f5;     /* Own in A1#7 */
