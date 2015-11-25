@@ -11,6 +11,7 @@ The main objective is to build a Responsive Portfolio Website
 - [ ] Add comment for the faq.html divs
 - [ ] Make accordion transparent like Eric An
 - [ ] Why is panel heading not working.
-
+- [ ] Change FAQ page jumbotron.
+ 
 
 
