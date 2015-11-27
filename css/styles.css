@@ -128,14 +128,15 @@
   /* Misc */   
 }
 
-/*********** Styling: Accordion ************/
+/*********** Styling: Accordion ******************/
 
-.panel-heading {
-  background-color: #ffb380;      /* Own in A1#7 */
+#headingpanel {
+  background-color: #3E3A00;      /* Own in A1#7 */
 }
 
 .panel-title {
   font-family: 'Bangers', cursive;/* Own in A1#7 */
+  color: black;                   /* Own in A1#7 */
 }
 
 .panel-body {
@@ -143,7 +144,7 @@
 }
 
 .panel-title span {
-  padding-right: 10px;                /* Own in A1#7 */
+  padding-right: 10px;            /* Own in A1#7 */
 }
 
 /***************** [ Typography ] ****************/
