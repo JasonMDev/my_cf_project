@@ -74,12 +74,12 @@
 /************* Styling: About Header ************/ 
 .header {
   /* Positioning */
-  /*position: relative;            /* Own in A1#4 */
-  /*top: 38px;                     /* Own in A1#6 */
-  overflow: auto;
-
+  /*position: relative;          /* Own in A1#4 */
+  /*top: 38px;                   /* Own in A1#6 */
+  
   /* Box-model */
   margin-bottom: 50px;                  /* A1#4 */
+  padding-top: 7em;              /* Own in A1#6 */
 
   /* Typography */
 
