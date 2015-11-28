@@ -104,22 +104,28 @@
 }
 
 /*********** Styling: Carousel ******************/ 
+.carousel-caption {
+  /* Box-model */
+  padding-top: 5em;              /* Own in A1#8 */
+  /* Typography */
+  /* Visual */  
+}
+
 .carousel-caption h3 {
   /* Box-model */
   /* Typography */               
-  font-size: 60px;               /* Own in A1#8 */
+  font-size: 4em;               /* Own in A1#8 */
   /* Visual */
   color: #696200;                /* Own in A1#8 */
   font-family: 'Indie Flower', cursive; /* Own in A1#8 */
-
 }
 
 .carousel-caption p {
   /* Box-model */
   margin: 10px 0;                /* Own in A1#8 */
-  padding: 20px 0 150px 0;       /* Own in A1#8 */
+  padding: 1em 0 4em 0;       /* Own in A1#8 */
   /* Typography */            
-  font-size: 20px;               /* Own in A1#8 */
+  font-size: 2em;               /* Own in A1#8 */
   /* Visual */
   color: #696200;                /* Own in A1#8 */
 }
