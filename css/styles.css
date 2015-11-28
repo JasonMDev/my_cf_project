@@ -265,3 +265,27 @@ body {
   /* Misc */
   opacity: 1;
 }
+
+
+/* ============================================ */
+/* ============================================ */
+/*               COLOUR ASSIGMENTS              */
+/* ============================================ */
+/****How i want to use colour assigments****/
+@brand-primary: darken(#428bca, 6.5%); // #337ab7
+@brand-success: #5cb85c;
+@brand-info:    #5bc0de;
+@brand-warning: #f0ad4e;
+@brand-danger:  #d9534f;
+/*Use any of these color variables as they are or reassign them to more meaningful variables for your project.*/
+
+/*Use as-is*/
+.masthead {
+  background-color: @brand-primary;
+}
+
+/*/ Reassigned variables in Less*/
+@alert-message-background: @brand-info;
+.alert {
+  background-color: @alert-message-background;
+}
