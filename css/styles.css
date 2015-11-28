@@ -35,8 +35,15 @@
 /******************* CONTACT.HTML ***************/
 /************** Styling: contacpage **************/
 .contactpage {
-  background: url("../img/underdock.jpg") no-repeat center top; /* A1#5 */
+  background: url("../img/webpiccontactheader1.jpg") no-repeat center top; /* A1#5 */
   background-size: cover;                                       /* A1#5 */  
+ }
+
+ /******************* FAQ.HTML ***************/
+/************** Styling: faqpage **************/
+.faqpage {
+  background: url("../img/webpicfaqheader1.jpg") no-repeat center top; /* A1#8 */
+  background-size: cover;                                       /* A1#8 */  
  }
 
 /*********** Styling: Navigation Bar ************/ 
