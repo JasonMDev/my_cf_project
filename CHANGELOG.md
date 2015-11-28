@@ -4,8 +4,12 @@ This is the first Achievement
 The main objective is to build a Responsive Portfolio Website
 
 ##My Change Log
+### 2015/11/28
+- Started Achievement 1 Lesson 8
+
 ### 2015/11/27
 - Submitted Achievement 1 Lesson 7
+- Resubmiited Achievement 1 Lesson 6
 - Fixed nav bar.
 
 ### 2015/11/25
