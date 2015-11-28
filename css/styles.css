@@ -12,7 +12,7 @@
 /****************** Wireframing *****************/
 /************ ( Personal Wireframing ) **********/
 /* Personal Wreframing */
-/** { border: 1px dashed red; } */
+/* { border: 1px dashed red; } */
 /** { box-sizing: border-box; }  /*Not needed because of bootsrap.min*/
 
 /************** Styling: Jumbotron **************/
@@ -104,11 +104,25 @@
 }
 
 /*********** Styling: Carousel ******************/ 
-/* A1#8 */
+.carousel-caption h3 {
+  /* Box-model */
+  /* Typography */               
+  font-size: 60px;               /* Own in A1#8 */
+  /* Visual */
+  color: #696200;                /* Own in A1#8 */
+  font-family: 'Indie Flower', cursive; /* Own in A1#8 */
 
+}
 
-
-
+.carousel-caption p {
+  /* Box-model */
+  margin: 10px 0;                /* Own in A1#8 */
+  padding: 20px 0 150px 0;       /* Own in A1#8 */
+  /* Typography */            
+  font-size: 20px;               /* Own in A1#8 */
+  /* Visual */
+  color: #696200;                /* Own in A1#8 */
+}
 
 /*********** Styling: Glyphicon Tags ************/ 
 .col-md-4 span {
