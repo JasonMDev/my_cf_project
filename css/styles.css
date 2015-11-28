@@ -21,12 +21,11 @@
  }
 
 /****************** INDEX.HTML ******************/
-/************** Styling: indexpage **************/
+/************** Styling: Carousel ***************/
 
-.indexpage {
-  background: url("../img/workspace.jpg") no-repeat center top; /* Own  */
-  /*background-image: url("../img/workspace.jpg");*/            /* A1#1 */
-  background-size: cover;                                      /* A1#1 */  
+.container-fluid {
+  padding-left: 0;                      /* A1#8 */
+  padding-right: 0;                     /* A1#8 */
  }
 
 /******************* ABOUT.HTML *****************/
