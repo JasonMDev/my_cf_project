@@ -12,7 +12,7 @@
 /****************** Wireframing *****************/
 /************ ( Personal Wireframing ) **********/
 /* Personal Wreframing */
-* { border: 1px dashed red; }
+/* { border: 1px dashed red; }*/
 /** { box-sizing: border-box; }  /*Not needed because of bootsrap.min*/
 
 /************** Styling: Jumbotron **************/
@@ -241,6 +241,8 @@
 #contactcontainer h2 {}           /* Own in A1#9 */
 #contactcontainer p {}            /* Own in A1#9 */
 
+#aboutcontainer h2 {}             /* Own in A1#9 */
+#aboutcontainer p {}              /* Own in A1#9 */
 
 /************ [ Positioning ] ********************/
 .jumbotron {

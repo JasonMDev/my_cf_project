@@ -13,8 +13,24 @@ The main objective is to build a Responsive Portfolio Website
 - [ ] Why is panel heading not working.
 - [ ] Change FAQ page jumbotron.
 - [ ] Why is nav different in different pages. [not due to pictures.]
+
+- [ ] INDEX PAGE
+ - [ ] Add individual div for each portfolio concept.
+ - [ ] Clean up contact container typography "#contactcontainer"
+ - [ ] Update postion of spans.
+
 - [ ] CONTACT PAGE
  - [x] Add individual div for each address item "idvcontacts"
  - [ ] Clean up contact container typography "#contactcontainer"
+ - [ ] Update postion of spans.
+
+- [ ] ABOUT PAGE
+ - [ ] First clean up about css before moving
+ - [ ] Add individual div for each address item "idvcontacts"
+ - [ ] Clean up contact container typography "#contactcontainer"
+ - [ ] Update postion of spans.
+ - [ ] 
+ - [ ] 
+ - [ ] 
 
 
