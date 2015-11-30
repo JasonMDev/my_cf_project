@@ -24,7 +24,7 @@
 
   <body>
 
-    <!--Navigation Bar  -->
+    <!--NAVIGATION BAR  -->
     <div class="nav">
       <ul>
         <li><a href="#">Home</a></li>
@@ -36,7 +36,8 @@
       </ul> 
     </div> <!--/nav -->
 
-    <!--Carousel  -->
+    <!--CAROUSEL  -->
+    <!-- Generic Bootstrap Container-fluid which sets the width to 100% --> 
     <div class="container-fluid">
       <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
@@ -94,6 +95,7 @@
     </div><!--/container -->
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
+    <!-- [DELETED but kept for now.] --> 
     <!-- <div class="jumbotron indexpage"> -->
     <!--   <div class="container"> -->
     <!--     <h1>Jason Mans. Webmaster</h1> -->
@@ -101,67 +103,126 @@
     <!--   </div>/container -->
     <!-- </div>< /jumbotron -->
 
-    <!--Portfolio Concepts  -->
+    <!-- PORTFOLIO CONCEPTS -->
+    <!-- Generic Bootstrap Container --> 
     <div class="container">
-      <!-- Example row of columns -->
-      <div class="row">
+      <!-- CUSTOM CLASS: Project Borders  -->
+      <!-- I have added own class after container and before the row column as it negates my class. -->  
+      <div class ="projectborder" id="conceptcontainer">
+        <!-- Generic Bootstrap Row --> 
+        <div class="row">
 
-        <div class="col-md-4 col-xs-12">
-          <h2>Portfolio Concept</h2>
-          <p>"I want a personalised logo or brand that I can add to the website and will be found on marketing."</p>
-          <p>"I want to create a portfolio site with the following basic sections: About You (Background, Hobbies), Portfolio of Work (Past or Current Projects, Clients), Contact , and FAQ (Your Process, Skills, Experience, etc.) as mentioned in the lessons. "</p>
-          <p>"I am a chartered chemical engineer with 9 years experience in the Oil and Gas."</p>       
-          <p>"I want a clean and concise portfolio with good colours. I don't want the viewer to be overwhelmed by the information, or distracted by too many things. The home page should be a summary to entice the user, and allow them to easily find what they are looking for, be it projects or contact info."</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div><!-- /col Portfolio Concept -->
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+            <h2>Portfolio Concept</h2>
+            <p>"I want a personalised logo or brand that I can add to the website and will be found on marketing."</p>
+            <p>"I want to create a portfolio site with the following basic sections: About You (Background, Hobbies), Portfolio of Work (Past or Current Projects, Clients), Contact , and FAQ (Your Process, Skills, Experience, etc.) as mentioned in the lessons. "</p>
+            <p>"I am a chartered chemical engineer with 9 years experience in the Oil and Gas."</p>       
+            <p>"I want a clean and concise portfolio with good colours. I don't want the viewer to be overwhelmed by the information, or distracted by too many things. The home page should be a summary to entice the user, and allow them to easily find what they are looking for, be it projects or contact info."</p>
+            <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          </div><!-- /col Portfolio Concept -->
 
-        <div class="col-md-4 col-xs-12">
-          <h2>Project Goals</h2>
-          <p>"I will study at least 3 days of the work week, and over the weekend as well, for the next 6 months to start applying for Web Developer positions in June 2016 so that I can embark on a new career." </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-       </div><!-- /col Project Goals -->
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+            <h2>Project Goals</h2>
+            <p>"I will study at least 3 days of the work week, and over the weekend as well, for the next 6 months to start applying for Web Developer positions in June 2016 so that I can embark on a new career." </p>
+            <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+         </div><!-- /col Project Goals -->
 
-        <div class="col-md-4 col-xs-12">
-          <h2>Course Goals</h2>
-          <p>"I would like to explore my nebulous, quirky and creative side and would like to express that through coding."</p>
-          <p>"I want to be working as a web developer in a progressive company, in the region of London." </p>
-          <p>"I want to work no more than 45 hours a week, so that I can enjoy good work-life balance and economic security." </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div><!-- /col Course Goals -->
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+            <h2>Course Goals</h2>
+            <p>"I would like to explore my nebulous, quirky and creative side and would like to express that through coding."</p>
+            <p>"I want to be working as a web developer in a progressive company, in the region of London." </p>
+            <p>"I want to work no more than 45 hours a week, so that I can enjoy good work-life balance and economic security." </p>
+            <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          </div><!-- /col Course Goals -->
 
-      </div><!-- /row -->
+        </div><!-- /row -->
+      </div><!-- /projectborder -->
       <hr>
     </div> <!-- /container -->
 
-    <!-- Project Section -->
+    <!-- WORK SECTION -->
+    <!-- Generic Bootstrap Container --> 
     <div class="container">
-      <div class ="row" id="workrowcontainer">
-        
-        <!-- Project 1 -->
-        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
-          <img src="img/halfland.jpg" width="110" height="90">
-          <p>Work 1</p>
-        </div><!-- /col Project 1-->
-        
-        <!-- Project 2 -->
-        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
-          <img src="img/halfland.jpg" width="110" height="90">
-          <p>Work 2</p>
-        </div><!-- /col Project 2-->
-        
-        <!-- Project 3 -->
-        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
-          <img src="img/halfland.jpg" width="110" height="90">
-          <p>Work 3</p>
-        </div><!-- /col Project 3-->
+      <!-- CUSTOM CLASS: Project Borders  -->
+      <!-- I have added own class after container and before the row column as it negates my class. -->      
+      <div class ="projectborder" id="workrowcontainer">
+        <!-- Generic Bootstrap Row --> 
+        <div class ="row">  
 
-        <!-- Project 4 -->
-        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
-          <img src="img/halfland.jpg" width="110" height="90">
-          <p>Work 4</p>
-        </div><!-- /col Project 4-->
+          <!-- Project 1 -->
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+            <!-- CUSTOM CLASS: Individual Project Styling  -->
+            <div class ="indvproject">
+              <img src="img/halfland.jpg" width="110" height="90">
+              <p>Work 1</p>
+            </div><!-- /Individual Project Styling-->  
+          </div><!-- /col Project 1-->
+          
+          <!-- Project 2 -->
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+            <!-- CUSTOM CLASS: Individual Project Styling  -->
+            <div class ="indvproject">
+              <img src="img/halfland.jpg" width="110" height="90">
+              <p>Work 2</p>
+            </div><!-- /Individual Project Styling-->
+          </div><!-- /col Project 2-->
+          
+          <!-- Project 3 -->
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+            <!-- CUSTOM CLASS: Individual Project Styling  -->
+            <div class ="indvproject">
+              <img src="img/halfland.jpg" width="110" height="90">
+              <p>Work 3</p>
+            </div><!-- /Individual Project Styling-->
+          </div><!-- /col Project 3-->
 
-      </div><!-- /row -->
+          <!-- Project 4 -->
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+            <!-- CUSTOM CLASS: Individual Project Styling  -->
+            <div class ="indvproject">
+              <img src="img/halfland.jpg" width="110" height="90">
+              <p>Work 4</p>
+            </div><!-- /Individual Project Styling-->
+          </div><!-- /col Project 4-->
+
+          <!-- Project 5 -->
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+            <!-- CUSTOM CLASS: Individual Project Styling  -->
+            <div class ="indvproject">
+              <img src="img/halfland.jpg" width="110" height="90">
+              <p>Work 5</p>
+            </div><!-- /Individual Project Styling-->
+          </div><!-- /col Project 5-->
+          
+          <!-- Project 6 -->
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+            <!-- CUSTOM CLASS: Individual Project Styling  -->
+            <div class ="indvproject">
+              <img src="img/halfland.jpg" width="110" height="90">
+              <p>Work 6</p>
+            </div><!-- /Individual Project Styling-->
+          </div><!-- /col Project 6-->
+          
+          <!-- Project 7 -->
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+            <!-- CUSTOM CLASS: Individual Project Styling  -->
+            <div class ="indvproject">
+              <img src="img/halfland.jpg" width="110" height="90">
+              <p>Work 7</p>
+            </div><!-- /Individual Project Styling-->
+          </div><!-- /col Project 7-->
+
+          <!-- Project 8 -->
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+            <!-- CUSTOM CLASS: Individual Project Styling  -->
+            <div class ="indvproject">
+              <img src="img/halfland.jpg" width="110" height="90">
+              <p>Work 8</p>
+            </div><!-- /Individual Project Styling-->
+          </div><!-- /col Project 8-->
+
+        </div><!-- /row-->    
+      </div><!-- /projectborder -->
       <hr>
     </div> <!-- /container -->
 
