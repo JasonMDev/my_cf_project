@@ -159,6 +159,23 @@
   /* Misc */
 }
 
+/***** Styling: Individual Contacts Items  ******/ 
+.indvcontact {                   /* Own in A1#9 */
+  /* Positioning */
+  /* Box-model */
+  padding: 5px;                  /* Own in A1#9 */
+  margin: 5px;                   /* Own in A1#9 */
+  
+  /* Typography */
+  text-align: center;            /* Own in A1#9 */
+
+  /* Visual */
+  background-color: #f5f5f5;     /* Own in A1#9 */
+  border: 3px solid #696200;     /* Own in A1#9 */
+  border-radius: 5px;            /* Own in A1#9 */
+  /* Misc */
+}
+
 
 /*********** Styling: Glyphicon Tags ************/ 
 .col-md-4 span {
@@ -220,6 +237,10 @@
   font-family: 'Indie Flower', cursive; /* Own in A1#9 */
   text-align: center;             /* Own in A1#9 */
 }
+
+#contactcontainer h2 {}           /* Own in A1#9 */
+#contactcontainer p {}            /* Own in A1#9 */
+
 
 /************ [ Positioning ] ********************/
 .jumbotron {
