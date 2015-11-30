@@ -142,6 +142,10 @@
   border-radius: 10px;           /* Own in A1#5 */
 }
 
+
+/***** Styling: Individual About Items  *********/
+.indvconcept {}                  /* Own in A1#9 */
+
 /*********** Styling: Individual Projects  ******/ 
 .indvproject {                   /* Own in A1#9 */
   /* Positioning */
@@ -176,6 +180,9 @@
   /* Misc */
 }
 
+/***** Styling: Individual About Items  *********/
+.indvabout1 {}                   /* Own in A1#9 */
+.indvabout2 {}                   /* Own in A1#9 */ 
 
 /*********** Styling: Glyphicon Tags ************/ 
 .col-md-4 span {
