@@ -33,7 +33,12 @@
  }
 
 /******************* ABOUT.HTML *****************/
-/****** (  Linked by the "about_page.css" ) *****/
+/********** Styling: aboutpagejumbo *************/
+.aboutpagejumbo {
+  background: url("../img/webpiccontactheader1.jpg") no-repeat center top; /* A1#9 */
+  background-size: cover;         /* Own inA1#9 */  
+ }
+ 
 /************* Styling: About Header ************/ 
 .header {
   /* Positioning */
@@ -53,18 +58,19 @@
 .header h1 {
   text-align: center;                   /* A1#4 */
   padding: 20px 0;               /* Own in A1#5 */
+  font-family: 'Bangers', cursive;/* Own in A1#5 */
 }
 
 /******************* CONTACT.HTML ***************/
-/************** Styling: contacpage *************/
-.contactpage {
+/******** Styling: contactpagejumbo *************/
+.contactpagejumbo {
   background: url("../img/webpiccontactheader1.jpg") no-repeat center top; /* A1#5 */
-  background-size: cover;                                       /* A1#5 */  
+  background-size: cover;               /* A1#5 */  
  }
 
  /******************* FAQ.HTML ******************/
-/************** Styling: faqpage ****************/
-.faqpage {
+/********* Styling: faqpagejumbo ****************/
+.faqpagejumbo {
   background: url("../img/webpicfaqheader1.jpg") no-repeat center top; /* A1#8 */
   background-size: cover;               /* A1#8 */  
  }
