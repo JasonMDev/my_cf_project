@@ -35,10 +35,10 @@
 /******************* ABOUT.HTML *****************/
 /********** Styling: aboutpagejumbo *************/
 .aboutpagejumbo {
-  background: url("../img/webpiccontactheader1.jpg") no-repeat center top; /* A1#9 */
+  background: url("../img/webpicaboutheader1.jpg") no-repeat center top; /* A1#9 */
   background-size: cover;         /* Own inA1#9 */  
  }
- 
+
 /************* Styling: About Header ************/ 
 .header {
   /* Positioning */
@@ -284,17 +284,22 @@
 body {
   background-color: rgba(186, 173, 11, 1);/*A1#5 */
   color: #34595e;                        /* A1#5 */
+  /* Positioning */
+  /* Box-model */
+  /* Typography */
+  /* Visual */
+  /* Misc */
 }
 
 .jumbotron h1 {
-  color: #696200;                        /* A1#5 */
-  text-shadow: -1px 0 #ffb380, 0 1px #ffb380, 1px 0 #ffb380, 0 -1px #ffb380; /* Own A1#8 */
+  color: #ffb380;                        /* A1#5 */
+  text-shadow: -1px 0 #696200, 0 1px #696200, 1px 0 #696200, 0 -1px #696200; /* Own A1#8 */
   /*text-shadow: 0 0 5px rgba(102,41,0,.8);  /* A1#5 */
 }
 
 .jumbotron p {
-  color: #696200;                        /* A1#5 */
-  text-shadow: -1px 0 #ffb380, 0 1px #ffb380, 1px 0 #ffb380, 0 -1px #ffb380; /* Own A1#8 */
+  color: #ffb380;                        /* A1#5 */
+  text-shadow: -1px 0 #696200, 0 1px #696200, 1px 0 #696200, 0 -1px #696200; /* Own A1#8 */
  }
 
 /******************** [ Visual] ******************/
