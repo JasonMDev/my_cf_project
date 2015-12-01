@@ -6,6 +6,10 @@
 /*************** Styling: Section ***************/
 /***************** [ CSS Group ] ****************/
 /***************** (  Remarks  ) ****************/
+/* Order:*/
+/* unversal elements in order of being nested and order set from guidelines.*/
+/* Very specific items last and have own order within.*/
+/* Remember separation of concern: use different classes for different things.*/
 /* ============================================ */
 
 /******************* UNIVERSAL ******************/
@@ -30,7 +34,26 @@
 
 /******************* ABOUT.HTML *****************/
 /****** (  Linked by the "about_page.css" ) *****/
+/************* Styling: About Header ************/ 
+.header {
+  /* Positioning */
+  /*position: relative;          /* Own in A1#4 */
+  /*top: 38px;                   /* Own in A1#6 */
+  
+  /* Box-model */
+  margin-bottom: 50px;                  /* A1#4 */
+  padding-top: 7em;              /* Own in A1#6 */
 
+  /* Typography */
+
+  /* Visual */
+  background-color: #ff9933;    /* Own in A1#4  */
+} 
+
+.header h1 {
+  text-align: center;                   /* A1#4 */
+  padding: 20px 0;               /* Own in A1#5 */
+}
 
 /******************* CONTACT.HTML ***************/
 /************** Styling: contacpage *************/
