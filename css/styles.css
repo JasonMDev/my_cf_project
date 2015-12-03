@@ -25,14 +25,16 @@
 h1 { font-size: 4em; }           /* Own in A1#9 */
 h2 { font-size: 3em; }           /* Own in A1#9 */
 h3 { font-size: 2em; }           /* Own in A1#9 */
-p { font-size: 1em; }            /* Own in A1#9 */
+p { 
+  font-size: 1em;                /* Own in A1#9 */
+  text-align: justify;           /* Own in A1#9 */
+}
 
 h1,
 h2,
 h3,
 p {
   font-family: Futura, Helvetica, Arial, sans-serif; /* A1#5 */
-  text-align: justify;            /* Own in A1#9 */
 } 
 
 .main-text p {
@@ -45,7 +47,7 @@ p {
 
 .intro-column p {
   font-family: Futura, Helvetica, Arial, sans-serif; /* A1#5 */
-  /*font-size: 1em;                        /* A1#5 */
+  /*font-size: 1em;                        /* A1#5 *//* Own in A1#9 */
   font-weight: 100;                      /* A1#5 */
   -webkit-margin-before: 0em;            /* A1#5 */
 }
@@ -58,7 +60,7 @@ p {
 
 /************** Styling: Jumbotron **************/
 .jumbotron {
-  padding-top: 7em;              /* Own in A1#6 */
+  padding-top: 3em;              /* Own in A1#9 */
  }
 
 /****************** INDEX.HTML ******************/
@@ -66,7 +68,7 @@ p {
 
 .container-fluid {
   padding-left: 0;                      /* A1#8 */
-  padding-right: 0;                     /* A1#8 */
+  padding-right: 0;                     /* A1#8 */ 
  }
 
 /******************* ABOUT.HTML *****************/
@@ -75,6 +77,19 @@ p {
   background: url("../img/webpicaboutheader1.jpg") no-repeat center top; /* A1#9 */
   background-size: cover;         /* Own inA1#9 */  
  }
+
+/******* Small Screen NavBar Compansation *******/
+@media (max-width: 520px) {
+  .jumbotron {
+    /* Box-model */
+    padding: 7em 0;              /* Own inA1#9 */
+  }
+
+  .container-fluid {
+    /* Box-model */
+    padding: 9em 0;              /* Own inA1#9 */
+  }
+}
 
 /************* Styling: About Header ************
 *.header {
@@ -144,7 +159,6 @@ p {
   /* Box-model */
   display: inline-block;                /* A1#6 */
   padding: 20px 10px 20px;              /* A1#6 */
-
 }
 
 .nav ul li a {
@@ -172,7 +186,7 @@ p {
 /*********** Styling: Carousel ******************/ 
 .carousel-caption {
   /* Box-model */
-  padding-top: 5em;              /* Own in A1#8 */
+  /*padding-top: 7em;            /* Own in A1#8 */
   /* Typography */
   /* Visual */  
 }
@@ -180,17 +194,33 @@ p {
 .carousel-caption h1 {
   /* Box-model */
   /* Typography */               
-  /*font-size: 4em;     /*DELETED/* Own in A1#8 */
+  /*font-size: 2em;              /* Own in A1#9 */
   text-align: center;            /* Own in A1#9 */
   /* Visual */
   color: #696200;                /* Own in A1#8 */
   font-family: 'Indie Flower', cursive; /* Own in A1#8 */
 }
 
+@media (max-width: 480px) {
+  .carousel-caption h1 {
+    /* Box-model */
+    /* Typography */               
+    font-size: 2em;              /* Own in A1#9 */
+    /* Visual */
+  }
+
+  .carousel-caption p {
+    /* Box-model */
+    /* Typography */               
+    font-size: 1em;            /* Own in A1#9 */
+    /* Visual */
+  }
+}
+
 .carousel-caption p {
   /* Box-model */
-  margin: 10px 0;                /* Own in A1#8 */
-  padding: 1em 0 4em 0;          /* Own in A1#8 */
+  margin: .5em 0;                /* Own in A1#8 */
+  padding: .5em 0 .5em 0;        /* Own in A1#8 */
   /* Typography */
   text-align: center;            /* Own in A1#9 */           
   /*font-size: 2em;     /*DELETED/* Own in A1#8 */
