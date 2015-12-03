@@ -36,10 +36,10 @@
     <div class="nav">
       <ul>
         <li><a href="#">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
         <li><a href="#">Work</a></li>
-        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="#faq">FAQ</a></li>
         <li><a href="https://google.com">Learn More</a></li>          
       </ul> 
     </div> <!--/nav -->
@@ -117,7 +117,7 @@
 
     <!-- PORTFOLIO CONCEPTS -->
     <!-- Generic Bootstrap Container --> 
-    <div class="container">
+    <div class="container-fluid">
       <!-- CUSTOM CLASS: Project Borders  -->
       <!-- I have added own class after container and before the row column as it negates my class. -->  
       <div class ="projectborder" id="conceptcontainer">
@@ -163,7 +163,7 @@
 
     <!-- WORK SECTION -->
     <!-- Generic Bootstrap Container --> 
-    <div class="container">
+    <div class="container-fluid">
       <!-- CUSTOM CLASS: Project Borders  -->
       <!-- I have added own class after container and before the row column as it negates my class. -->      
       <div class ="projectborder" id="workrowcontainer">
@@ -252,6 +252,69 @@
     <!--           ABOUT PAGE          -->
     <!-- ============================= -->
 
+    <!-- Generic Bootstrap "container-fluid" --> 
+    <div class="container-fluid" id="about">
+      <!-- ABOUT JUMBOTRON -->
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="jumbotron aboutpagejumbo">
+        <h1>More about me</h1>
+        <p>Have a look around and see what I am about..</p>
+      </div><!-- /jumbotron -->
+
+      <!-- ABOUT CONTENT SECTION --> 
+      <!-- CUSTOM CLASS: Project Borders  -->
+      <!-- I have added own class after container and before the row column as it negates my class. -->      
+      <div class ="pagesection" id="aboutcontent">
+        <!-- Generic Bootstrap Row --> 
+        <div class="row">
+
+          <!-- Column 1: Image -->
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+            <!-- CUSTOM CLASS: Individual About Styling  -->
+            <div class ="indvabout1 image-column">
+              <img class="img-responsive" src="img/guymountaintopthinking.jpg" alt="My happy place">
+            </div><!-- /Individual About Styling-->  
+          </div><!-- /col Portfolio Concept -->
+
+          <!-- Column 2: Introduction -->
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+            <!-- CUSTOM CLASS: Individual About Styling  -->
+            <div class ="indvabout1 intro-column">
+              <h2>Introduction</h2>
+              <p>I am a person who loves learning and who is re-discovering the fun of creating things with coding.</p>
+            </div><!-- /Individual About Styling-->
+          </div><!-- /col Project Goals -->
+
+          <!-- Column 3: Skills -->
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+            <!-- CUSTOM CLASS: Individual About Styling  -->
+            <div class ="indvabout1 skills-column">
+              <h3>My SKills</h3>
+              <ul id="skill-list">          
+                <li>Front-end: HTML, CSS and jQuery</li>
+                <li>Web Frameworks: Ruby on Rails</li>
+                <li>Other: Chemical Engineering</li>
+              </ul>
+            </div><!-- /Individual About Styling-->
+          </div><!-- /col Course Goals -->
+
+          <!-- Paragraph Main text -->
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <!-- CUSTOM CLASS: Individual About Styling  -->
+            <div class ="indvabout2 main-text">
+              <h3>More about me.</h3>
+              <p>I am currently a process engineer working in the Oil and Gas industry, and I want to get back at creating things like I did with Lego when I was younger.</p>
+              <p>I have many interests which sometimes exhausted me because I could never stick to one for long enough, however coding is different... </p>
+              <p>With coding you can enjoy those fleeting interests through coding, be it creating web pages, games, data analysis or apps. Currently I am learning to become a Web Developer with CareerFoundry.</p>
+              <p>Therefore please be patient, wish me luck and join me on this path of rediscovery as I see where this path takes me. </p>
+            </div><!-- /Individual About Styling-->
+          </div><!-- /col Main text -->
+
+        </div><!-- /row -->           
+      </div><!-- /pagesection -->
+      <hr>
+    </div> <!-- /container for about Page-->
+
     <!-- ============================= -->
     <!--           WORK 1 PAGE         -->
     <!-- ============================= -->
@@ -263,10 +326,152 @@
     <!-- ============================= -->
     <!--           CONTACT PAGE        -->
     <!-- ============================= -->
+    
+    <!-- Generic Bootstrap "container-fluid" --> 
+    <div class="container-fluid" id="contact">
+      <!-- CONTACT JUMBOTRON -->
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="jumbotron contactpagejumbo">
+        <h1>Contact Information</h1>
+        <p><strong>If you like what you see</strong> contact me and let us discuss a project.</p>      
+      </div><!-- /jumbotron -->
+
+      <!-- CONTACT CONTAINER -->
+      <!-- Generic Bootstrap Container --> 
+    
+      <!-- CUSTOM CLASS: Project Borders  -->
+      <!-- I have added own class after container and before the row column as it negates my class. -->  
+      <div class ="pagesection" id="contactcontent">
+        <!-- Generic Bootstrap Row -->
+        <div class="row">
+
+          <!-- Email Column -->
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+            <!-- CUSTOM CLASS: Individual Project Styling  -->
+            <div class ="indvcontact">
+              <h2>Email</h2>
+              <p><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>Joe.Bloggs@example.com</p>
+            </div><!-- /Individual Conatct Item Styling --> 
+          </div><!-- /col Email -->
+
+          <!-- Phone Column -->
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+            <!-- CUSTOM CLASS: Individual Project Styling  -->
+            <div class ="indvcontact">
+              <h2>Phone</h2>
+              <p><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>+44 (0) 1234 5465</p>
+            </div><!-- /Individual Conatct Item Styling -->    
+          </div><!-- /col Phone -->
+
+          <!-- Address Column -->
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+            <!-- CUSTOM CLASS: Individual Project Styling  -->
+            <div class ="indvcontact">
+              <h2>Address</h2>
+              <span class="glyphicon glyphicon-globe" aria-hidden="true"></span> 
+              <ul id="address-list">
+                <li>Basingstoke</li>
+                <li>Hampshire</li>
+                <li>United Kingdom</li>
+              </ul><!-- /list Address -->
+            </div><!-- /Individual Conatct Item Styling -->
+          </div><!-- /col Address -->
+
+        </div><!-- /row -->
+      </div> <!-- /pagesection for Contacts -->
+
+      <hr>
+    </div> <!-- /container for Contact Page-->
 
     <!-- ============================= -->
     <!--           FAQ PAGE            -->
     <!-- ============================= -->
+
+    <!-- Generic Bootstrap "container-fluid" --> 
+    <div class="container-fluid" id="faq">
+      <!-- FAQ JUMBOTRON -->
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="jumbotron faqpagejumbo">
+        <h1>Frequently Asked Questions</h1>
+        <p>Have a look here for more detailed information.</p>
+      
+      </div><!-- /jumbotron -->
+
+      <!-- FAQ CONTAINER -->
+      <div class ="pagesection" id="faqcontent">
+        <div class="panel-group" id="accordion">
+          <div class="panel panel-default">
+            <div class="panel-heading" id="headingpanel">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                  <span class="glyphicon glyphicon-globe" aria-hidden="true"></span>Why did you decide to become a web developer?
+                </a>
+              </h4>
+            </div>
+            <div id="collapseOne" class="panel-collapse collapse in">
+              <div class="panel-body">
+                I love creating things as well as constantly improving my craft. 
+                I love learning and being a web developer you have to constanly learn 
+                as the technology evolves.
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading" id="headingpanel">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                  <span class="glyphicon glyphicon-blackboard" aria-hidden="true"></span>What is your design process?
+                </a>
+              </h4>
+            </div>
+            <div id="collapseTwo" class="panel-collapse collapse">
+              <div class="panel-body">
+                I stick to a methodology of "Separation of Concerns".
+                With this I mean I focus on the what the client wants.
+                Then I build the basic structure.
+                Later I look at the stylingof the pages.
+                Then I would add interactive features.
+                And repeat. Repeat. REPEAT. 
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading" id="headingpanel">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                  <span class="glyphicon glyphicon-user" aria-hidden="true"></span>Who are your clients?
+                </a>
+              </h4>
+            </div>
+            <div id="collapseThree" class="panel-collapse collapse">
+              <div class="panel-body">
+                My clients are non-profit and close friends with a bit of free lancing on the side.
+                Later as I build my reputation I would like to work on bigger projects.
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading" id="headingpanel">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+                  <span class="glyphicon glyphicon-hourglass" aria-hidden="true"></span>What is your average project turnaround?
+                </a>
+              </h4>
+            </div>
+            <div id="collapseFour" class="panel-collapse collapse">
+              <div class="panel-body">
+                For basic Web Pages: 1 month
+                For Web Applications: 2 - 3 months.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- /pagesection for Faq --> 
+
+      <hr>
+
+    
+    </div> <!-- /container for FAQ Page-->
 
 
 
