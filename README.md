@@ -10,8 +10,8 @@ The main objective is to build a Responsive Portfolio Website
 - [ ] When span:hover activates prevent text from moving.
 - [ ] Add comment for the faq.html divs
 - [ ] Make accordion transparent like Eric An
-- [ ] Why is panel heading not working.
-- [ ] Change FAQ page jumbotron.
+- [x] Why is panel heading not working.
+- [x] Change FAQ page jumbotron.
 - [ ] Why is nav different in different pages. [not due to pictures.]
 - [ ] JUmbotron need own divs... after container like index.
 
@@ -26,7 +26,7 @@ The main objective is to build a Responsive Portfolio Website
  - [ ] Update postion of spans.
 
 - [ ] ABOUT PAGE
- - [ ] First clean up about css before moving
+ - [x] First clean up about css before moving
  - [ ] Add individual div for each address item "idvcontacts"
  - [ ] Clean up contact container typography "#contactcontainer"
  - [ ] Update postion of spans.
