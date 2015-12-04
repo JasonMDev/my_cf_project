@@ -133,7 +133,7 @@ p {
  }
 
 /*********** Styling: Navigation Bar ************/ 
-.navbar {
+.nav {
   /* Positioning */
   position: fixed;                      /* A1#6 */
   top: 0;                               /* A1#6 */
@@ -149,7 +149,7 @@ p {
   box-shadow: 0 1px 2px #ffb380, inset 0 1px 0 #fff; /*Own A1L6 */
 }
 
-.navbar ul {
+.nav ul {
   /* Positioning */
   /* Box-model */
   float: right;                         /* A1#6 */
@@ -159,14 +159,14 @@ p {
   /* Misc */
 }
 
-.navbar ul li {
+.nav ul li {
   /* Positioning */
   /* Box-model */
   display: inline-block;                /* A1#6 */
   padding: 20px 10px 20px;              /* A1#6 */
 }
 
-.navbar ul li a {
+.nav ul li a {
   /* Positioning */
   /* Box-model */
   /* Typography */
@@ -181,7 +181,7 @@ p {
   -webkit-transition: color 600ms;      /* A1#6 */
 }
 
-.navbar a:hover {
+.nav a:hover {
   color: #ff0;                          /* A1#6 */
   text-decoration: none;                /* A1#6 */
   border: 1px double #696200;    /* Own in A1#7 */
