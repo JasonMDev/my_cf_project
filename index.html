@@ -512,6 +512,18 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
     <!-- Can place script tags with JavaScript files here -->
+    <script type="text/javascript">
+      var $root = $('html, body');
+      $('.navbar-nav a').click(function() {
+        var href = $.attr(this, 'href');
+        $root.animate({
+          scrollTop: $(href).offset().top
+        }, 500, function () {
+          window.location.hash = href;
+        });
+        return false;
+      });
+    </script>
 
   </body>
 </html>
