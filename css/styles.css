@@ -125,6 +125,21 @@ p {
   background-size: cover;               /* A1#5 */  
  }
 
+ /******** Styling: contactpageconatiner ********/
+#contact {
+  /* Background picture                         */
+  background-image: url("img/yourimagenamehere.jpg"); /* A1L10 */
+  /* Fixed position while page scrolls onwards. */
+  background-attachment: fixed;        /* A1L10 */
+  /* Have the img cover the whole page.         */
+  background-size: cover;              /* A1L10 */
+  /* Change text color for readability.         */
+  color: white;                        /* A1L10 */
+  padding: 100px;                      /* A1L10 */
+  padding-top: 50px;                   /* A1L10 */
+  height: 400px;                       /* A1L10 */
+}
+
  /******************* FAQ.HTML ******************/
 /********* Styling: faqpagejumbo ****************/
 .faqpagejumbo {
