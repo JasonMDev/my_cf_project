@@ -356,12 +356,15 @@
     
     <!-- Generic Bootstrap "container-fluid" --> 
     <div class="container-fluid anchor" id="contact">
+      <h1>Contact Information</h1>
+      <p><strong>If you like what you see</strong> contact me and let us discuss a project.</p> 
+      
       <!-- CONTACT JUMBOTRON -->
       <!-- Main jumbotron for a primary marketing message or call to action -->
-      <div class="jumbotron contactpagejumbo">
-        <h1>Contact Information</h1>
-        <p><strong>If you like what you see</strong> contact me and let us discuss a project.</p>      
-      </div><!-- /jumbotron -->
+      <!--  <div class="jumbotron contactpagejumbo"> -->
+      <!--   <h1>Contact Information</h1> -->
+      <!--   <p><strong>If you like what you see</strong> contact me and let us discuss a project.</p>  -->     
+      <!-- </div><!-- /jumbotron -->
 
       <!-- CONTACT CONTAINER -->
       <!-- Generic Bootstrap Container --> 
@@ -528,15 +531,15 @@
     <!-- Can place script tags with JavaScript files here -->
     <script type="text/javascript">
       var $root = $('html, body');
-      $('.navbar-nav a').click(function() {
-        var href = $.attr(this, 'href');
-        $root.animate({
-          scrollTop: $(href).offset().top
-        }, 500, function () {
+        $('.navbar-nav a').click(function() {
+          var href = $.attr(this, 'href');
+          $root.animate({
+              scrollTop: $(href).offset().top
+          }, 500, function () {
           window.location.hash = href;
+          });
+          return false;
         });
-        return false;
-      });
     </script>
 
   </body>

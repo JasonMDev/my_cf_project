@@ -49,6 +49,30 @@ p {
   font-family: Futura, Helvetica, Arial, sans-serif; /* A1#5 */
 } 
 
+/************ [ Background and Colours] **********/
+body {
+  background-color: rgba(186, 173, 11, 1);/*A1#5 */
+  color: #34595e;                        /* A1#5 */
+  /* Positioning */
+  /* Box-model */
+  /* Typography */
+  /* Visual */
+  /* Misc */
+}
+
+.jumbotron h1 {
+  color: #ffb380;                        /* A1#5 */
+  text-shadow: -1px 0 #696200, 0 1px #696200, 1px 0 #696200, 0 -1px #696200; /* Own A1#8 */
+  /*text-shadow: 0 0 5px rgba(102,41,0,.8);  /* A1#5 */
+}
+
+.jumbotron p {
+  color: #ffb380;                        /* A1#5 */
+  text-shadow: -1px 0 #696200, 0 1px #696200, 1px 0 #696200, 0 -1px #696200; /* Own A1#8 */
+ }
+
+/******************** [ Visual] ******************/
+
 .main-text p {
   font-family: Georgia, Times, 'Times New Roman', serif; /* A1#5 */
 }
@@ -127,15 +151,15 @@ p {
 
 /******************* CONTACT.HTML ***************/
 /******** Styling: contactpagejumbo *************/
-.contactpagejumbo {
-  background: url("../img/webpiccontactheader1.jpg") no-repeat center top; /* A1#5 */
-  background-size: cover;               /* A1#5 */  
- }
+/*.contactpagejumbo {
+  /*background: url("../img/webpiccontactheader1.jpg") no-repeat center top; /* A1#5 */
+  /*background-size: cover;               /* A1#5 */  
+ /*}*/
 
  /******** Styling: contactpageconatiner ********/
 #contact {
   /* Background picture                         */
-  background-image: url("img/yourimagenamehere.jpg"); /* A1L10 */
+  background-image: url("../img/webpiccontactheader1.jpg"); /* A1L10 */
   /* Fixed position while page scrolls onwards. */
   background-attachment: fixed;        /* A1L10 */
   /* Have the img cover the whole page.         */
@@ -384,34 +408,12 @@ p {
 #aboutcontainer p {}              /* Own in A1#9 */
 
 /************ [ Positioning ] ********************/
-.jumbotron {
-  position: static;               /* Own in A1#7 */ 
-  clear: both;                    /* Own in A1#7 */  
-}
+/*.jumbotron {
+/*  position: static;               /* Own in A1#7 */ 
+/*  clear: both;                    /* Own in A1#7 */  
+/*}
 
-/************ [ Background and Colours] **********/
-body {
-  background-color: rgba(186, 173, 11, 1);/*A1#5 */
-  color: #34595e;                        /* A1#5 */
-  /* Positioning */
-  /* Box-model */
-  /* Typography */
-  /* Visual */
-  /* Misc */
-}
 
-.jumbotron h1 {
-  color: #ffb380;                        /* A1#5 */
-  text-shadow: -1px 0 #696200, 0 1px #696200, 1px 0 #696200, 0 -1px #696200; /* Own A1#8 */
-  /*text-shadow: 0 0 5px rgba(102,41,0,.8);  /* A1#5 */
-}
-
-.jumbotron p {
-  color: #ffb380;                        /* A1#5 */
-  text-shadow: -1px 0 #696200, 0 1px #696200, 1px 0 #696200, 0 -1px #696200; /* Own A1#8 */
- }
-
-/******************** [ Visual] ******************/
 
 
 /* ============================================ */
