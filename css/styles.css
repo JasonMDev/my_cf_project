@@ -20,9 +20,16 @@
 /** { box-sizing: border-box; }  
 /*Not needed because of bootsrap.min          ***/
 
-/***************** [ Scrollspy ] ***************/
+
+/***************** [ Positioning ] **************/
+
 body {
-  position: relative;          /* Own in A1#10 */
+  position: relative;           /* Own in A1#10 */
+}
+
+/****************** [ Box-model ] ***************/
+.anchor {
+  padding-top: 50px;            /* Own in A1#10 */
 }
 
 /***************** [ Typography ] ***************/
@@ -148,7 +155,7 @@ p {
  }
 
 /*********** Styling: Navigation Bar ************/ 
-.nav {
+.navb {
   /* Positioning */
   position: fixed;                      /* A1#6 */
   top: 0;                               /* A1#6 */
@@ -164,7 +171,7 @@ p {
   box-shadow: 0 1px 2px #ffb380, inset 0 1px 0 #fff; /*Own A1L6 */
 }
 
-.nav ul {
+.navb ul {
   /* Positioning */
   /* Box-model */
   float: right;                         /* A1#6 */
@@ -174,14 +181,14 @@ p {
   /* Misc */
 }
 
-.nav ul li {
+.navb ul li {
   /* Positioning */
   /* Box-model */
   display: inline-block;                /* A1#6 */
   padding: 20px 10px 20px;              /* A1#6 */
 }
 
-.nav ul li a {
+.navb ul li a {
   /* Positioning */
   /* Box-model */
   /* Typography */
@@ -196,7 +203,7 @@ p {
   -webkit-transition: color 600ms;      /* A1#6 */
 }
 
-.nav a:hover {
+.navb a:hover {
   color: #ff0;                          /* A1#6 */
   text-decoration: none;                /* A1#6 */
   border: 1px double #696200;    /* Own in A1#7 */
