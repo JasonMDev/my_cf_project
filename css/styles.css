@@ -70,13 +70,10 @@ body {
 }
 
 /************** BOOTSTRAP SECTIONS ***************/
-/*********** Styling: Navigation Bar ************/ 
+/*********** Styling: Navigation Bar *************/ 
 nav {
   /* Positioning */
-  
   /* Box-model */
-  width: 100%;                          /* A1#6 */
-
   /* Visual */
   background-color: #3E3A00; /* A1#6 Changed  from black to own */
   opacity: 0.7;
@@ -84,24 +81,9 @@ nav {
   box-shadow: 0 1px 2px #ffb380, inset 0 1px 0 #fff; /*Own A1L6 */
 }
 
-.navb ul {
-  /* Positioning */
-  /* Box-model */
-  float: right;                         /* A1#6 */
-  margin: 0;                            /* A1#6 */
-  /* Typography */
-  /* Visual */
-  /* Misc */
-}
+.nav>li { padding: 0 10px 0 0; }        /* A1#10*/
 
-.navb ul li {
-  /* Positioning */
-  /* Box-model */
-  display: inline-block;                /* A1#6 */
-  padding: 20px 10px 20px;              /* A1#6 */
-}
-
-.navb ul li a {
+.nav>li>#navalink {
   /* Positioning */
   /* Box-model */
   /* Typography */
@@ -109,18 +91,30 @@ nav {
   letter-spacing: 0.05em;               /* A1#6 */
   /* Visual */
   color: #ffb380;                       /* A1#6 */
-  border: 1px double #3E3A00;    /* Own in A1#7 */
-  border-style: double none;     /* Own in A1#7 */ 
+  /*border: 1px double #3E3A00;    /* Own in A1#7 */
+  /*border-style: double none;     /* Own in A1#7 */ 
   /* Misc */
   transition: color 600ms;              /* A1#6 */
   -webkit-transition: color 600ms;      /* A1#6 */
 }
 
-.navb a:hover {
-  color: #ff0;                          /* A1#6 */
-  text-decoration: none;                /* A1#6 */
-  border: 1px double #696200;    /* Own in A1#7 */
-  border-style: double none;     /* Own in A1#7 */  
+.nav>li>#navalink:hover {
+  color: black;                        /* A1#10 */
+  background-color: #ffb380;           /* A1#10 */
+  border-radius: 3px;                  /* A1#10 */  
+}
+
+.projectName a {
+  /* Box-model */
+  padding: 0 10px;                      /* A1#10*/
+  /* Typography */
+  text-transform: uppercase;           /* A1#10 */
+  /* Visual */
+  color: white;                        /* A1#10 */
+}
+
+#brand-image {
+  padding: 5px 20px;                   /* A1#10 */
 }
 
 
