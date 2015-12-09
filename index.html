@@ -75,7 +75,7 @@
     <!--            INDEX PAGE                INDEX PAGE                 INDEX PAGE              -->
     <!-- ======================================================================================= -->
 
-    <!--CAROUSEL  -->
+    <!--CAROUSEL PAGESECTION -->
     <!-- Generic Bootstrap Container-fluid which sets the width to 100% --> 
     <div class="container-fluid anchor">
       <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
@@ -131,30 +131,23 @@
           <span class="sr-only">Next</span>
         </a>
       </div> <!-- /Controls -->
+
     </div><!--/container -->
 
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-    <!-- [DELETED but kept for now.] --> 
-    <!-- <div class="jumbotron indexpage"> -->
-    <!--   <div class="container"> -->
-    <!--     <h1>Jason Mans. Webmaster</h1> -->
-    <!--     <p><strong>Serving all of your web development needs.</strong> I am a maker. I like seeing things grow. I love amazing products. I love cool projects. I like seeing things that I have made, grow into cool projects that I can deliver as an amazing product.</p>    -->     
-    <!--   </div>/container -->
-    <!-- </div>< /jumbotron -->
-
-    <!-- PORTFOLIO CONCEPTS -->
-    <!-- Generic Bootstrap Container --> 
+    <!-- PORTFOLIO CONCEPTS PAGSECTION-->
+    <!-- Generic Bootstrap Container-fluid --> 
     <div class="container-fluid">
-      <!-- CUSTOM CLASS: Project Borders  -->
+      <!-- CUSTOM CLASS: Page Section  -->
       <!-- I have added own class after container and before the row column as it negates my class. -->  
-      <div class ="projectborder" id="conceptcontainer">
+      <div class ="pagesection" id="conceptpagesection">
         <!-- Generic Bootstrap Row --> 
         <div class="row">
 
+          <!-- RESPONSIVE CLASS: Portfolio Concept  -->
           <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
             <!-- CUSTOM CLASS: Individual Concept Styling  -->
-            <div class ="indvconcept">
-              <h2>Portfolio Concept</h2>
+            <div class ="indvconcept" id="portfolio-concept">
+              <h3>Portfolio Concept</h3>
               <p>"I want a personalised logo or brand that I can add to the website and will be found on marketing."</p>
               <p>"I want to create a portfolio site with the following basic sections: About You (Background, Hobbies), Portfolio of Work (Past or Current Projects, Clients), Contact , and FAQ (Your Process, Skills, Experience, etc.) as mentioned in the lessons. "</p>
               <p>"I am a chartered chemical engineer with 9 years experience in the Oil and Gas."</p>       
@@ -163,19 +156,21 @@
             </div><!-- /Individual Concept Styling-->  
           </div><!-- /col Portfolio Concept -->
 
+          <!-- RESPONSIVE CLASS: Project Goals  -->
           <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
             <!-- CUSTOM CLASS: Individual Concept Styling  -->
-            <div class ="indvconcept">
-              <h2>Project Goals</h2>
+            <div class ="indvconcept" id="project-goals">
+              <h3>Project Goals</h3>
               <p>"I will study at least 3 days of the work week, and over the weekend as well, for the next 6 months to start applying for Web Developer positions in June 2016 so that I can embark on a new career." </p>
               <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
             </div><!-- /Individual Concept Styling-->  
-         </div><!-- /col Project Goals -->
+          </div><!-- /col Project Goals -->
 
+          <!-- RESPONSIVE CLASS: Course Goals  -->
           <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
             <!-- CUSTOM CLASS: Individual Concept Styling  -->
-            <div class ="indvconcept">
-              <h2>Course Goals</h2>
+            <div class ="indvconcept" id="course-goals">
+              <h3>Course Goals</h3>
               <p>"I would like to explore my nebulous, quirky and creative side and would like to express that through coding."</p>
               <p>"I want to be working as a web developer in a progressive company, in the region of London." </p>
               <p>"I want to work no more than 45 hours a week, so that I can enjoy good work-life balance and economic security." </p>
@@ -184,16 +179,16 @@
           </div><!-- /col Course Goals -->
 
         </div><!-- /row -->
-      </div><!-- /projectborder -->
+      </div><!-- /pagesection -->
       <hr>
     </div> <!-- /container for Portfolio Concepts-->
 
     <!-- WORK SECTION -->
     <!-- Generic Bootstrap Container --> 
     <div class="container-fluid">
-      <!-- CUSTOM CLASS: Project Borders  -->
+      <!-- CUSTOM CLASS: Page Section  -->
       <!-- I have added own class after container and before the row column as it negates my class. -->      
-      <div class ="projectborder" id="workrowcontainer">
+      <div class ="pagesection" id="workpagesection">
         <h2>Current and Previous Work</h2>
         <!-- Generic Bootstrap Row --> 
         <div class ="row">  
@@ -271,7 +266,7 @@
           </div><!-- /col Project 8-->
 
         </div><!-- /row-->    
-      </div><!-- /projectborder -->
+      </div><!-- /pagesection -->
       <hr>
     </div> <!-- /container for work Section-->
 
@@ -283,39 +278,39 @@
     <div class="container-fluid anchor" id="about">
       <!-- ABOUT JUMBOTRON -->
       <!-- Main jumbotron for a primary marketing message or call to action -->
-      <div class="jumbotron aboutpagejumbo">
+      <div class="jumbotron" id="aboutpagejumbo">
         <h1>More about me</h1>
         <p>Have a look around and see what I am about..</p>
       </div><!-- /jumbotron -->
 
       <!-- ABOUT CONTENT SECTION --> 
-      <!-- CUSTOM CLASS: Project Borders  -->
+      <!-- CUSTOM CLASS: Page Section  -->
       <!-- I have added own class after container and before the row column as it negates my class. -->      
-      <div class ="pagesection" id="aboutcontent">
+      <div class ="pagesection" id="aboutpagesection">
         <!-- Generic Bootstrap Row --> 
         <div class="row">
 
           <!-- Column 1: Image -->
           <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
             <!-- CUSTOM CLASS: Individual About Styling  -->
-            <div class ="indvabout1 image-column"> <!-- make id's -->
+            <div class ="indvabout1" id="image-column"> 
               <img class="img-responsive" src="img/guymountaintopthinking.jpg" alt="My happy place">
             </div><!-- /Individual About Styling-->  
-          </div><!-- /col Portfolio Concept -->
+          </div><!-- /col Image -->
 
           <!-- Column 2: Introduction -->
           <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
             <!-- CUSTOM CLASS: Individual About Styling  -->
-            <div class ="indvabout1 intro-column"><!-- make id's -->
-              <h2>Introduction</h2>
+            <div class ="indvabout1" id="intro-column">
+              <h3>Introduction</h3>
               <p>I am a person who loves learning and who is re-discovering the fun of creating things with coding.</p>
             </div><!-- /Individual About Styling-->
-          </div><!-- /col Project Goals -->
+          </div><!-- /col Introduction -->
 
           <!-- Column 3: Skills -->
           <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
             <!-- CUSTOM CLASS: Individual About Styling  -->
-            <div class ="indvabout1 skills-column"><!-- make id's -->
+            <div class ="indvabout1" id="skills-column">
               <h3>My SKills</h3>
               <ul id="skill-list">          
                 <li>Front-end: HTML, CSS and jQuery</li>
@@ -323,12 +318,12 @@
                 <li>Other: Chemical Engineering</li>
               </ul>
             </div><!-- /Individual About Styling-->
-          </div><!-- /col Course Goals -->
+          </div><!-- /col Skills -->
 
           <!-- Paragraph Main text -->
           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <!-- CUSTOM CLASS: Individual About Styling  -->
-            <div class ="indvabout2 main-text"><!-- make id's -->
+            <div class ="indvabout2" id="main-text">
               <h3>More about me.</h3>
               <p>I am currently a process engineer working in the Oil and Gas industry, and I want to get back at creating things like I did with Lego when I was younger.</p>
               <p>I have many interests which sometimes exhausted me because I could never stick to one for long enough, however coding is different... </p>
@@ -360,6 +355,7 @@
     <!--           CONTACT PAGE             CONTACT PAGE                 CONTACT PAGE            -->
     <!-- ======================================================================================= -->
     
+    <!-- CONTACT CONTAINER -->
     <!-- Generic Bootstrap "container-fluid" --> 
     <div class="container-fluid anchor" id="contact">
       <h1>Contact Information</h1>
@@ -368,17 +364,17 @@
       <!-- CONTACT CONTAINER -->
       <!-- Generic Bootstrap Container --> 
     
-      <!-- CUSTOM CLASS: Project Borders  -->
+      <!-- CUSTOM CLASS: Page Section  -->
       <!-- I have added own class after container and before the row column as it negates my class. -->  
-      <div class ="pagesection" id="contactcontent">
+      <div class ="pagesection" id="contactpagesection">
         <!-- Generic Bootstrap Row -->
         <div class="row">
 
           <!-- Email Column -->
           <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
             <!-- CUSTOM CLASS: Individual Project Styling  -->
-            <div class ="indvcontact">
-              <h2>Email</h2>
+            <div class ="indvcontact" id="email-column">
+              <h3>Email</h3>
               <p><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>Joe.Bloggs@example.com</p>
             </div><!-- /Individual Conatct Item Styling --> 
           </div><!-- /col Email -->
@@ -386,8 +382,8 @@
           <!-- Phone Column -->
           <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
             <!-- CUSTOM CLASS: Individual Project Styling  -->
-            <div class ="indvcontact">
-              <h2>Phone</h2>
+            <div class ="indvcontact" id="phone-column">
+              <h3>Phone</h3
               <p><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>+44 (0) 1234 5465</p>
             </div><!-- /Individual Conatct Item Styling -->    
           </div><!-- /col Phone -->
@@ -395,8 +391,8 @@
           <!-- Address Column -->
           <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
             <!-- CUSTOM CLASS: Individual Project Styling  -->
-            <div class ="indvcontact">
-              <h2>Address</h2>
+            <div class ="indvcontact" id="address-column">
+              <h3>Address</h3>
               <span class="glyphicon glyphicon-globe" aria-hidden="true"></span> 
               <ul id="address-list">
                 <li>Basingstoke</li>
@@ -420,19 +416,20 @@
     <div class="container-fluid anchor" id="faq">
       <!-- FAQ JUMBOTRON -->
       <!-- Main jumbotron for a primary marketing message or call to action -->
-      <div class="jumbotron faqpagejumbo">
+      <div class="jumbotron" id="faqpagejumbo">
         <h1>Frequently Asked Questions</h1>
         <p>Have a look here for more detailed information.</p>
       
       </div><!-- /jumbotron -->
 
       <!-- FAQ CONTAINER -->
-      <div class ="pagesection" id="faqcontent">
+      <!-- CUSTOM CLASS: Page Section  -->
+      <div class ="pagesection" id="faqpagesection">
         <div class="panel-group" id="accordion">
 
           <!-- /Panel 1 --> 
           <div class="panel panel-default">
-            <!-- /Panel 1 Content-->
+            <!-- /Panel 1 Header-->
             <div class="panel-heading" id="headingpanel">
               <h4 class="panel-title">
                 <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
@@ -452,7 +449,7 @@
 
           <!-- /Panel 2 --> 
           <div class="panel panel-default">
-            <!-- /Panel 2 Content-->
+            <!-- /Panel 2 Header-->
             <div class="panel-heading" id="headingpanel">
               <h4 class="panel-title">
                 <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
@@ -475,7 +472,7 @@
 
           <!-- /Panel 3 --> 
           <div class="panel panel-default">
-            <!-- /Panel 3 Content-->
+            <!-- /Panel 3 Header-->
             <div class="panel-heading" id="headingpanel">
               <h4 class="panel-title">
                 <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
@@ -494,7 +491,7 @@
 
           <!-- /Panel 4 --> 
           <div class="panel panel-default">
-            <!-- /Panel 4 Heading--> 
+            <!-- /Panel 4 Header--> 
             <div class="panel-heading" id="headingpanel">
               <h4 class="panel-title">
                 <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
