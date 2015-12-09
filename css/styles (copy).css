@@ -24,17 +24,6 @@
 
 
 
-.jumbotron h1 {
-  color: #ffb380;                        /* A1#5 */
-  text-shadow: -1px 0 #696200, 0 1px #696200, 1px 0 #696200, 0 -1px #696200; /* Own A1#8 */
-  /*text-shadow: 0 0 5px rgba(102,41,0,.8);  /* A1#5 */
-}
-
-.jumbotron p {
-  color: #ffb380;                        /* A1#5 */
-  text-shadow: -1px 0 #696200, 0 1px #696200, 1px 0 #696200, 0 -1px #696200; /* Own A1#8 */
- }
-
 /******************** [ Visual] ******************/
 
 .main-text p {
@@ -60,12 +49,7 @@
 
 
 
-/******************* ABOUT.HTML *****************/
-/********** Styling: aboutpagejumbo *************/
-.aboutpagejumbo {
-  background: url("../img/webpicaboutheader1.jpg") no-repeat center top; /* A1#9 */
-  background-size: cover;         /* Own inA1#9 */  
- }
+/
 
 /******* Small Screen NavBar Compansation *******/
 @media (max-width: 520px) {
@@ -81,74 +65,13 @@
 }
 
 
- /******** Styling: contactpageconatiner ********/
-#contact {
-  /* Background picture                         */
-  background-image: url("../img/webpiccontactheader1.jpg"); /* A1L10 */
-  /* Fixed position while page scrolls onwards. */
-  background-attachment: fixed;        /* A1L10 */
-  /* Have the img cover the whole page.         */
-  background-size: cover;              /* A1L10 */
-  /* Change text color for readability.         */
-  color: white;                        /* A1L10 */
-  padding: 100px;                      /* A1L10 */
-  padding-top: 50px;                   /* A1L10 */
-  height: 400px;                       /* A1L10 */
-}
-
- /******************* FAQ.HTML ******************/
-/********* Styling: faqpagejumbo ****************/
-.faqpagejumbo {
-  background: url("../img/webpicfaqheader1.jpg") no-repeat center top; /* A1#8 */
-  background-size: cover;               /* A1#8 */  
- }
 
 
 
-/*********** Styling: Carousel ******************/ 
-.carousel-caption {
-  /* Box-model */
-  /*padding-top: 7em;            /* Own in A1#8 */
-  /* Typography */
-  /* Visual */  
-}
 
-.carousel-caption h1 {
-  /* Box-model */
-  /* Typography */               
-  /*font-size: 2em;              /* Own in A1#9 */
-  text-align: center;            /* Own in A1#9 */
-  /* Visual */
-  color: #696200;                /* Own in A1#8 */
-  font-family: 'Indie Flower', cursive; /* Own in A1#8 */
-}
 
-@media (max-width: 480px) {
-  .carousel-caption h1 {
-    /* Box-model */
-    /* Typography */               
-    font-size: 2em;              /* Own in A1#9 */
-    /* Visual */
-  }
 
-  .carousel-caption p {
-    /* Box-model */
-    /* Typography */               
-    font-size: 1em;            /* Own in A1#9 */
-    /* Visual */
-  }
-}
 
-.carousel-caption p {
-  /* Box-model */
-  margin: .5em 0;                /* Own in A1#8 */
-  padding: .5em 0 .5em 0;        /* Own in A1#8 */
-  /* Typography */
-  text-align: center;            /* Own in A1#9 */           
-  /*font-size: 2em;     /*DELETED/* Own in A1#8 */
-  /* Visual */
-  color: #696200;                /* Own in A1#8 */
-}
 
 /*********** BORDERS ****************************/
 
@@ -211,55 +134,9 @@
 .indvabout1 {}                   /* Own in A1#9 */
 .indvabout2 {}                   /* Own in A1#9 */ 
 
-/*********** Styling: Glyphicon Tags ************/ 
-.col-md-4 span {
-  /* Positioning */
-  /* Box-model */
-  margin: 2px 5px;               /* Own in A1#7 */
-  padding: 5px;                  /* Own in A1#7 */
-  /* Typography */               /* Own in A1#7 */
-  font-size: 30px;
-  /* Visual */
-  background-color: #f5f5f5;     /* Own in A1#7 */
-  border: 5px solid #f5f5f5;     /* Own in A1#7 */
-  border-radius: 5px;            /* Own in A1#7 */
-  /* Misc */
-  transition: color 600ms;       /* Own in A1#7 */
-  -webkit-transition: color 600ms;/* Own in A1#7 */
-}
 
-.col-md-4 span:hover {
-  /* Positioning */
-  /* Box-model */
-  /* Typography */
-  /* Visual */
-  color: #ffb380;                /* Own in A1#7 */
-  border: 5px solid #696200;     /* Own in A1#7 */
-  /*border-radius: 5px;          /* Own in A1#7 */
-  background-color: #696200;     /* Own in A1#7 */
-  opacity: 0.7;                  /* Own in A1#7 */
-  filter: alpha(opacity=70); /* For IE8 and earlier */
-  /* Misc */   
-}
 
-/*********** Styling: Accordion ******************/
 
-#headingpanel {
-  background-color: #3E3A00;      /* Own in A1#7 */
-}
-
-.panel-title {
-  font-family: 'Bangers', cursive;/* Own in A1#7 */
-  color: white;                   /* Own in A1#7 */
-}
-
-.panel-body {
-  font-family: 'Indie Flower', cursive; /* Own in A1#7 */
-}
-
-.panel-title span {
-  padding-right: 10px;            /* Own in A1#7 */
-}
 
 /***************** [ Typography ] ****************/
 
