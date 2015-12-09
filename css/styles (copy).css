@@ -75,17 +75,7 @@
 
 /*********** BORDERS ****************************/
 
-/*********** Styling: ProjectBorder *************/ 
-.pagesection {                /* Own in A1#10 */
-  /* Box-model */
-  padding: .5em;                /* Own in A1#10 */
-  margin: .5em;                 /* Own in A1#10 */
-  
-  /* Visual */
-  background-color: #f5f5f5;     /* Own in A1#10 */
-  border: 5px solid #696200;     /* Own in A1#10 */
-  border-radius: 10px;           /* Own in A1#10 */
-}
+
 
 /*********** Styling: ProjectBorder *************/ 
 .projectborder {                 /* Own in A1#9 */

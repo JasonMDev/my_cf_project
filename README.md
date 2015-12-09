@@ -34,7 +34,7 @@ The main objective is to build a Responsive Portfolio Website
  - [ ] 
 
 - [ ] STYLES PAGE
- - [ ] Check if you want to carry over about styles.
+ - [ ] Sort out the order.
  - [ ] 
 
 
