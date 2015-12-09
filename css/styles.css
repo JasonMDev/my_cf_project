@@ -1,8 +1,8 @@
 /* ============================================ */
 /* ============================================ */
-/*               MAIN CSS STYLESHEET            */
+/*                    NOTES                     */
 /* ============================================ */
-/******************* PAGE.HTML ******************/
+/********************* MAIN *********************/
 /*************** Styling: Section ***************/
 /***************** [ CSS Group ] ****************/
 /***************** (  Remarks  ) ****************/
@@ -10,19 +10,26 @@
 /* unversal elements in order of being nested and order set from guidelines.*/
 /* Very specific items last and have own order within.*/
 /* Remember separation of concern: use different classes for different things.*/
+/* Positioning */
+/* Box-model */
+/* Typography */
+/* Visual */
+/* Misc */
 /* ============================================ */
 
+/* ============================================ */
+/* ============================================ */
+/*               MAIN CSS STYLESHEET            */
+/* ============================================ */
 /******************* UNIVERSAL ******************/
+
 /****************** Wireframing *****************/
 /************ ( Personal Wireframing ) **********/
 /* Personal Wreframing */
 /** { border: 1px dashed red; }               ***/
-/** { box-sizing: border-box; }  
-/*Not needed because of bootsrap.min          ***/
 
 
 /***************** [ Positioning ] **************/
-
 body {
   position: relative;           /* Own in A1#10 */
 }
@@ -32,159 +39,41 @@ body {
   padding-top: 50px;            /* Own in A1#10 */
 }
 
-/***************** [ Typography ] ***************/
-
-h1 { font-size: 4em; }           /* Own in A1#9 */
-h2 { font-size: 3em; }           /* Own in A1#9 */
-h3 { font-size: 2em; }           /* Own in A1#9 */
-p { 
-  font-size: 1em;                /* Own in A1#9 */
-  text-align: justify;           /* Own in A1#9 */
-}
-
-h1,
-h2,
-h3,
-p {
-  font-family: Futura, Helvetica, Arial, sans-serif; /* A1#5 */
-} 
-
-/************ [ Background and Colours] **********/
-body {
-  background-color: rgba(186, 173, 11, 1);/*A1#5 */
-  color: #34595e;                        /* A1#5 */
-  /* Positioning */
-  /* Box-model */
-  /* Typography */
-  /* Visual */
-  /* Misc */
-}
-
-.jumbotron h1 {
-  color: #ffb380;                        /* A1#5 */
-  text-shadow: -1px 0 #696200, 0 1px #696200, 1px 0 #696200, 0 -1px #696200; /* Own A1#8 */
-  /*text-shadow: 0 0 5px rgba(102,41,0,.8);  /* A1#5 */
-}
-
-.jumbotron p {
-  color: #ffb380;                        /* A1#5 */
-  text-shadow: -1px 0 #696200, 0 1px #696200, 1px 0 #696200, 0 -1px #696200; /* Own A1#8 */
- }
-
-/******************** [ Visual] ******************/
-
-.main-text p {
-  font-family: Georgia, Times, 'Times New Roman', serif; /* A1#5 */
-}
-
-.aboutpagejumbo h1 {
-  font-family: 'Bangers', cursive;/* Own in A1#5 */
-}
-
-.intro-column p {
-  font-family: Futura, Helvetica, Arial, sans-serif; /* A1#5 */
-  /*font-size: 1em;                        /* A1#5 *//* Own in A1#9 */
-  font-weight: 100;                      /* A1#5 */
-  -webkit-margin-before: 0em;            /* A1#5 */
-}
-
-.skills-column h3 {
-  text-align: center;                    /* A1#5 */
-  text-transform: uppercase;             /* A1#5 */
-}
-
-
-/************** Styling: Jumbotron **************/
-.jumbotron {
-  padding-top: 3em;              /* Own in A1#9 */
- }
-
-/****************** INDEX.HTML ******************/
-/************** Styling: Carousel ***************/
-
 .container-fluid {
   padding-left: 0;                      /* A1#8 */
   padding-right: 0;                     /* A1#8 */ 
  }
 
-/******************* ABOUT.HTML *****************/
-/********** Styling: aboutpagejumbo *************/
-.aboutpagejumbo {
-  background: url("../img/webpicaboutheader1.jpg") no-repeat center top; /* A1#9 */
-  background-size: cover;         /* Own inA1#9 */  
- }
+ /***************** [ Typography ] ***************/
 
-/******* Small Screen NavBar Compansation *******/
-@media (max-width: 520px) {
-  .jumbotron {
-    /* Box-model */
-    padding: 7em 0;              /* Own inA1#9 */
+h1 { font-size: 4em;              /* Own in A1#9 */
+  font-family: 'Bangers', cursive;/* Own in A1#5 */
   }
 
-  .container-fluid {
-    /* Box-model */
-    padding: 9em 0;              /* Own inA1#9 */
-  }
+h2 { 
+  font-size: 3em;                 /* Own in A1#9 */
+  font-family: 'Indie Flower', cursive; /* Own in A1#8 */
+ }           
+
+h3 { font-size: 2em; }           /* Own in A1#9 */
+
+p { 
+  font-size: 1em;                /* Own in A1#9 */
+  font-family: Futura, Helvetica, Arial, sans-serif; /* A1#5 */
+  text-align: justify;           /* Own in A1#9 */
 }
 
-/************* Styling: About Header ************
-*.header {
-*  /* Positioning */
- /*position: relative;          /* Own in A1#4 */
-  /*top: 38px;                   /* Own in A1#6 */
-  
-  /* Box-model */
-/*  margin-bottom: 50px;                  /* A1#4 */
-/*  padding-top: 7em;              /* Own in A1#6 */
-
-  /* Typography */
-
-  /* Visual */
-/*  background-color: #ff9933;    /* Own in A1#4  */
-/*} */
-
-/*.header h1 {
-  text-align: center;                   /* A1#4 */
-/*  padding: 20px 0;               /* Own in A1#5 */
-/*  font-family: 'Bangers', cursive;/* Own in A1#5 */
-/*}*/
-
-/******************* CONTACT.HTML ***************/
-/******** Styling: contactpagejumbo *************/
-/*.contactpagejumbo {
-  /*background: url("../img/webpiccontactheader1.jpg") no-repeat center top; /* A1#5 */
-  /*background-size: cover;               /* A1#5 */  
- /*}*/
-
- /******** Styling: contactpageconatiner ********/
-#contact {
-  /* Background picture                         */
-  background-image: url("../img/webpiccontactheader1.jpg"); /* A1L10 */
-  /* Fixed position while page scrolls onwards. */
-  background-attachment: fixed;        /* A1L10 */
-  /* Have the img cover the whole page.         */
-  background-size: cover;              /* A1L10 */
-  /* Change text color for readability.         */
-  color: white;                        /* A1L10 */
-  padding: 100px;                      /* A1L10 */
-  padding-top: 50px;                   /* A1L10 */
-  height: 400px;                       /* A1L10 */
+/************ [ Background and Colours] **********/
+body {
+  background-color: rgba(186, 173, 11, 1);/*A1#5 */
+  color: #34595e;                        /* A1#5 */
 }
 
- /******************* FAQ.HTML ******************/
-/********* Styling: faqpagejumbo ****************/
-.faqpagejumbo {
-  background: url("../img/webpicfaqheader1.jpg") no-repeat center top; /* A1#8 */
-  background-size: cover;               /* A1#8 */  
- }
-
+/************** BOOTSTRAP SECTIONS ***************/
 /*********** Styling: Navigation Bar ************/ 
-.navb {
+nav {
   /* Positioning */
-  position: fixed;                      /* A1#6 */
-  top: 0;                               /* A1#6 */
-  z-index: 100;                  /* Own in A1#6 */
-
+  
   /* Box-model */
   width: 100%;                          /* A1#6 */
 
@@ -234,187 +123,12 @@ body {
   border-style: double none;     /* Own in A1#7 */  
 }
 
-/*********** Styling: Carousel ******************/ 
-.carousel-caption {
-  /* Box-model */
-  /*padding-top: 7em;            /* Own in A1#8 */
-  /* Typography */
-  /* Visual */  
-}
-
-.carousel-caption h1 {
-  /* Box-model */
-  /* Typography */               
-  /*font-size: 2em;              /* Own in A1#9 */
-  text-align: center;            /* Own in A1#9 */
-  /* Visual */
-  color: #696200;                /* Own in A1#8 */
-  font-family: 'Indie Flower', cursive; /* Own in A1#8 */
-}
-
-@media (max-width: 480px) {
-  .carousel-caption h1 {
-    /* Box-model */
-    /* Typography */               
-    font-size: 2em;              /* Own in A1#9 */
-    /* Visual */
-  }
-
-  .carousel-caption p {
-    /* Box-model */
-    /* Typography */               
-    font-size: 1em;            /* Own in A1#9 */
-    /* Visual */
-  }
-}
-
-.carousel-caption p {
-  /* Box-model */
-  margin: .5em 0;                /* Own in A1#8 */
-  padding: .5em 0 .5em 0;        /* Own in A1#8 */
-  /* Typography */
-  text-align: center;            /* Own in A1#9 */           
-  /*font-size: 2em;     /*DELETED/* Own in A1#8 */
-  /* Visual */
-  color: #696200;                /* Own in A1#8 */
-}
-
-/*********** BORDERS ****************************/
-
-/*********** Styling: ProjectBorder *************/ 
-.pagesection {                /* Own in A1#10 */
-  /* Box-model */
-  padding: .5em;                /* Own in A1#10 */
-  margin: .5em;                 /* Own in A1#10 */
-  
-  /* Visual */
-  background-color: #f5f5f5;     /* Own in A1#10 */
-  border: 5px solid #696200;     /* Own in A1#10 */
-  border-radius: 10px;           /* Own in A1#10 */
-}
-
-/*********** Styling: ProjectBorder *************/ 
-.projectborder {                 /* Own in A1#9 */
-  /* Box-model */
-  padding: 1em;                 /* Own in A1#9 */
-  margin: 1em;                  /* Own in A1#9 */
-  
-  /* Visual */
-  background-color: #f5f5f5;     /* Own in A1#5 */
-  border: 5px solid #696200;     /* Own in A1#5 */
-  border-radius: 10px;           /* Own in A1#5 */
-}
 
 
-/* Own in A1#9 : will decide later to delet or use*/ 
-  /* Positioning */
-  /* Box-model */
-  /* Typography */
-  /* Visual */
-  /* Misc */
-
-/***** Styling: Individual Concept Items  *******/
-.indvconcept {}                  /* Own in A1#9 */        
-
-/*********** Styling: Individual Projects  ******/ 
-.indvproject {                   /* Own in A1#9 */
-  /* Positioning */
-  /* Box-model */
-  padding: .5em;                  /* Own in A1#9 */
-  margin: .5em;                   /* Own in A1#9 */
-  
-  /* Typography */
-  text-align: center;            /* Own in A1#9 */
-
-  /* Visual */
-  background-color: #f5f5f5;     /* Own in A1#9 */
-  border: 3px solid #696200;     /* Own in A1#9 */
-  border-radius: 5px;            /* Own in A1#9 */
-  /* Misc */
-}
-
-/***** Styling: Individual Contacts Items  ******/ 
-.indvcontact { }                 /* Own in A1#9 */
-
-/***** Styling: Individual About Items  *********/
-.indvabout1 {}                   /* Own in A1#9 */
-.indvabout2 {}                   /* Own in A1#9 */ 
-
-/*********** Styling: Glyphicon Tags ************/ 
-.col-md-4 span {
-  /* Positioning */
-  /* Box-model */
-  margin: 2px 5px;               /* Own in A1#7 */
-  padding: 5px;                  /* Own in A1#7 */
-  /* Typography */               /* Own in A1#7 */
-  font-size: 30px;
-  /* Visual */
-  background-color: #f5f5f5;     /* Own in A1#7 */
-  border: 5px solid #f5f5f5;     /* Own in A1#7 */
-  border-radius: 5px;            /* Own in A1#7 */
-  /* Misc */
-  transition: color 600ms;       /* Own in A1#7 */
-  -webkit-transition: color 600ms;/* Own in A1#7 */
-}
-
-.col-md-4 span:hover {
-  /* Positioning */
-  /* Box-model */
-  /* Typography */
-  /* Visual */
-  color: #ffb380;                /* Own in A1#7 */
-  border: 5px solid #696200;     /* Own in A1#7 */
-  /*border-radius: 5px;          /* Own in A1#7 */
-  background-color: #696200;     /* Own in A1#7 */
-  opacity: 0.7;                  /* Own in A1#7 */
-  filter: alpha(opacity=70); /* For IE8 and earlier */
-  /* Misc */   
-}
-
-/*********** Styling: Accordion ******************/
-
-#headingpanel {
-  background-color: #3E3A00;      /* Own in A1#7 */
-}
-
-.panel-title {
-  font-family: 'Bangers', cursive;/* Own in A1#7 */
-  color: white;                   /* Own in A1#7 */
-}
-
-.panel-body {
-  font-family: 'Indie Flower', cursive; /* Own in A1#7 */
-}
-
-.panel-title span {
-  padding-right: 10px;            /* Own in A1#7 */
-}
-
-/***************** [ Typography ] ****************/
-
-#conceptcontainer h2 {
-  font-family: 'Indie Flower', cursive; /* Own in A1#9 */
-}
-
-#workrowcontainer h2 {
-  font-family: 'Indie Flower', cursive; /* Own in A1#9 */
-  text-align: center;             /* Own in A1#9 */
-}
-
-#contactcontainer h2 {}           /* Own in A1#9 */
-#contactcontainer p {}            /* Own in A1#9 */
-
-#aboutcontainer h2 {}             /* Own in A1#9 */
-#aboutcontainer p {}              /* Own in A1#9 */
-
-/************ [ Positioning ] ********************/
-/*.jumbotron {
-/*  position: static;               /* Own in A1#7 */ 
-/*  clear: both;                    /* Own in A1#7 */  
-/*}
-
-
-
+/* ============================================ */
+/* ============================================ */
+/*               NOT USED                       */
+/* ============================================ */
 
 /* ============================================ */
 /* ============================================ */
