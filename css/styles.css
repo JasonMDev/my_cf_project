@@ -110,12 +110,62 @@ nav {
   /* Typography */
   text-transform: uppercase;           /* A1#10 */
   /* Visual */
-  color: white;                        /* A1#10 */
+  color: #ffb380;                      /* A1#10 */
 }
 
 #brand-image {
   padding: 5px 20px;                   /* A1#10 */
 }
+
+/*********** Styling: Carousel ******************/ 
+
+.carousel-caption h1 {
+  /* Box-model */
+  /* Typography */               
+  text-align: center;            /* Own in A1#9 */
+  /* Visual */
+  color: #696200;                /* Own in A1#8 */  
+}
+
+.carousel-caption p {
+  /* Box-model */
+  margin: .5em 0;                /* Own in A1#8 */
+  padding: .5em 0 .5em 0;        /* Own in A1#8 */
+  /* Typography */
+  text-align: center;            /* Own in A1#9 */           
+  /*font-size: 2em;     /*DELETED/* Own in A1#8 */
+  /* Visual */
+  color: #696200;                /* Own in A1#8 */
+}
+
+@media (max-width: 480px) {
+  .carousel-caption h1 {
+    /* Box-model */
+    /* Typography */               
+    font-size: 2em;              /* Own in A1#9 */
+    /* Visual */
+  }
+
+  .carousel-caption p {
+    /* Box-model */
+    /* Typography */               
+    font-size: 1em;            /* Own in A1#9 */
+    /* Visual */
+  }
+}
+
+
+
+/*********** Styling: Common Jumbotrons *********/ 
+.jumbotron h1 {
+  color: #ffb380;                       /* A1#5 */
+  text-shadow: -1px 0 #696200, 0 1px #696200, 1px 0 #696200, 0 -1px #696200; /* Own A1#8 */  
+}
+
+.jumbotron p {
+  color: #ffb380;                       /* A1#5 */
+  text-shadow: -1px 0 #696200, 0 1px #696200, 1px 0 #696200, 0 -1px #696200; /* Own A1#8 */
+ }
 
 
 

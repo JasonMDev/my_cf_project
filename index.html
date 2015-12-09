@@ -61,7 +61,15 @@
           <ul class="nav navbar-nav navbar-right">
             <li><a id="navalink" href="#">Home</a></li>
             <li><a id="navalink" href="#about" title="More about me...">About</a></li>
-            <li><a id="navalink" href="#work" title="More about my work...">Work</a></li>
+            <li role="presentation" class="dropdown">
+              <a class="dropdown-toggle" id="navalink" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                Work <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a id="navalink" href="#work1" title="Work 1...">Work1</a></li>
+                <li><a id="navalink" href="#work2" title="Work 2...">Work2</a></li>
+              </ul>
+            </li>
             <li><a id="navalink" href="#contact" title="How to contact me...">Contact</a></li>
             <li><a id="navalink" href="#faq" title="Even more about me...">FAQ</a></li>
             <li><a id="navalink" href="https://google.com">Learn More</a></li>          
