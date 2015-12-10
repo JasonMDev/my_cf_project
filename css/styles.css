@@ -71,6 +71,7 @@ p {
   font-size: 1em;                 /* Own in A1#9 */
   font-family: Futura, Helvetica, Arial, sans-serif; /* A1#5 */
   text-align: justify;            /* Own in A1#9 */
+  -webkit-margin-before: 0em;            /* A1#5 */
 }
 
 /************ [ Background and Colours] **********/
@@ -173,27 +174,27 @@ nav {
 
 /*********** Styling: Common Jumbotrons *********/ 
 .jumbotron h1,
-#contact h1 {
+#contact>h1 {
   color: #ffb380;                       /* A1#5 */
   text-shadow: -1px 0 #696200, 0 1px #696200, 1px 0 #696200, 0 -1px #696200; /* Own A1#8 */  
 }
 
 .jumbotron p,
-#contact p {
+#contact>p {
   font-family: 'Indie Flower', cursive; /* Own in A1#8 */
   color: #ffb380;                       /* A1#5 */
   text-shadow: -1px 0 #696200, 0 1px #696200, 1px 0 #696200, 0 -1px #696200; /* Own A1#8 */
  }
 
-/*********** Styling: Accordion ******************/
+/*********** Styling: Accordion *****************/
 
 #headingpanel {
-  background-color: #3E3A00;      /* Own in A1#7 */
+  background-color: #3E3A00;     /* Own in A1#7 */
 }
 
 .panel-title {
   font-family: 'Bangers', cursive;/* Own in A1#7 */
-  color: white;                   /* Own in A1#7 */
+  color: white;                  /* Own in A1#7 */
 }
 
 .panel-body {
@@ -204,16 +205,34 @@ nav {
   padding-right: 10px;            /* Own in A1#7 */
 }
 
+/******** Styling: Contact Page Background ******/
+/************ ( Parallax ) **********************/
+
+#contact {
+  /* Background picture                         */
+  background-image: url("../img/webpiccontactheader1.jpg"); /* A1L10 */
+  /* Fixed position while page scrolls onwards. */
+  background-attachment: fixed;        /* A1L10 */
+  /* Have the img cover the whole page.         */
+  background-size: cover;              /* A1L10 */
+  /* Change text color for readability.         */
+  /*color: white;                      /* A1L10 */ 
+  /*(Commented out as it is messing up my contact container text.) */
+  padding: 100px;                      /* A1L10 */
+  padding-top: 50px;                   /* A1L10 */
+  height: 400px;                       /* A1L10 */
+}
+
 /**************** CUSTOM SECTIONS ***************/
-/*********** Styling: PageSection *************/ 
-.pagesection {                /* Own in A1#10 */
+/*********** Styling: PageSection ***************/ 
+.pagesection {                  /* Own in A1#10 */
   /* Box-model */
   padding: .5em;                /* Own in A1#10 */
   margin: .5em;                 /* Own in A1#10 */
   
   /* Visual */
-  background-color: #f5f5f5;     /* Own in A1#10 */
-  border: 3px solid #696200;     /* Own in A1#10 */
+  background-color: #f5f5f5;    /* Own in A1#10 */
+  border: 3px solid #696200;    /* Own in A1#10 */
   border-radius: 6px;           /* Own in A1#10 */
 }
 
@@ -224,8 +243,8 @@ nav {
 .indvproject {                   /* Own in A1#9 */
   /* Positioning */
   /* Box-model */
-  padding: .5em;                  /* Own in A1#9 */
-  margin: .5em;                   /* Own in A1#9 */
+  padding: .5em;                 /* Own in A1#9 */
+  margin: .5em;                  /* Own in A1#9 */
   
   /* Typography */
   text-align: center;            /* Own in A1#9 */
@@ -249,38 +268,19 @@ nav {
 .indvabout1 {}                   /* Own in A1#9 */
 .indvabout2 {}                   /* Own in A1#9 */ 
 
-/***** Styling: Individual Work Items  *********/
-.indvwork1
-.indvwork2
+/***** Styling: Individual Work Items   *********/
+.indvwork1 {}                          /* A1#10 */ 
+.indvwork2 {}                          /* A1#10 */ 
 
 /***** Styling: Individual Contacts Items  ******/ 
-.indvcontact { }                 /* Own in A1#9 */
+.indcontact {}                         /* A1#10 */ 
 
 /**************** UNIQUE SECTIONS ***************/
 /********** Styling: pagejumbos *****************/
-#aboutpagejumbo { background: url("../img/webpicaboutheader1.jpg") no-repeat center top; } /* A1#9 */
-   
+#aboutpagejumbo { background: url("../img/webpicaboutheader1.jpg") no-repeat center top; } /* A1#9 */   
 #workpagejumbo { background: url("../img/webpicworkheader1.jpg") no-repeat center top; } /* A1#10 */
-
 #faqpagejumbo { background: url("../img/webpicfaqheader1.jpg") no-repeat center top; }/* A1#8 */
 
-
-/******** Styling: Contact Page Background *******/
-/************ ( Parallax ) **********************/
-
-#contact {
-  /* Background picture                         */
-  background-image: url("../img/webpiccontactheader1.jpg"); /* A1L10 */
-  /* Fixed position while page scrolls onwards. */
-  background-attachment: fixed;        /* A1L10 */
-  /* Have the img cover the whole page.         */
-  background-size: cover;              /* A1L10 */
-  /* Change text color for readability.         */
-  color: white;                        /* A1L10 */
-  padding: 100px;                      /* A1L10 */
-  padding-top: 50px;                   /* A1L10 */
-  height: 400px;                       /* A1L10 */
-}
 
 /*********** Styling: Glyphicon Tags ************/ 
 .col-md-4 span {
@@ -313,6 +313,16 @@ nav {
   /* Misc */   
 }
 
+/*********** Styling: Container *****************/
+
+#conceptpagesection {}           /* Own in A1#9 */
+#workpagesection {}              /* Own in A1#9 */
+#aboutpagesection {}             /* Own in A1#9 */
+#work1pagesection {}             /* Own in A1#9 */
+#work2pagesection {}             /* Own in A1#9 */
+#contactpagesction {}            /* Own in A1#9 */
+#faqpagesection {}               /* Own in A1#9 */
+ 
 
 /* ============================================ */
 /* ============================================ */
