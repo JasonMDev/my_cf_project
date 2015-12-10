@@ -44,9 +44,17 @@ body {
   padding-right: 0;                     /* A1#8 */ 
  }
 
- /***************** [ Typography ] ***************/
+.jumbotron {
+  /* Box-model */
+  margin-left: .5em;                  /* A1#10 */
+  margin-right: .5em;                 /* A1#10 */
+  /* Visual */
+  background-size: cover;         /* Own inA1#9 */  
+}
 
-h1 { font-size: 4em;              /* Own in A1#9 */
+/***************** [ Typography ] ****************/
+h1 { 
+  font-size: 4em;              /* Own in A1#9 */
   font-family: 'Bangers', cursive;/* Own in A1#5 */
   }
 
@@ -132,7 +140,7 @@ nav {
 .carousel-caption p {
   /* Box-model */
   margin: .5em 0;                /* Own in A1#8 */
-  padding: .5em 0 .5em 0;        /* Own in A1#8 */
+  padding: .5em 0 7em 0;         /* Own in A1#8 */
   /* Typography */
   text-align: center;            /* Own in A1#9 */           
   /*font-size: 2em;     /*DELETED/* Own in A1#8 */
@@ -150,8 +158,9 @@ nav {
 
   .carousel-caption p {
     /* Box-model */
+    padding: .5em 0 .5em 0;      /* Own in A1#8 */
     /* Typography */               
-    font-size: 1em;            /* Own in A1#9 */
+    font-size: 1em;              /* Own in A1#9 */
     /* Visual */
   }
 }
@@ -198,8 +207,8 @@ nav {
   
   /* Visual */
   background-color: #f5f5f5;     /* Own in A1#10 */
-  border: 5px solid #696200;     /* Own in A1#10 */
-  border-radius: 10px;           /* Own in A1#10 */
+  border: 3px solid #696200;     /* Own in A1#10 */
+  border-radius: 6px;           /* Own in A1#10 */
 }
 
 /***** Styling: Individual Concept Items  *******/
@@ -217,11 +226,10 @@ nav {
 
   /* Visual */
   background-color: #f5f5f5;     /* Own in A1#9 */
-  border: 3px solid #696200;     /* Own in A1#9 */
-  border-radius: 5px;            /* Own in A1#9 */
+  border: 1px solid #696200;     /* Own in A1#9 */
+  border-radius: 4px;            /* Own in A1#9 */
   /* Misc */
 }
-
 
 
 /***** Styling: Individual About Items  *********/
@@ -236,23 +244,12 @@ nav {
 .indvcontact { }                 /* Own in A1#9 */
 
 /**************** UNIQUE SECTIONS ***************/
-/********** Styling: aboutpagejumbo *************/
-#aboutpagejumbo {
-  background: url("../img/webpicaboutheader1.jpg") no-repeat center top; /* A1#9 */
-  background-size: cover;         /* Own inA1#9 */  
- }
+/********** Styling: pagejumbos *****************/
+#aboutpagejumbo { background: url("../img/webpicaboutheader1.jpg") no-repeat center top; } /* A1#9 */
+   
+#workpagejumbo { background: url("../img/webpicworkheader1.jpg") no-repeat center top; } /* A1#10 */
 
-/********* Styling: faqpagejumbo ****************/
-#workpagejumbo {
-  background: url("../img/webpicworkheader1.jpg") no-repeat center top; /* A1#10 */
-  background-size: cover;               /* A1#10 */  
- }
-
-/********* Styling: faqpagejumbo ****************/
-#faqpagejumbo {
-  background: url("../img/webpicfaqheader1.jpg") no-repeat center top; /* A1#8 */
-  background-size: cover;               /* A1#8 */  
- }
+#faqpagejumbo { background: url("../img/webpicfaqheader1.jpg") no-repeat center top; }/* A1#8 */
 
 
 /******** Styling: Contact Page Background *******/
