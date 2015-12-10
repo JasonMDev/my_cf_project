@@ -77,52 +77,6 @@
 
 
 
-/*********** Styling: ProjectBorder *************/ 
-.projectborder {                 /* Own in A1#9 */
-  /* Box-model */
-  padding: 1em;                 /* Own in A1#9 */
-  margin: 1em;                  /* Own in A1#9 */
-  
-  /* Visual */
-  background-color: #f5f5f5;     /* Own in A1#5 */
-  border: 5px solid #696200;     /* Own in A1#5 */
-  border-radius: 10px;           /* Own in A1#5 */
-}
-
-
-/* Own in A1#9 : will decide later to delet or use*/ 
-  /* Positioning */
-  /* Box-model */
-  /* Typography */
-  /* Visual */
-  /* Misc */
-
-/***** Styling: Individual Concept Items  *******/
-.indvconcept {}                  /* Own in A1#9 */        
-
-/*********** Styling: Individual Projects  ******/ 
-.indvproject {                   /* Own in A1#9 */
-  /* Positioning */
-  /* Box-model */
-  padding: .5em;                  /* Own in A1#9 */
-  margin: .5em;                   /* Own in A1#9 */
-  
-  /* Typography */
-  text-align: center;            /* Own in A1#9 */
-
-  /* Visual */
-  background-color: #f5f5f5;     /* Own in A1#9 */
-  border: 3px solid #696200;     /* Own in A1#9 */
-  border-radius: 5px;            /* Own in A1#9 */
-  /* Misc */
-}
-
-/***** Styling: Individual Contacts Items  ******/ 
-.indvcontact { }                 /* Own in A1#9 */
-
-/***** Styling: Individual About Items  *********/
-.indvabout1 {}                   /* Own in A1#9 */
-.indvabout2 {}                   /* Own in A1#9 */ 
 
 
 
