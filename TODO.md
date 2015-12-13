@@ -36,3 +36,6 @@
 ## STYLES PAGE
  - [ ] Sort out the order.
  - [ ] 
+
+ ## FOOTER
+ - [ ] Add clear buttons and sections like collission.(in portfolio.)

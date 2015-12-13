@@ -205,6 +205,15 @@ nav {
   padding-right: 10px;            /* Own in A1#7 */
 }
 
+/*********** Styling: Footer *********************/
+
+.footer-box {
+  /* Positioning */
+    float: left;                         /* A2L1 */
+  /*Box Model*/  
+  padding: 0 5px;                        /* A2L1 */
+  margin: 0 5px;                         /* A2L1 */
+
 /******** Styling: Contact Page Background ******/
 /************ ( Parallax ) **********************/
 
