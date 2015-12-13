@@ -329,16 +329,16 @@ nav {
 #work2-image-column {
   /* Positioning */
   /* Box-model */
-  padding: .5em;                 /* Own in A1#9 */
-  margin: .5em;                  /* Own in A1#9 */
+  padding: .5em;                 /* Own in A2#1 */
+  margin: .5em;                  /* Own in A2#1 */
   
   /* Typography */
-  text-align: center;            /* Own in A1#9 */
+  text-align: center;            /* Own in A2#1 */
 
   /* Visual */
-  background-color: #f5f5f5;     /* Own in A1#9 */
-  border: 1px solid #696200;     /* Own in A1#9 */
-  border-radius: 4px;            /* Own in A1#9 */
+  background-color: #f5f5f5;     /* Own in A2#1 */
+  border: 1px solid #696200;     /* Own in A2#1 */
+  border-radius: 4px;            /* Own in A2#1 */
   /* Misc */
 
 }
