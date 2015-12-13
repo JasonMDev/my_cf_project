@@ -213,6 +213,7 @@ nav {
   /*Box Model*/  
   padding: 0 5px;                        /* A2L1 */
   margin: 0 5px;                         /* A2L1 */
+}
 
 /******** Styling: Contact Page Background ******/
 /************ ( Parallax ) **********************/
@@ -232,9 +233,18 @@ nav {
   height: 400px;                       /* A1L10 */
 }
 
+@media (max-width: 480px) {
+  #contact h1 {
+    /* Box-model */
+    /* Typography */               
+    font-size: 2em;              /*  A2#1 */
+    /* Visual */
+  }
+}
+
 /**************** CUSTOM SECTIONS ***************/
 /*********** Styling: PageSection ***************/ 
-.pagesection {                  /* Own in A1#10 */
+.pagesection {        /* Own in A1#10 */
   /* Box-model */
   padding: .5em;                /* Own in A1#10 */
   margin: .5em;                 /* Own in A1#10 */
