@@ -48,6 +48,8 @@ body {
   /* Box-model */
   margin-left: .5em;                   /* A1#10 */
   margin-right: .5em;                  /* A1#10 */
+  padding-left: .5em;                   /* A2#1 */
+  padding-right: .5em;                  /* A2#1 */
   /* Visual */
   background-size: cover;         /* Own inA1#9 */  
 }
@@ -228,18 +230,9 @@ nav {
   /* Change text color for readability.         */
   /*color: white;                      /* A1L10 */ 
   /*(Commented out as it is messing up my contact container text.) */
-  padding: 100px;                      /* A1L10 */
-  padding-top: 50px;                   /* A1L10 */
-  height: 400px;                       /* A1L10 */
-}
-
-@media (max-width: 480px) {
-  #contact h1 {
-    /* Box-model */
-    /* Typography */               
-    font-size: 2em;              /*  A2#1 */
-    /* Visual */
-  }
+  padding: .5em;                       /* A2#1  */
+  padding-top: 50px;                   /* A2#1  */
+  /*height: 400px;                       /* A1L10 */
 }
 
 /**************** CUSTOM SECTIONS ***************/

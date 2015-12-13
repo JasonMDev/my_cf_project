@@ -2,7 +2,8 @@
 
 ## General
 
-- [ ] Write it so that the contact page actually works on small screens. I think most of it works.
+- [ ] Add padding to hero header text for small screens, as it has no padding.
+- [x] Write it so that the contact page actually works on small screens. I think most of it works.
 - [x] Fix dimension of app pictures.
 - [ ] Add a div for each group of four in calc. app.
 - [x] Fix the spacing after relative navigation bar. see floats - https://css-tricks.com/all-about-floats/
