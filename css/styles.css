@@ -315,6 +315,7 @@ nav {
 
 /*********** Styling: Container *****************/
 
+
 #conceptpagesection {}           /* Own in A1#9 */
 #workpagesection {}              /* Own in A1#9 */
 #aboutpagesection {}             /* Own in A1#9 */
@@ -323,6 +324,26 @@ nav {
 #contactpagesction {}            /* Own in A1#9 */
 #faqpagesection {}               /* Own in A1#9 */
  
+/********** Styling: Container Elements *********/
+#work1-image-column,
+#work2-image-column {
+  /* Positioning */
+  /* Box-model */
+  padding: .5em;                 /* Own in A1#9 */
+  margin: .5em;                  /* Own in A1#9 */
+  
+  /* Typography */
+  text-align: center;            /* Own in A1#9 */
+
+  /* Visual */
+  background-color: #f5f5f5;     /* Own in A1#9 */
+  border: 1px solid #696200;     /* Own in A1#9 */
+  border-radius: 4px;            /* Own in A1#9 */
+  /* Misc */
+
+}
+
+
 
 /* ============================================ */
 /* ============================================ */
