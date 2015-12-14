@@ -51,7 +51,7 @@ body {
   padding-left: .5em;                   /* A2#1 */
   padding-right: .5em;                  /* A2#1 */
   /* Visual */
-  background-size: cover;         /* Own inA1#9 */  
+  background-size: cover;        /* Own in A1#9 */  
 }
 
 /***************** [ Typography ] ****************/
@@ -251,6 +251,8 @@ nav {
   background-color: #f5f5f5;    /* Own in A1#10 */
   border: 3px solid #696200;    /* Own in A1#10 */
   border-radius: 6px;           /* Own in A1#10 */
+  /*opacity: 0.5;
+  /*filter: alpha(opacity=50); /* For IE8 and earlier */
 }
 
 /***** Styling: Individual Concept Items  *******/
@@ -304,13 +306,13 @@ nav {
   /* Positioning */
   /* Box-model */
   margin: 2px 5px;               /* Own in A1#7 */
-  padding: 5px;                  /* Own in A1#7 */
+  padding: .5em;                        /* A2#2 */
   /* Typography */               /* Own in A1#7 */
-  font-size: 30px;
+  font-size: 1em;                       /* A2#2 */
   /* Visual */
-  background-color: #f5f5f5;     /* Own in A1#7 */
-  border: 5px solid #f5f5f5;     /* Own in A1#7 */
-  border-radius: 5px;            /* Own in A1#7 */
+  background-color: transparent;        /* A2#2 */
+  border: 5px solid transparent;        /* A2#2 */
+  border-radius: 5px;                   /* A2#2 */
   /* Misc */
   transition: color 600ms;       /* Own in A1#7 */
   -webkit-transition: color 600ms;/* Own in A1#7 */
@@ -323,7 +325,7 @@ nav {
   /* Visual */
   color: #ffb380;                /* Own in A1#7 */
   border: 5px solid #696200;     /* Own in A1#7 */
-  /*border-radius: 5px;          /* Own in A1#7 */
+  border-radius: 5px;          /* Own in A1#7 */
   background-color: #696200;     /* Own in A1#7 */
   opacity: 0.7;                  /* Own in A1#7 */
   filter: alpha(opacity=70); /* For IE8 and earlier */
@@ -338,8 +340,18 @@ nav {
 #aboutpagesection {}             /* Own in A1#9 */
 #work1pagesection {}             /* Own in A1#9 */
 #work2pagesection {}             /* Own in A1#9 */
-#contactpagesction {}            /* Own in A1#9 */
 #faqpagesection {}               /* Own in A1#9 */
+
+#contactpagesection {
+  /* Positioning */
+  /* Box-model */
+  /* Typography */
+  /* Visual */ 
+  color: #ffb380;                         /* A2#2 */  
+  background-color: transparent;        /* A2#2 */
+  text-shadow: -1px 0 #696200, 0 1px #696200, 1px 0 #696200, 0 -1px #696200; /* A2#2 */  
+  /* Misc */   
+  }            
  
 /********** Styling: Container Elements *********/
 #work1-image-column,

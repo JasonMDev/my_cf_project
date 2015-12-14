@@ -3,7 +3,7 @@
 ## General
 
 - [ ] Create same media query as the carousel for the other headers.
-- [ ] Add heder etxt border.
+- [ ] Add header text border.
 - [ ] Why are the hero images not covering properly.
 - [ ] Make accordion transparent like Eric An
 - [ ] Add padding to hero header text for small screens, as it has no padding.
