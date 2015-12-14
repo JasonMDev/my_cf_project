@@ -8,6 +8,7 @@
 - [ ] Make accordion transparent like Eric An
 - [ ] Add padding to hero header text for small screens, as it has no padding.
 - [ ] Add a div for each group of four in calc. app.
+- [ ] MAke conatct form look crisp and clear and pretty.
 
 ## INDEX PAGE
 - [ ] 

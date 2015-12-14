@@ -22,9 +22,6 @@
     <!-- Twitter Scripts -->
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>  
 
-    
-
-
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -532,7 +529,7 @@
 
           <!-- Email Column -->
           <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-            <!-- CUSTOM CLASS: Individual Project Styling  -->
+            <!-- CUSTOM CLASS: Individual Contact Styling  -->
             <div class ="indvcontact" id="email-column">
               <h3>Email</h3>
               <p><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>Joe.Bloggs@example.com</p>
@@ -541,16 +538,16 @@
 
           <!-- Phone Column -->
           <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-            <!-- CUSTOM CLASS: Individual Project Styling  -->
+            <!-- CUSTOM CLASS: Individual Contact Styling  -->
             <div class ="indvcontact" id="phone-column">
               <h3>Phone</h3>
               <p><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>+44 (0) 1234 5465</p>
-            </div><!-- /Individual Conatct Item Styling -->    
+            </div><!-- /Individual Contact Item Styling -->    
           </div><!-- /col Phone -->
 
           <!-- Address Column -->
           <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-            <!-- CUSTOM CLASS: Individual Project Styling  -->
+            <!-- CUSTOM CLASS: Individual Contact Styling  -->
             <div class ="indvcontact" id="address-column">
               <h3>Address</h3>
               <span class="glyphicon glyphicon-globe" aria-hidden="true"></span> 
@@ -559,8 +556,43 @@
                 <li>Hampshire</li>
                 <li>United Kingdom</li>
               </ul><!-- /list Address -->
-            </div><!-- /Individual Conatct Item Styling -->
+            </div><!-- /Individual Contact Item Styling -->
           </div><!-- /col Address -->
+
+
+
+          <!-- Contact Form Column -->
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <!-- CUSTOM CLASS: Individual Contact Styling  -->
+            <div class ="indvcontact" id="contact-form-column">
+              <!-- Contact Form -->
+              <form>
+
+                <!-- Name Text Box -->
+                <div class="form-group">
+                  <label for="email-box">Name: *</label>
+                  <input type="text" class="form-control" id="name-box" placeholder="Enter your name here." title="What do they call you?" required="required"></input>
+                </div> <!-- /form-group -->
+                <!-- Email Text Box -->
+                <div class="form-group">
+                  <label for="email-box">Email Address: *</label>
+                  <input type="email" class="form-control" id="email-box" placeholder="Your email address here." title="John.Doe@example.com" required="required"></input>
+                </div> <!-- /form-group -->
+
+                <!-- Text Area Box -->
+                <div class="form-group">
+                  <label for="email-box">Message: *</label>
+                  <textarea class="form-control" id="message-box" placeholder="Your message here." title="What would you like to share with me?" required="required" style="resize:none"  cols="40" rows="5" minlength=20></textarea>                  
+                </div> <!-- /form-group -->
+
+                <!-- Submit Button -->
+                <div class="form-group">
+                  <button type="submit" class="btn btn-info">Submit</button>
+                </div> <!-- /form-group -->
+
+              </form><!-- /Contact Form -->
+            </div><!-- /Individual Contact Item Styling -->
+          </div><!-- /col Contact Form Column -->
 
         </div><!-- /row -->
       </div> <!-- /pagesection for Contacts -->

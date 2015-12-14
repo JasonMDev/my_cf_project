@@ -232,7 +232,12 @@ nav {
   /*(Commented out as it is messing up my contact container text.) */
   padding: .5em;                       /* A2#1  */
   padding-top: 50px;                   /* A2#1  */
-  /*height: 400px;                       /* A1L10 */
+  /*height: 400px;                     /* A1L10 */
+}
+
+.form-control {
+  /*Box Model*/  
+  width: 80%;                          /* A2#2  */
 }
 
 /**************** CUSTOM SECTIONS ***************/
