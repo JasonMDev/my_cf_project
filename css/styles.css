@@ -26,7 +26,7 @@
 /****************** Wireframing *****************/
 /************ ( Personal Wireframing ) **********/
 /* Personal Wreframing */
-/** { border: 1px dashed red; }               ***/
+/* { border: 1px dashed red; }                  */
 
 
 /***************** [ Positioning ] **************/
@@ -372,7 +372,26 @@ nav {
 
 }
 
+/********** Styling: Learn More Page ************/
 
+.learn-more {
+  /* Positioning */
+  float: left;                          /* A2L3 */
+  /* Box-model */
+  margin: .5em 1em;                     /* A2L3 */
+  width: 48%;                           /* A2L3 */
+
+  /* Typography */
+  text-align: left;                     /* A2L3 */
+}
+
+.modal-button {
+  /* Positioning */
+  float: right;                         /* A2#3 */
+  /* Box-model */
+  padding: 15px;                        /* A2#3 */
+  margin: 1em 1em .5em;                     /* A2L3 */
+}
 
 /* ============================================ */
 /* ============================================ */
