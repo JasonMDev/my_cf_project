@@ -702,12 +702,32 @@
       <div class ="pagesection" id="learnmorepagesection">
         <div class="row">
           <h2 class="learn-more">Learn More</h2>
+          
+          <!-- Modal button-->
           <div class="modal-button">
-            <!-- Small modal button-->
-            <button class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-sm">Small modal</button>
+            <!-- Large modal button-->
+            <button class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Large modal</button>
           </div> <!-- /modal-button -->
-        </div> <!-- /row -->      
-       
+
+          <!-- Large Modal -->
+          <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                </div><!-- /.modal-header -->
+                <div class="modal-body">
+                  <p>One fine body&hellip;</p>
+                </div><!-- /.modal-body -->
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>                  
+                </div><!-- /.modal-footer -->
+              </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+          </div><!-- /.modal -->
+
+        </div> <!-- /row -->            
       </div> <!-- /pagesection for Learn more --> 
       <hr>
     </div> <!-- /container for Learn more Page-->
