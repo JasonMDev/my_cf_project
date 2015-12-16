@@ -2,6 +2,7 @@
 
 ## General
 
+- [ ] Add actual CV to course. A2L3(replace file in assets.)
 - [ ] Create same media query as the carousel for the other headers.
 - [ ] Add header text border.
 - [ ] Why are the hero images not covering properly.

@@ -4,12 +4,17 @@ This is the first Achievement
 The main objective is to build a Responsive Portfolio Website
 
 ##My Change Log
+### 2015/12/16
+- Continuedf Achievement 2 Lesson 3
+
+### 2015/12/15
+- Started Achievement 2 Lesson 3
 
 ### 2015/12/14
-- Started Achievement 2 Lesson 2
+- Started & submitted Achievement 2 Lesson 2
 
 ### 2015/12/13
-- Started  & submitted Achievement 2 Lesson 1
+- Started & submitted Achievement 2 Lesson 1
 
 ### 2015/12/10
 - Submitted Achievement 1 Lesson 10 & 11
