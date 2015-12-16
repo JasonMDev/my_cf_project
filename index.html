@@ -314,7 +314,7 @@
     <!-- ======================================================================================= -->
 
     <!-- Generic Bootstrap "container-fluid" --> 
-    <div class="container-fluid anchor" id="about">
+    <div class="container-fluid anchor" id="about" data-stellar-background-ratio="0.8">
       <!-- ABOUT JUMBOTRON -->
       <!-- Main jumbotron for a primary marketing message or call to action -->
       <div class="jumbotron" id="aboutpagejumbo">
@@ -378,7 +378,7 @@
     <!--           WORK PAGE                     WORK PAGE                       WORK PAGE       -->
     <!-- ======================================================================================= -->
     <!-- Generic Bootstrap "container-fluid" --> 
-    <div class="container-fluid anchor" id="work">
+    <div class="container-fluid anchor" id="work" >
       <!-- FAQ JUMBOTRON -->
       <!-- Main jumbotron for a primary marketing message or call to action -->
       <div class="jumbotron" id="workpagejumbo">
@@ -514,7 +514,7 @@
     
     <!-- CONTACT CONTAINER -->
     <!-- Generic Bootstrap "container-fluid" --> 
-    <div class="container-fluid anchor" id="contact">
+    <div class="container-fluid anchor" id="contact" >
       <h1>Contact Information</h1>
       <p><strong>If you like what you see</strong> contact me and let us discuss a project.</p> 
 
@@ -774,6 +774,17 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
     <!-- Can place script tags with JavaScript files here -->
+
+    <!-- Stellar.js for paralax effect -->
+    <script src="js/jquery.stellar.min.js"></script>
+
+    <!-- Stellar.js for paralax effect GET IT TO WORK-->
+    <script type="text/javascript"> 
+    $('#about').stellar(); 
+    </script>
+
+
+    <!-- Creates scrolls effect for menus. -->
     <script type="text/javascript">
       var $root = $('html, body');
         $('.navbar-nav a').click(function() {

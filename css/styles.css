@@ -240,6 +240,18 @@ nav {
   width: 80%;                          /* A2#2  */
 }
 
+#about {
+  /* Background picture                         */
+  background-image: url("../img/webpicaboutheader1.jpg"); /* A2#3 */
+  /* Fixed position while page scrolls onwards. */
+  /*background-attachment: fixed;         /* A2#3 */
+  /* Have the img cover the whole page.         */
+  /*background-size: cover;              /* A2#3  */
+  padding: .5em;                       /* A2#3  */
+  padding-top: 50px;                   /* A2#3 */
+  
+}
+
 /**************** CUSTOM SECTIONS ***************/
 /*********** Styling: PageSection ***************/ 
 .pagesection {        /* Own in A1#10 */
@@ -296,7 +308,8 @@ nav {
 
 /**************** UNIQUE SECTIONS ***************/
 /********** Styling: pagejumbos *****************/
-#aboutpagejumbo { background: url("../img/webpicaboutheader1.jpg") no-repeat center top; } /* A1#9 */   
+/*#aboutpagejumbo { background: url("../img/webpicaboutheader1.jpg") no-repeat center top; } /* A1#9 */ 
+#aboutpagejumbo {background-color: transparent;} /* A2#3 */
 #workpagejumbo { background: url("../img/webpicworkheader1.jpg") no-repeat center top; } /* A1#10 */
 #faqpagejumbo { background: url("../img/webpicfaqheader1.jpg") no-repeat center top; }/* A1#8 */
 
