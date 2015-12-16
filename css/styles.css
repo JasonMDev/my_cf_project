@@ -390,7 +390,17 @@ nav {
   float: right;                         /* A2#3 */
   /* Box-model */
   padding: 15px;                        /* A2#3 */
-  margin: 1em 1em .5em;                     /* A2L3 */
+  margin: 1em 1em .5em;                 /* A2L3 */
+}
+
+/********** Styling: Modal **********************/
+
+#modalembed {
+  /* Box-model */
+  height: 500px;                        /* A2L3 */
+  width: 100%;                          /* A2L3 */
+  padding: 10px;                        /* A2L3 */
+  margin: 5px;                          /* A2L3 */  
 }
 
 /* ============================================ */
