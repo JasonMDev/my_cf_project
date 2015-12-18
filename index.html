@@ -329,7 +329,7 @@
     <!-- ======================================================================================= -->
 
     <!-- Generic Bootstrap "container-fluid" --> 
-    <div class="container-fluid anchor" id="about" data-stellar-background-ratio="0.8">
+    <div class="container-fluid anchor" id="about">
       <!-- ABOUT JUMBOTRON -->
       <!-- Main jumbotron for a primary marketing message or call to action -->
       <div class="jumbotron" id="aboutpagejumbo">
@@ -605,7 +605,7 @@
     <!-- ======================================================================================= -->
 
     <!-- Generic Bootstrap "container-fluid" --> 
-    <div class="container-fluid anchor" id="faq">
+    <div class="container-fluid anchor" id="faq" data-stellar-background-ratio="1.5">
       <!-- FAQ JUMBOTRON -->
       <!-- Main jumbotron for a primary marketing message or call to action -->
       <div class="jumbotron" id="faqpagejumbo">
@@ -701,17 +701,8 @@
           </div>
 
         </div><!-- /panel group for Faq --> 
-      </div> <!-- /pagesection for Faq --> 
-      <hr>
+      </div> <!-- /pagesection for Faq -->
 
-    </div> <!-- /container for FAQ Page-->
-
-    <!-- ======================================================================================= -->
-    <!--           LEARN MORE                 LEARN MORE               LEARN MORE                -->
-    <!-- ======================================================================================= -->
-
-    <!-- Generic Bootstrap "container-fluid" --> 
-    <div class="container-fluid anchor" id="learn-more-page">
       <!-- LEARN MORE CONTAINER -->
       <!-- CUSTOM CLASS: Page Section  -->
       <div class ="pagesection" id="learnmorepagesection">
@@ -745,9 +736,9 @@
 
         </div> <!-- /row -->            
       </div> <!-- /pagesection for Learn more --> 
-      <hr>
-    </div> <!-- /container for Learn more Page-->
 
+      <hr>
+    </div> <!-- /container for FAQ Page-->
 
     <!-- ======================================================================================= -->
     <!--           EMBEDDED VIDEO          EMBEDDED VIDEO        EMBEDDED VIDEO                  -->
@@ -769,9 +760,11 @@
       <!-- Generic Bootstrap "container-fluid" -->
       <div class="container-fluid anchor" id="footer">
         <div class="footer-copyright footer-box">&copy; Jason Mans 2015</div>
+        <div class="footer-box"> | </div>
         <div class="footer-twiiter footer-box">
           <a href="https://twitter.com/jasonmansdev" class="twitter-follow-button" data-show-count="false" data-size="large" data-show-screen-name="false">Follow @jasonmansdev</a>
         </div>
+        <div class="footer-box"> | </div>
         <!-- Your like button code -->
         <div class="fb-like footer-box" data-href="http://jasonmans.bitballoon.com/" data-width="100" data-layout="button" data-action="like" data-show-faces="true" data-share="true"></div>
 
@@ -793,9 +786,9 @@
     <!-- Stellar.js for paralax effect -->
     <script src="js/jquery.stellar.min.js"></script>
 
-    <!-- Stellar.js for paralax effect GET IT TO WORK-->
+    <!-- Stellar.js for paralax effect  '.paralax-section'-->
     <script type="text/javascript">
-      $('#about').stellar(); 
+      $(window).stellar(); 
     </script>
 
 
