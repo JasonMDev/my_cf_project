@@ -185,10 +185,10 @@
             <div class ="indvconcept" id="portfolio-concept">
               <h3>Portfolio Concept</h3>
               <p>"I want a personalised logo or brand that I can add to the website and will be found on marketing."</p>
-              <p>"I want to create a portfolio site with the following basic sections: About You (Background, Hobbies), Portfolio of Work (Past or Current Projects, Clients), Contact , and FAQ (Your Process, Skills, Experience, etc.) as mentioned in the lessons. "</p>
+              <p>"I want to create a portfolio site with the following basic sections: <a href="#" title="More information" id="item1">About You</a> (Background, Hobbies), Portfolio of Work (Past or Current Projects, Clients), Contact , and FAQ (Your Process, Skills, Experience, etc.) as mentioned in the lessons. "</p>
               <p>"I am a chartered chemical engineer with 9 years experience in the Oil and Gas."</p>       
               <p>"I want a clean and concise portfolio with good colours. I don't want the viewer to be overwhelmed by the information, or distracted by too many things. The home page should be a summary to entice the user, and allow them to easily find what they are looking for, be it projects or contact info."</p>
-              <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+              <p><button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="Tooltip on top">View More</button> </p>
             </div><!-- /Individual Concept Styling-->  
           </div><!-- /col Portfolio Concept -->
 
@@ -198,7 +198,7 @@
             <div class ="indvconcept" id="project-goals">
               <h3>Project Goals</h3>
               <p>"I will study at least 3 days of the work week, and over the weekend as well, for the next 6 months to start applying for Web Developer positions in June 2016 so that I can embark on a new career." </p>
-              <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+              <p><button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="right" title="Tooltip on right">View More</button></p>
             </div><!-- /Individual Concept Styling-->  
           </div><!-- /col Project Goals -->
 
@@ -210,7 +210,7 @@
               <p>"I would like to explore my nebulous, quirky and creative side and would like to express that through coding."</p>
               <p>"I want to be working as a web developer in a progressive company, in the region of London." </p>
               <p>"I want to work no more than 45 hours a week, so that I can enjoy good work-life balance and economic security." </p>
-              <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+              <p><button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">View More</button></p>
             </div><!-- /Individual Concept Styling-->  
           </div><!-- /col Course Goals -->
 
@@ -236,8 +236,10 @@
             
             <div class ="indvproject">
               <a class="projectlink" id="project1" href="#work1">
-                <img class="img-responsive" src="img/railsapp.jpg">
-                <p>Micropost App</p>
+                <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="Click on pic for more detailed information.">
+                  <img class="img-responsive" src="img/railsapp.jpg">
+                  <p>Micropost App</p>
+                </button>
               </a>
             </div><!-- /Individual Project Styling-->  
           </div><!-- /col Project 1-->
@@ -247,8 +249,10 @@
             <!-- CUSTOM CLASS: Individual Project Styling  -->
             <div class ="indvproject">
               <a class="projectlink" id="project2" href="#work2">
-                <img class="img-responsive" src="img/calculator.jpg">
-                <p>HTML Calculator</p>
+                <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="Click on pic for more detailed information.">
+                  <img class="img-responsive" src="img/calculator.jpg">
+                  <p>HTML Calculator</p>
+
               </a>  
             </div><!-- /Individual Project Styling-->
           </div><!-- /col Project 2-->
@@ -259,7 +263,7 @@
             <div class ="indvproject undercontruction">
               <a class="projectlink" href="#">
                 <img class="img-responsive" src="img/webpicworkheader1.jpg">
-                <p>Work 3</p>
+                <p>Work 3</p>                
               </a>     
             </div><!-- /Individual Project Styling-->
           </div><!-- /col Project 3-->
@@ -422,8 +426,11 @@
           <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
             <!-- CUSTOM CLASS: Individual Work Styling  -->
             <div class ="indvwork2" id="work1-image-column">
-              <a href="https://rails-sample-app-5732.herokuapp.com/" title="Click on the link to go to the website..."> 
-                <img class="img-responsive" src="img/railsapp.jpg" alt="My happy place">
+              
+              <a href="https://rails-sample-app-5732.herokuapp.com/" title="Click on the link to go to the website...">
+                <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="Click to go to the website...">
+                  <img class="img-responsive" src="img/railsapp.jpg" alt="My happy place">
+                </button>                
               </a>  
             </div><!-- /Individual Work Styling-->  
           </div><!-- /col Image -->
@@ -483,7 +490,9 @@
             <!-- CUSTOM CLASS: Individual Work Styling  -->
             <div class ="indvwork2" id="work2-image-column"> 
               <a href="http://jmd-calculator.bitballoon.com/" title="Click on the link to go to the website...">
-                <img class="img-responsive" src="img/calculator.jpg" alt="My happy place">
+                <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="Click to go to the website...">
+                  <img class="img-responsive" src="img/calculator.jpg" alt="My happy place">
+                </button>
               </a>  
             </div><!-- /Individual Work Styling-->  
           </div><!-- /col Image -->
@@ -791,6 +800,19 @@
       $(window).stellar(); 
     </script>
 
+    <!-- Tooltip script via "bootstrap.min.js" targeting single id.-->
+    <script type="text/javascript">
+      $(function () {
+        $('#item1').tooltip();
+        }); 
+    </script>
+
+    <!-- Tooltip script via "bootstrap.min.js" targeting class button.-->
+    <script type="text/javascript">
+      $(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+        }); 
+    </script>
 
     <!-- Creates smooth scrolling effect for menus. -->
     <script type="text/javascript">
