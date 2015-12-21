@@ -96,9 +96,9 @@ nav {
   box-shadow: 0 1px 2px #ffb380, inset 0 1px 0 #fff; /*Own A1L6 */
 }
 
-.nav>li { padding: 0 10px 0 0; }        /* A1#10*/
+.nav > li { padding: 0 10px 0 0; }        /* A1#10*/
 
-.nav>li>#navalink {
+.nav > li > #navalink {
   /* Positioning */
   /* Box-model */
   /* Typography */
@@ -113,7 +113,7 @@ nav {
   -webkit-transition: color 600ms;      /* A1#6 */
 }
 
-.nav>li>#navalink:hover {
+.nav > li > #navalink:hover {
   color: black;                        /* A1#10 */
   background-color: #ffb380;           /* A1#10 */
   border-radius: 3px;                  /* A1#10 */  
@@ -176,13 +176,13 @@ nav {
 
 /*********** Styling: Common Jumbotrons *********/ 
 .jumbotron h1,
-#contact>h1 {
+#contact > h1 {
   color: #ffb380;                       /* A1#5 */
   text-shadow: -1px 0 #696200, 0 1px #696200, 1px 0 #696200, 0 -1px #696200; /* Own A1#8 */  
 }
 
 .jumbotron p,
-#contact>p {
+#contact > p {
   font-family: 'Indie Flower', cursive; /* Own in A1#8 */
   color: #ffb380;                       /* A1#5 */
   text-shadow: -1px 0 #696200, 0 1px #696200, 1px 0 #696200, 0 -1px #696200; /* Own A1#8 */
@@ -207,6 +207,34 @@ nav {
   padding-right: 10px;            /* Own in A1#7 */
 }
 
+/********** Styling: Modal **********************/
+.learn-more {
+  /* Positioning */
+  float: left;                          /* A2L3 */
+  /* Box-model */
+  margin: .5em 1em;                     /* A2L3 */
+  width: 48%;                           /* A2L3 */
+
+  /* Typography */
+  text-align: left;                     /* A2L3 */
+}
+
+.modal-button {
+  /* Positioning */
+  float: right;                         /* A2#3 */
+  /* Box-model */
+  padding: 15px;                        /* A2#3 */
+  margin: 1em 1em .5em;                 /* A2L3 */
+}
+
+#modalembed {
+  /* Box-model */
+  height: 500px;                        /* A2L3 */
+  width: 100%;                          /* A2L3 */
+  padding: 10px;                        /* A2L3 */
+  margin: 5px;                          /* A2L3 */  
+}
+
 /*********** Styling: Footer *********************/
 
 .footer-box {
@@ -217,9 +245,9 @@ nav {
   margin: 0 5px;                         /* A2L1 */
 }
 
-/******** Styling: Contact Page Background ******/
-/************ ( Parallax ) **********************/
 
+/************ PARALLAX **************************/
+/******** Styling: Contact Page Background ******/
 #contact {
   /* Background picture                         */
   background-image: url("../img/webpiccontactheader1.jpg"); /* A1L10 */
@@ -240,11 +268,13 @@ nav {
   width: 80%;                          /* A2#2  */
 }
 
+/******** Styling: FAQ Page Background **********/
 #faq {
   /* Background picture                         */
   background-image: url("../img/webpicfaqheader1.jpg"); /* A2#3 */  
 }
 
+/******** Styling: about Page Background **********/
 #about {
   /* Background picture                         */
   background-image: url("../img/webpicaboutheader1.jpg"); /* A2#3 */
@@ -311,7 +341,7 @@ nav {
 .indcontact {}                         /* A1#10 */ 
 
 /**************** UNIQUE SECTIONS ***************/
-/********** Styling: pagejumbos *****************/
+/********** Styling: Pagejumbos *****************/
 /*#aboutpagejumbo { background: url("../img/webpicaboutheader1.jpg") no-repeat center top; } /* A1#9 */ 
 #aboutpagejumbo {background-color: transparent;} /* A2#3 */
 #workpagejumbo { background: url("../img/webpicworkheader1.jpg") no-repeat center top; } /* A1#10 */
@@ -387,37 +417,6 @@ nav {
   border-radius: 4px;            /* Own in A2#1 */
   /* Misc */
 
-}
-
-/********** Styling: Learn More Page ************/
-
-.learn-more {
-  /* Positioning */
-  float: left;                          /* A2L3 */
-  /* Box-model */
-  margin: .5em 1em;                     /* A2L3 */
-  width: 48%;                           /* A2L3 */
-
-  /* Typography */
-  text-align: left;                     /* A2L3 */
-}
-
-.modal-button {
-  /* Positioning */
-  float: right;                         /* A2#3 */
-  /* Box-model */
-  padding: 15px;                        /* A2#3 */
-  margin: 1em 1em .5em;                 /* A2L3 */
-}
-
-/********** Styling: Modal **********************/
-
-#modalembed {
-  /* Box-model */
-  height: 500px;                        /* A2L3 */
-  width: 100%;                          /* A2L3 */
-  padding: 10px;                        /* A2L3 */
-  margin: 5px;                          /* A2L3 */  
 }
 
 /* ============================================ */
