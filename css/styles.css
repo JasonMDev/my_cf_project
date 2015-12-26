@@ -1,46 +1,37 @@
-/* ============================================ */
-/* ============================================ */
-/*                    NOTES                     */
-/* ============================================ */
-/********************* MAIN *********************/
-/*************** Styling: Section ***************/
-/***************** [ CSS Group ] ****************/
-/***************** (  Remarks  ) ****************/
-/* Order:*/
-/* unversal elements in order of being nested and order set from guidelines.*/
-/* Very specific items last and have own order within.*/
-/* Remember separation of concern: use different classes for different things.*/
-/* Positioning */
-/* Box-model */
-/* Typography */
-/* Visual */
-/* Misc */
+/* ========================================================================== */
+/* ========================================================================== */
+/* MAIN CSS STYLESHEET                                                        */
+/* ========================================================================== */
+/* ========================================================================== */
 
+/******************************************************************************/
 /**
  * Example comment.
  * I am a long-form comment. I describe, in detail, the CSS that follows. I am
  * such a long comment that I easily break the 80 character limit, so I am
  * broken across several lines.
  */
+ /******************************************************************************/
 
-/*----------------------------------------------------------------------------*\
-    #SECTION-TITLE
-\*----------------------------------------------------------------------------*/
+/**
+ * See original TOC for grouping. Looks beterr wrapper andheaders.
+ */
 
 /**
  * TABLE OF CONTENTS 
+ * =========================================================================== *\
  *
- * SETTINGS
+ * UNIVERSAL-SECTION
  * Global...............Globally-available variables and config.
  *
- * TOOLS
+ * BOOTSTRAP-SECTION
  * Mixins...............Useful mixins.
  *
- * GENERIC
+ * CUSTOM-SECTION
  * Normalize.css........A level playing field.
  * Box-sizing...........Better default `box-sizing`.
  *
- * BASE
+ * UNIQUE-SECTIONS
  * Headings.............H1–H6 styles.
  *
  * OBJECTS
@@ -56,81 +47,88 @@
  */ 
 
 
-/* ============================================ */
-
-/* ============================================ */
-/* ============================================ */
-/*               MAIN CSS STYLESHEET            */
-/* ============================================ */
-/******************* UNIVERSAL ******************/
-
-/****************** Wireframing *****************/
-/************ ( Personal Wireframing ) **********/
-/* Personal Wreframing */
+/*----------------------------------------------------------------------------*\
+    #UNIVERSAL-SECTION
+\*----------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*\
+    #wireframing
+\*----------------------------------------------------------------------------*/
+/**
+ * Personal Wireframing.
+ */
 /* { border: 1px dashed red; }                  */
 
+/*----------------------------------------------------------------------------*\
+    #positioning
+\*----------------------------------------------------------------------------*/
 
-/***************** [ Positioning ] **************/
 body {
-  position: relative;           /* Own in A1#10 */
+  position: relative;                                         /* Own in A1#10 */
 }
 
-/****************** [ Box-model ] ***************/
+/*----------------------------------------------------------------------------*\
+    #box-model
+\*----------------------------------------------------------------------------*/
+
 .anchor {
-  padding-top: 50px;            /* Own in A1#10 */
+  padding-top: 50px;                                          /* Own in A1#10 */
 }
 
 .container-fluid {
-  padding-left: 0;                      /* A1#8 */
-  padding-right: 0;                     /* A1#8 */ 
+  padding-left: 0;                                                    /* A1#8 */
+  padding-right: 0;                                                   /* A1#8 */ 
  }
 
 .jumbotron {
   /* Box-model */
-  margin-left: .5em;                   /* A1#10 */
-  margin-right: .5em;                  /* A1#10 */
-  padding-left: .5em;                   /* A2#1 */
-  padding-right: .5em;                  /* A2#1 */
+  margin-left: .5em;                                                 /* A1#10 */
+  margin-right: .5em;                                                /* A1#10 */
+  padding-left: .5em;                                                 /* A2#1 */
+  padding-right: .5em;                                                /* A2#1 */
   /* Visual */
-  background-size: cover;        /* Own in A1#9 */  
-}
-
-/***************** [ Typography ] ****************/
-h1 { 
-  font-size: 4em;                 /* Own in A1#9 */
-  font-family: 'Bangers', cursive;/* Own in A1#5 */
-  }
-
-h2 { 
-  font-family: 'Indie Flower', cursive; /* A1#10 */
-  font-size: 3em;                 /* Own in A1#9 */         
-  text-transform: uppercase;            /* A1#10 */
-  text-align: center;                   /* A1#10 */
-}
-
-h3 { font-size: 2em; }            /* Own in A1#9 */
-
-p { 
-  font-size: 1em;                 /* Own in A1#9 */
-  font-family: Futura, Helvetica, Arial, sans-serif; /* A1#5 */
-  text-align: justify;            /* Own in A1#9 */
-  -webkit-margin-before: 0em;            /* A1#5 */
-}
-
-/************ [ Background and Colours] **********/
-body {
-  background-color: rgba(186, 173, 11, 1);/*A1#5 */
-  color: #34595e;                        /* A1#5 */
-}
-
-h2 { color: #696200; }                  /* A1#10 */
-
-.img-responsive {
-  border-radius: 3px;                  /* A1#10 */
+  background-size: cover;                                      /* Own in A1#9 */  
 }
 
 /*----------------------------------------------------------------------------*\
-    #BOOTSTRAP-SECTIONS
+    #typography
+\*----------------------------------------------------------------------------*/
+h1 { 
+  font-size: 4em;                                              /* Own in A1#9 */
+  font-family: 'Bangers', cursive;                             /* Own in A1#5 */
+  }
+
+h2 { 
+  font-family: 'Indie Flower', cursive;                              /* A1#10 */
+  font-size: 3em;                                              /* Own in A1#9 */         
+  text-transform: uppercase;                                         /* A1#10 */
+  text-align: center;                                                /* A1#10 */
+}
+
+h3 { font-size: 2em; }                                         /* Own in A1#9 */
+
+p { 
+  font-size: 1em;                                              /* Own in A1#9 */
+  font-family: Futura, Helvetica, Arial, sans-serif;                  /* A1#5 */
+  text-align: justify;                                         /* Own in A1#9 */
+  -webkit-margin-before: 0em;                                         /* A1#5 */
+}
+
+/*----------------------------------------------------------------------------*\
+    #background-and-colours
+\*----------------------------------------------------------------------------*/
+body {
+  background-color: rgba(186, 173, 11, 1);                             /*A1#5 */
+  color: #34595e;                                                     /* A1#5 */
+}
+
+h2 { color: #696200; }                                               /* A1#10 */
+
+.img-responsive {
+  border-radius: 3px;                                                /* A1#10 */
+}
+
+/*----------------------------------------------------------------------------*\
+    #BOOTSTRAP-SECTION
 \*----------------------------------------------------------------------------*/
 /*----------------------------------------------------------------------------*\
     #nav-section
@@ -227,7 +225,7 @@ nav {
 .jumbotron h1,
 #contact > h1 {
   color: #ffb380;                                                     /* A1#5 */
-  text-shadow: -1px 0 #696200, 0 1px #696200, 
+  text-shadow: -1px 0 #696200, 0  1px #696200, 
                 1px 0 #696200, 0 -1px #696200;                    /* Own A1#8 */  
 }
 
@@ -235,7 +233,7 @@ nav {
 #contact > p {
   font-family: 'Indie Flower', cursive;                        /* Own in A1#8 */
   color: #ffb380;                                                     /* A1#5 */
-  text-shadow: -1px 0 #696200, 0 1px #696200, 
+  text-shadow: -1px 0 #696200, 0  1px #696200, 
                 1px 0 #696200, 0 -1px #696200;                    /* Own A1#8 */
  }
 
@@ -472,17 +470,11 @@ nav {
 
 
 /*----------------------------------------------------------------------------*\
-    #CONTAINERS
+    #WRAPPERS
 \*----------------------------------------------------------------------------*/
 
-#conceptpagesection {}           /* Own in A1#9 */
-#workpagesection {}              /* Own in A1#9 */
-#aboutpagesection {}             /* Own in A1#9 */
-#work1pagesection {}             /* Own in A1#9 */
-#work2pagesection {}             /* Own in A1#9 */
-#faqpagesection {}               /* Own in A1#9 */
-
-#contactpagesection {
+#contact-page-section {
+  /*PAGE-SECTION--CONTACT
   /* Positioning */
   /* Box-model */
   /* Typography */
@@ -493,7 +485,7 @@ nav {
                 1px 0 #696200, 0 -1px #696200;                        /* A2#2 */  
   /* Misc */   
   }    
-01234567890123456789012345678901234567890123456789012345678901234567890123456789
+
 /*----------------------------------------------------------------------------*\
     #container-elements
 \*----------------------------------------------------------------------------*/
@@ -512,6 +504,58 @@ nav {
   background-color: #f5f5f5;                                   /* Own in A2#1 */
   border-radius: 4px;                                          /* Own in A2#1 */
   /* Misc */
-
 }
+
+/*----------------------------------------------------------------------------*\
+    #EXAMPLES-SECTION
+\*----------------------------------------------------------------------------*/
+
+/**
+ * TABLE OF CONTENTS 
+ *
+ * SETTINGS
+ * Global...............Globally-available variables and config.
+ *
+ * TOOLS
+ * Mixins...............Useful mixins.
+ *
+ * GENERIC
+ * Normalize.css........A level playing field.
+ * Box-sizing...........Better default `box-sizing`.
+ *
+ * BASE
+ * Headings.............H1–H6 styles.
+ *
+ * OBJECTS
+ * Wrappers.............Wrapping and constraining elements.
+ *
+ * COMPONENTS
+ * Page-head............The main page header.
+ * Page-foot............The main page footer.
+ * Buttons..............Button elements.
+ *
+ * TRUMPS
+ * Text.................Text helpers.
+ */ 
+
+/* Order:*/
+/* unversal elements in order of being nested and order set from guidelines.*/
+/* Very specific items last and have own order within.*/
+/* Remember separation of concern: use different classes for different things.*/
+/* Positioning */
+/* Box-model */
+/* Typography */
+/* Visual */
+/* Misc */
+
+/*----------------------------------------------------------------------------*\
+    #SECTION-TITLE
+\*----------------------------------------------------------------------------*/
+
+/**
+ * Example comment.
+ * I am a long-form comment. I describe, in detail, the CSS that follows. I am
+ * such a long comment that I easily break the 80 character limit, so I am
+ * broken across several lines.
+ */
 
