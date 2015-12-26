@@ -125,11 +125,15 @@ body {
 
 h2 { color: #696200; }                  /* A1#10 */
 
+.img-responsive {
+  border-radius: 3px;                  /* A1#10 */
+}
+
 /*----------------------------------------------------------------------------*\
     #BOOTSTRAP-SECTIONS
 \*----------------------------------------------------------------------------*/
 /*----------------------------------------------------------------------------*\
-    #Navigation-Bar
+    #nav-section
 \*----------------------------------------------------------------------------*/
 
 nav {
@@ -157,212 +161,231 @@ nav {
   -webkit-transition: color 600ms;                                    /* A1#6 */
 }
 
-01234567890123456789012345678901234567890123456789012345678901234567890123456789
 .nav > li > #navalink:hover {
-  color: black;                        /* A1#10 */
-  background-color: #ffb380;           /* A1#10 */
-  border-radius: 3px;                  /* A1#10 */  
+  color: black;                                                      /* A1#10 */
+  background-color: #ffb380;                                         /* A1#10 */
+  border-radius: 3px;                                                /* A1#10 */  
 }
 
 .projectName a {
   /* Box-model */
-  padding: 0 10px;                      /* A1#10*/
+  padding: 0 10px;                                                    /* A1#10*/
   /* Typography */
-  text-transform: uppercase;           /* A1#10 */
-  font-weight: bold;                   /* A1#10 */
+  text-transform: uppercase;                                         /* A1#10 */
+  font-weight: bold;                                                 /* A1#10 */
   /* Visual */
-  color: #ffb380;                      /* A1#10 */
+  color: #ffb380;                                                    /* A1#10 */
 }
 
 #brand-image {
-  padding: 5px 20px;                   /* A1#10 */
+  padding: 5px 20px;                                                 /* A1#10 */
 }
 
-.img-responsive {
-  border-radius: 3px;                  /* A1#10 */
-}
 
-/*********** Styling: Carousel ******************/ 
+
+/*----------------------------------------------------------------------------*\
+    #carousel-section
+\*----------------------------------------------------------------------------*/
 .carousel-caption h1 {
   /* Box-model */
   /* Typography */               
-  text-align: center;            /* Own in A1#9 */
+  text-align: center;                                          /* Own in A1#9 */
   /* Visual */
-  color: #696200;                /* Own in A1#8 */  
+  color: #696200;                                              /* Own in A1#8 */  
 }
 
 .carousel-caption p {
   /* Box-model */
-  margin: .5em 0;                /* Own in A1#8 */
-  padding: .5em 0 7em 0;         /* Own in A1#8 */
+  margin: .5em 0;                                              /* Own in A1#8 */
+  padding: .5em 0 7em 0;                                       /* Own in A1#8 */
   /* Typography */
-  text-align: center;            /* Own in A1#9 */           
-  /*font-size: 2em;     /*DELETED/* Own in A1#8 */
+  text-align: center;                                          /* Own in A1#9 */           
   /* Visual */
-  color: #696200;                /* Own in A1#8 */
+  color: #696200;                                              /* Own in A1#8 */
 }
 
 @media (max-width: 480px) {
   .carousel-caption h1 {
     /* Box-model */
     /* Typography */               
-    font-size: 2em;              /* Own in A1#9 */
+    font-size: 2em;                                            /* Own in A1#9 */
     /* Visual */
   }
 
   .carousel-caption p {
     /* Box-model */
-    padding: .5em 0 .5em 0;      /* Own in A1#8 */
+    padding: .5em 0 .5em 0;                                    /* Own in A1#8 */
     /* Typography */               
-    font-size: 1em;              /* Own in A1#9 */
+    font-size: 1em;                                            /* Own in A1#9 */
     /* Visual */
   }
 }
 
-/*********** Styling: Common Jumbotrons *********/ 
+/*----------------------------------------------------------------------------*\
+    #common-jumbotrons-section
+\*----------------------------------------------------------------------------*/
 .jumbotron h1,
 #contact > h1 {
-  color: #ffb380;                       /* A1#5 */
-  text-shadow: -1px 0 #696200, 0 1px #696200, 1px 0 #696200, 0 -1px #696200; /* Own A1#8 */  
+  color: #ffb380;                                                     /* A1#5 */
+  text-shadow: -1px 0 #696200, 0 1px #696200, 
+                1px 0 #696200, 0 -1px #696200;                    /* Own A1#8 */  
 }
 
 .jumbotron p,
 #contact > p {
-  font-family: 'Indie Flower', cursive; /* Own in A1#8 */
-  color: #ffb380;                       /* A1#5 */
-  text-shadow: -1px 0 #696200, 0 1px #696200, 1px 0 #696200, 0 -1px #696200; /* Own A1#8 */
+  font-family: 'Indie Flower', cursive;                        /* Own in A1#8 */
+  color: #ffb380;                                                     /* A1#5 */
+  text-shadow: -1px 0 #696200, 0 1px #696200, 
+                1px 0 #696200, 0 -1px #696200;                    /* Own A1#8 */
  }
 
-/*********** Styling: Accordion *****************/
+/*----------------------------------------------------------------------------*\
+    #accordion-section
+\*----------------------------------------------------------------------------*/
 
 #headingpanel {
-  background-color: #3E3A00;     /* Own in A1#7 */
+  background-color: #3E3A00;                                   /* Own in A1#7 */
 }
 
 .panel-title {
-  font-family: 'Bangers', cursive;/* Own in A1#7 */
-  color: white;                  /* Own in A1#7 */
+  font-family: 'Bangers', cursive;                             /* Own in A1#7 */
+  color: white;                                                /* Own in A1#7 */
 }
 
 .panel-body {
-  font-family: 'Indie Flower', cursive; /* Own in A1#7 */
+  font-family: 'Indie Flower', cursive;                        /* Own in A1#7 */
 }
 
 .panel-title span {
-  padding-right: 10px;            /* Own in A1#7 */
+  padding-right: 10px;                                         /* Own in A1#7 */
 }
 
-/********** Styling: Modal **********************/
+/*----------------------------------------------------------------------------*\
+    #modal-section
+\*----------------------------------------------------------------------------*/
 .learn-more {
   /* Positioning */
-  float: left;                          /* A2L3 */
+  float: left;                                                        /* A2L3 */
   /* Box-model */
-  margin: .5em 1em;                     /* A2L3 */
-  width: 48%;                           /* A2L3 */
+  margin: .5em 1em;                                                   /* A2L3 */
+  width: 48%;                                                         /* A2L3 */
 
   /* Typography */
-  text-align: left;                     /* A2L3 */
+  text-align: left;                                                   /* A2L3 */
 }
 
 .modal-button {
   /* Positioning */
-  float: right;                         /* A2#3 */
+  float: right;                                                       /* A2#3 */
   /* Box-model */
-  padding: 15px;                        /* A2#3 */
-  margin: 1em 1em .5em;                 /* A2L3 */
+  padding: 15px;                                                      /* A2#3 */
+  margin: 1em 1em .5em;                                               /* A2L3 */
 }
 
 #modalembed {
   /* Box-model */
-  height: 500px;                        /* A2L3 */
-  width: 100%;                          /* A2L3 */
-  padding: 10px;                        /* A2L3 */
-  margin: 5px;                          /* A2L3 */  
+  height: 500px;                                                      /* A2L3 */
+  width: 100%;                                                        /* A2L3 */
+  padding: 10px;                                                      /* A2L3 */
+  margin: 5px;                                                        /* A2L3 */  
 }
 
-/*********** Styling: Footer *********************/
+/*----------------------------------------------------------------------------*\
+    #footer-section
+\*----------------------------------------------------------------------------*/
 
 .footer-box {
   /* Positioning */
-    float: left;                         /* A2L1 */
+  float: left;                                                       /* A2L1 */
   /*Box Model*/  
-  padding: 0 5px;                        /* A2L1 */
-  margin: 0 5px;                         /* A2L1 */
+  padding: 0 5px;                                                    /* A2L1 */
+  margin: 0 5px;                                                     /* A2L1 */
 }
 
 
-/************ PARALLAX **************************/
-/******** Styling: Contact Page Background ******/
+/*----------------------------------------------------------------------------*\
+    #parallax-section
+\*----------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*\
+    #contact-page-background
+\*----------------------------------------------------------------------------*/
+
 #contact {
   /* Background picture                         */
-  background-image: url("../img/webpiccontactheader1.jpg"); /* A1L10 */
+  background-image: url("../img/webpiccontactheader1.jpg");          /* A1L10 */
   /* Fixed position while page scrolls onwards. */
-  background-attachment: fixed;        /* A1L10 */
+  background-attachment: fixed;                                      /* A1L10 */
   /* Have the img cover the whole page.         */
-  background-size: cover;              /* A1L10 */
-  /* Change text color for readability.         */
-  /*color: white;                      /* A1L10 */ 
-  /*(Commented out as it is messing up my contact container text.) */
-  padding: .5em;                       /* A2#1  */
-  padding-top: 50px;                   /* A2#1  */
-  /*height: 400px;                     /* A1L10 */
+  background-size: cover;                                            /* A1L10 */
+  padding: .5em;                                                     /* A2#1  */
+  padding-top: 50px;                                                 /* A2#1  */  
 }
 
 .form-control {
   /*Box Model*/  
-  width: 80%;                          /* A2#2  */
+  width: 80%;                                                        /* A2#2  */
 }
 
-/******** Styling: FAQ Page Background **********/
+/*----------------------------------------------------------------------------*\
+    #faq-page-background
+\*----------------------------------------------------------------------------*/
 #faq {
   /* Background picture                         */
-  background-image: url("../img/webpicfaqheader1.jpg"); /* A2#3 */  
+  background-image: url("../img/webpicfaqheader1.jpg");               /* A2#3 */  
 }
 
-/******** Styling: about Page Background **********/
+/*----------------------------------------------------------------------------*\
+    #about-page-background
+\*----------------------------------------------------------------------------*/
 #about {
   /* Background picture                         */
-  background-image: url("../img/webpicaboutheader1.jpg"); /* A2#3 */
+  background-image: url("../img/webpicaboutheader1.jpg");             /* A2#3 */
   /* Fixed position while page scrolls onwards. */
-  background-attachment: fixed;         /* A2#3 */
+  background-attachment: fixed;                                       /* A2#3 */
   /* Have the img cover the whole page.         */
-  background-size: cover;              /* A2#3  */
+  background-size: cover;                                            /* A2#3  */
   /*might need moz/o/safari webkit kit          */  
 }
 
 
-/**************** CUSTOM SECTIONS ***************/
-/*********** Styling: PageSection ***************/ 
-.pagesection {        /* Own in A1#10 */
+/*----------------------------------------------------------------------------*\
+    #CUSTOM-SECTION
+\*----------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*\
+    #page-section
+\*----------------------------------------------------------------------------*/
+.pagesection {                                                /* Own in A1#10 */
   /* Box-model */
-  padding: .5em;                /* Own in A1#10 */
-  margin: .5em;                 /* Own in A1#10 */
+  padding: .5em;                                              /* Own in A1#10 */
+  margin: .5em;                                               /* Own in A1#10 */
   
   /* Visual */
-  background-color: #f5f5f5;    /* Own in A1#10 */
-  border: 3px solid #696200;    /* Own in A1#10 */
-  border-radius: 6px;           /* Own in A1#10 */
-  /*opacity: 0.5;
-  /*filter: alpha(opacity=50); /* For IE8 and earlier */
+  background-color: #f5f5f5;                                  /* Own in A1#10 */
+  border: 3px solid #696200;                                  /* Own in A1#10 */
+  border-radius: 6px;                                         /* Own in A1#10 */  
 }
 
-/***** Styling: Individual Concept Items  *******/
-.indvconcept {}                  /* Own in A1#9 */        
+/*----------------------------------------------------------------------------*\
+    #individual-concept-item
+\*----------------------------------------------------------------------------*/
+.indvconcept {}                                                /* Own in A1#9 */    
 
-/*********** Styling: Individual Projects  ******/ 
-.indvproject {                   /* Own in A1#9 */
+/*----------------------------------------------------------------------------*\
+    #individual-projects-item
+\*----------------------------------------------------------------------------*/
+.indvproject {                   
   /* Positioning */
   /* Box-model */
-  padding: .5em;                 /* Own in A1#9 */
-  margin: .5em;                  /* Own in A1#9 */
+  padding: .5em;                                               /* Own in A1#9 */
+  margin: .5em;                                                /* Own in A1#9 */
   
   /* Typography */
-  text-align: center;            /* Own in A1#9 */
+  text-align: center;                                          /* Own in A1#9 */
 
   /* Visual */
-  background-color: #f5f5f5;     /* Own in A1#9 */
-  border: 1px solid #696200;     /* Own in A1#9 */
-  border-radius: 4px;            /* Own in A1#9 */
+  background-color: #f5f5f5;                                   /* Own in A1#9 */
+  border: 1px solid #696200;                                   /* Own in A1#9 */
+  border-radius: 4px;                                          /* Own in A1#9 */
   /* Misc */
 }
 
@@ -370,10 +393,13 @@ nav {
   /* Positioning */
   /* Box-model */
   /* Visual */
-  opacity: 0.7;                        /* A1#10 */
-  filter: alpha(opacity=70); /* For IE8 and earlier */  
+  opacity: 0.7;                                                      /* A1#10 */
+  filter: alpha(opacity=70);                           /* For IE8 and earlier */  
 }
 
+/*----------------------------------------------------------------------------*\
+    #individual-projects-item
+\*----------------------------------------------------------------------------*/
 /***** Styling: Individual About Items  *********/
 .indvabout1 {}                   /* Own in A1#9 */
 .indvabout2 {}                   /* Own in A1#9 */ 
@@ -385,29 +411,49 @@ nav {
 /***** Styling: Individual Contacts Items  ******/ 
 .indcontact {}                         /* A1#10 */ 
 
-/**************** UNIQUE SECTIONS ***************/
-/********** Styling: Pagejumbos *****************/
-/*#aboutpagejumbo { background: url("../img/webpicaboutheader1.jpg") no-repeat center top; } /* A1#9 */ 
-#aboutpagejumbo {background-color: transparent;} /* A2#3 */
-#workpagejumbo { background: url("../img/webpicworkheader1.jpg") no-repeat center top; } /* A1#10 */
-/*#faqpagejumbo { background: url("../img/webpicfaqheader1.jpg") no-repeat center top; }/* A1#8 */
-#faqpagejumbo {background-color: transparent;} /* A2#3 */
+/*----------------------------------------------------------------------------*\
+    #UNIQUE-SECTIONS
+\*----------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*\
+    #page-jumbotrons
+\*----------------------------------------------------------------------------*/
 
+/*#aboutpagejumbo { 
+  background: url("../img/webpicaboutheader1.jpg") no-repeat center top; } 
+                                                                      /* A1#9 */ 
+#aboutpagejumbo {background-color: transparent;}                      /* A2#3 */
+
+#workpagejumbo { 
+  background: url("../img/webpicworkheader1.jpg") no-repeat center top; 
+  }                                                                  /* A1#10 */
+
+/*#faqpagejumbo { 
+  background: url("../img/webpicfaqheader1.jpg") no-repeat center top; 
+  }                                                                   /* A1#8 */
+
+#faqpagejumbo {
+  background-color: transparent;
+  }                                                                   /* A2#3 */
+
+
+/*----------------------------------------------------------------------------*\
+    #glyphicon-tags
+\*----------------------------------------------------------------------------*/
 /*********** Styling: Glyphicon Tags ************/ 
 .col-md-4 span {
   /* Positioning */
   /* Box-model */
-  margin: 2px 5px;               /* Own in A1#7 */
-  padding: .5em;                        /* A2#2 */
-  /* Typography */               /* Own in A1#7 */
-  font-size: 1em;                       /* A2#2 */
+  margin: 2px 5px;                                             /* Own in A1#7 */
+  padding: .5em;                                                      /* A2#2 */
+  /* Typography */                                             /* Own in A1#7 */
+  font-size: 1em;                                                     /* A2#2 */
   /* Visual */
-  background-color: transparent;        /* A2#2 */
-  border: 1px solid transparent;        /* A2#2 */
-  border-radius: 10px;                  /* A2#2 */
+  background-color: transparent;                                      /* A2#2 */
+  border: 1px solid transparent;                                      /* A2#2 */
+  border-radius: 10px;                                                /* A2#2 */
   /* Misc */
-  transition: color 600ms;       /* Own in A1#7 */
-  -webkit-transition: color 600ms;/* Own in A1#7 */
+          transition: color 600ms;                             /* Own in A1#7 */
+  -webkit-transition: color 600ms;                             /* Own in A1#7 */
 }
 
 .col-md-4 span:hover {
@@ -415,17 +461,19 @@ nav {
   /* Box-model */
   /* Typography */
   /* Visual */
-  color: #ffb380;                /* Own in A1#7 */
-  border: 1px solid #696200;     /* Own in A1#7 */
-  border-radius: 10px;           /* Own in A1#7 */
-  background-color: #696200;     /* Own in A1#7 */
-  opacity: 0.7;                  /* Own in A1#7 */
-  filter: alpha(opacity=70); /* For IE8 and earlier */
+  color: #ffb380;                                              /* Own in A1#7 */
+  border: 1px solid #696200;                                   /* Own in A1#7 */
+  border-radius: 10px;                                         /* Own in A1#7 */
+  background-color: #696200;                                   /* Own in A1#7 */
+  opacity: 0.7;                                                /* Own in A1#7 */
+  filter: alpha(opacity=70);                           /* For IE8 and earlier */
   /* Misc */   
 }
 
-/*********** Styling: Container *****************/
 
+/*----------------------------------------------------------------------------*\
+    #CONTAINERS
+\*----------------------------------------------------------------------------*/
 
 #conceptpagesection {}           /* Own in A1#9 */
 #workpagesection {}              /* Own in A1#9 */
@@ -439,27 +487,30 @@ nav {
   /* Box-model */
   /* Typography */
   /* Visual */ 
-  color: #ffb380;                         /* A2#2 */  
-  background-color: transparent;        /* A2#2 */
-  text-shadow: -1px 0 #696200, 0 1px #696200, 1px 0 #696200, 0 -1px #696200; /* A2#2 */  
+  color: #ffb380;                                                     /* A2#2 */  
+  background-color: transparent;                                      /* A2#2 */
+  text-shadow: -1px 0 #696200, 0  1px #696200, 
+                1px 0 #696200, 0 -1px #696200;                        /* A2#2 */  
   /* Misc */   
-  }            
- 
-/********** Styling: Container Elements *********/
+  }    
+01234567890123456789012345678901234567890123456789012345678901234567890123456789
+/*----------------------------------------------------------------------------*\
+    #container-elements
+\*----------------------------------------------------------------------------*/
+
 #work1-image-column,
 #work2-image-column {
   /* Positioning */
   /* Box-model */
-  padding: .5em;                 /* Own in A2#1 */
-  margin: .5em;                  /* Own in A2#1 */
+  padding: .5em;                                               /* Own in A2#1 */
+  margin: .5em;                                                /* Own in A2#1 */
   
   /* Typography */
-  text-align: center;            /* Own in A2#1 */
+  text-align: center;                                          /* Own in A2#1 */
 
   /* Visual */
-  background-color: #f5f5f5;     /* Own in A2#1 */
-  /*border: 1px solid #696200;     /* Own in A2#1 */
-  border-radius: 4px;            /* Own in A2#1 */
+  background-color: #f5f5f5;                                   /* Own in A2#1 */
+  border-radius: 4px;                                          /* Own in A2#1 */
   /* Misc */
 
 }
