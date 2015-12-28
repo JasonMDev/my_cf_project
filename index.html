@@ -54,8 +54,6 @@
         document, 'script', 'facebook-jssdk'));
     </script>
 
-    <!-- Above is a missing curly bracket }}( document-->
-
     <!-- =================================================================== -->
     <!-- NAVIGATION                                                          -->
     <!-- =================================================================== -->
@@ -182,7 +180,7 @@
           <!-- RESPONSIVE CLASS: Portfolio Concept  -->
           <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
             <!-- CUSTOM CLASS: Individual Concept Styling  -->
-            <div class ="indvconcept" id="portfolio-concept">
+            <div id="portfolio-concept">
               <h3>Portfolio Concept</h3>
               <p>"I want a personalised logo or brand that I can add to the website and will be found on marketing."</p>
               <p>"I want to create a portfolio site with the following basic sections: <a href="#" title="More information" id="item1">About You</a> (Background, Hobbies), Portfolio of Work (Past or Current Projects, Clients), Contact , and FAQ (Your Process, Skills, Experience, etc.) as mentioned in the lessons. "</p>
@@ -195,7 +193,7 @@
           <!-- RESPONSIVE CLASS: Project Goals  -->
           <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
             <!-- CUSTOM CLASS: Individual Concept Styling  -->
-            <div class ="indvconcept" id="project-goals">
+            <div id="project-goals">
               <h3>Project Goals</h3>
               <p>"I will study at least 3 days of the work week, and over the weekend as well, for the next 6 months to start applying for Web Developer positions in June 2016 so that I can embark on a new career." </p>
               <p><button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="right" title="Tooltip on right">View More</button></p>
@@ -205,7 +203,7 @@
           <!-- RESPONSIVE CLASS: Course Goals  -->
           <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
             <!-- CUSTOM CLASS: Individual Concept Styling  -->
-            <div class ="indvconcept" id="course-goals">
+            <div id="course-goals">
               <h3>Course Goals</h3>
               <p>"I would like to explore my nebulous, quirky and creative side and would like to express that through coding."</p>
               <p>"I want to be working as a web developer in a progressive company, in the region of London." </p>
@@ -232,9 +230,8 @@
 
           <!-- Project 1 -->
           <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-            <!-- CUSTOM CLASS: Individual Project Styling  -->
-            
-            <div class ="indvproject">
+            <!-- CUSTOM CLASS: Individual Project Styling  -->            
+            <div class="container--wrapper">
               <a class="projectlink" id="project1" href="#work1">
                 <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="Click on pic for more detailed information.">
                   <img class="img-responsive" src="img/railsapp.jpg">
@@ -247,23 +244,26 @@
           <!-- Project 2 -->
           <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
             <!-- CUSTOM CLASS: Individual Project Styling  -->
-            <div class ="indvproject">
+            <div class="container--wrapper">
               <a class="projectlink" id="project2" href="#work2">
                 <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="Click on pic for more detailed information.">
                   <img class="img-responsive" src="img/calculator.jpg">
                   <p>HTML Calculator</p>
-
+                </button>  
               </a>  
             </div><!-- /Individual Project Styling-->
+
           </div><!-- /col Project 2-->
           
           <!-- Project 3 -->
           <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
             <!-- CUSTOM CLASS: Individual Project Styling  -->
-            <div class ="indvproject under-contruction">
-              <a class="projectlink" href="#">
-                <img class="img-responsive" src="img/webpicworkheader1.jpg">
-                <p>Work 3</p>                
+            <div class ="container--wrapper under-construction">
+              <a class="projectlink" id="project3" href="#work3">
+                <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="Project is still under construction.">
+                  <img class="img-responsive" src="img/webpicworkheader1.jpg">
+                  <p>Work 3</p>                
+                </button>   
               </a>     
             </div><!-- /Individual Project Styling-->
           </div><!-- /col Project 3-->
@@ -271,10 +271,12 @@
           <!-- Project 4 -->
           <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
             <!-- CUSTOM CLASS: Individual Project Styling  -->
-            <div class ="indvproject under-contruction">
-              <a class="projectlink" href="#">
-                <img class="img-responsive" src="img/webpicworkheader1.jpg">
-                <p>Work 4</p>
+            <div class ="container--wrapper under-construction">
+              <a class="projectlink" id="project4" href="#work4">                
+                <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="Project is still under construction.">
+                  <img class="img-responsive" src="img/webpicworkheader1.jpg">
+                  <p>Work 4</p>
+                </button>   
               </a> 
             </div><!-- /Individual Project Styling-->
           </div><!-- /col Project 4-->
@@ -282,10 +284,12 @@
           <!-- Project 5 -->
           <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
             <!-- CUSTOM CLASS: Individual Project Styling  -->
-            <div class ="indvproject under-contruction">
-              <a class="projectlink" href="#">
-                <img class="img-responsive" src="img/webpicworkheader1.jpg">
-                <p>Work 5</p>
+            <div class ="container--wrapper under-construction">
+              <a class="projectlink" id="project5" href="#work5">
+                <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="Project is still under construction.">
+                  <img class="img-responsive" src="img/webpicworkheader1.jpg">
+                  <p>Work 5</p>
+                </button> 
               </a> 
             </div><!-- /Individual Project Styling-->
           </div><!-- /col Project 5-->
@@ -293,10 +297,12 @@
           <!-- Project 6 -->
           <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
             <!-- CUSTOM CLASS: Individual Project Styling  -->
-            <div class ="indvproject under-contruction">
-              <a class="projectlink" href="#">
-                <img class="img-responsive" src="img/webpicworkheader1.jpg">
-                <p>Work 6</p>
+            <div class ="container--wrapper under-construction">
+              <a class="projectlink" id="project6" href="#work6">
+                <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="Project is still under construction.">
+                  <img class="img-responsive" src="img/webpicworkheader1.jpg">
+                  <p>Work 6</p>
+                </button> 
               </a> 
             </div><!-- /Individual Project Styling-->
           </div><!-- /col Project 6-->
@@ -304,10 +310,12 @@
           <!-- Project 7 -->
           <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
             <!-- CUSTOM CLASS: Individual Project Styling  -->
-            <div class ="indvproject under-contruction">
-              <a class="projectlink" href="#">
-                <img class="img-responsive" src="img/webpicworkheader1.jpg">
-                <p>Work 7</p>
+            <div class ="container--wrapper under-construction">
+              <a class="projectlink" id="project7" href="#work7">
+                <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="Project is still under construction.">
+                  <img class="img-responsive" src="img/webpicworkheader1.jpg">
+                  <p>Work 7</p>
+                </button> 
               </a> 
             </div><!-- /Individual Project Styling-->
           </div><!-- /col Project 7-->
@@ -315,10 +323,12 @@
           <!-- Project 8 -->
           <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
             <!-- CUSTOM CLASS: Individual Project Styling  -->
-            <div class ="indvproject under-contruction">
-              <a class="projectlink" href="#">
-                <img class="img-responsive" src="img/webpicworkheader1.jpg">
-                <p>Work 8</p>
+            <div class ="container--wrapper under-construction">
+              <a class="projectlink" id="project8" href="#work8">
+                <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="Project is still under construction.">
+                  <img class="img-responsive" src="img/webpicworkheader1.jpg">
+                  <p>Work 8</p>
+                </button> 
               </a> 
             </div><!-- /Individual Project Styling-->
           </div><!-- /col Project 8-->
@@ -425,7 +435,7 @@
           <!-- Column 1: Image -->
           <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
             <!-- CUSTOM CLASS: Individual Work Styling  -->
-            <div class ="indvwork2" id="work1-image-column">
+            <div id="work1-image-column">
               
               <a href="https://rails-sample-app-5732.herokuapp.com/" title="Click on the link to go to the website...">
                 <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="Click to go to the website...">
@@ -438,7 +448,7 @@
           <!-- Column 2: Features -->
           <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
             <!-- CUSTOM CLASS: Individual Work Styling  -->
-            <div class ="indvwork2" id="work1-feature-column">
+            <div id="work1-feature-column">
               <h3>Features</h3>
               <p>The application features: users, micropost, full login and authentication framework.</p>
             </div><!-- /Individual Work Styling-->
@@ -447,7 +457,7 @@
           <!-- Column 3: Technology -->
           <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
             <!-- CUSTOM CLASS: Individual Work Styling  -->
-            <div class ="indvwork2" id="work1-tech-column">
+            <div id="work1-tech-column">
               <h3>Technology</h3>
               <ul id="tech-list">          
                 <li>Front-end: HTML, CSS, and jQuery</li>
@@ -459,7 +469,7 @@
           <!-- Paragraph Main Text -->
           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <!-- CUSTOM CLASS: Individual Work Styling  -->
-            <div class ="indvwork1" id="work1-main-text">
+            <div id="work1-main-text">
               <h3>Further Description</h3>
               <p>This is a micropost social web application that I have built by following the tutorial from Michael Hartl book on Ruby on Rails. Click on the image to go to the website.</p>
             </div><!-- /Individual Work Styling-->
@@ -500,7 +510,7 @@
           <!-- Column 2: Features -->
           <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
             <!-- CUSTOM CLASS: Individual Work Styling  -->
-            <div class ="indvwork2" id="work2-feature-column">
+            <div id="work2-feature-column">
               <h3>Features</h3>
               <p>There are no current features available for the calculator. More is on its way.</p>
             </div><!-- /Individual Work Styling-->
@@ -509,7 +519,7 @@
           <!-- Column 3: Technology -->
           <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
             <!-- CUSTOM CLASS: Individual Work Styling  -->
-            <div class ="indvwork2" id="work2-tech-column">
+            <div id="work2-tech-column">
               <h3>Technology</h3>
               <ul id="tech-list">          
                 <li>Front-end: HTML, CSS and jQuery</li>
@@ -521,7 +531,7 @@
           <!-- Paragraph Main Text -->
           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <!-- CUSTOM CLASS: Individual Work Styling  -->
-            <div class ="indvwork1" id="work2-main-text">
+            <div id="work2-main-text">
               <h3>Further Description</h3>
               <p>This is a basic HTML calculator built using CSS. Click on the image to go to the website.</p>
             </div><!-- /Individual Work Styling-->
@@ -547,7 +557,7 @@
     
       <!-- CUSTOM CLASS: Page Section  -->
       <!-- I have added own class after container and before the row column as it negates my class. -->  
-      <div class ="pagesection" id="contact-page-section">
+      <div class ="pagesection" id="page-section--contact">
         <!-- Generic Bootstrap Row -->
         <div class="row">
 
@@ -556,7 +566,7 @@
             <h3>Contact</h3>
 
             <!-- CUSTOM CLASS: Individual Contact Styling  -->
-            <div class ="indvcontact" id="email-column">
+            <div id="email-column">
               <p><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>EMAIL: Joe.Bloggs@example.com</p>
               <p><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>PHONE: +44 (0) 1234 5465</p>
               <p><span class="glyphicon glyphicon-globe" aria-hidden="true"></span>ADDRESS: Basingstoke, Hampshire, United Kingdom</p>
@@ -568,7 +578,7 @@
           <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
             <h3>Say Hello</h3>
             <!-- CUSTOM CLASS: Individual Contact Styling  -->
-            <div class ="indvcontact" id="contact-form-column">
+            <div id="contact-form-column">
               <!-- Contact Form -->
               <form>
 

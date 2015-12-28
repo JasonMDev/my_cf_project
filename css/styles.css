@@ -100,12 +100,11 @@ body {
   margin: .5em;                                                       /* A2#5 */
   
   /* Typography */
-  /*text-align: center;                                                 /* A2#5 */
-
   /* Visual */
   background-color: transparent;                                      /* A2#5 */
   border: 2px solid transparent;                                      /* A2#5 */
   border-radius: 4px;                                                 /* A2#5 */
+  
   /* Misc */
 }
 
@@ -165,12 +164,12 @@ h2 { color: #696200; }                                               /* A1#10 */
                 1px 0 #696200, 0 -1px #696200;                    /* Own A1#8 */  
 }
 
-.under-contruction {
+.under-construction {
   /* Positioning */
   /* Box-model */
   /* Visual */
-  opacity: 0.7;                                                      /* A1#10 */
-  filter: alpha(opacity=70);                           /* For IE8 and earlier */  
+  opacity: 0.5;                                                      /* A1#10 */
+  filter: alpha(opacity=50);                           /* For IE8 and earlier */  
 }
 
 /*----------------------------------------------------------------------------*\
@@ -389,13 +388,6 @@ nav {
   border-radius: 6px;                                         /* Own in A1#10 */  
 }
 
-
-
-/*----------------------------------------------------------------------------*\
-    #individual-concept-item
-\*----------------------------------------------------------------------------*/
-.indvconcept {}                                                /* Own in A1#9 */    
-
 /*----------------------------------------------------------------------------*\
     #individual-projects-item
 \*----------------------------------------------------------------------------*/
@@ -415,22 +407,6 @@ nav {
   /* Misc */
 }
 
-
-
-/*----------------------------------------------------------------------------*\
-    #individual-projects-item
-\*----------------------------------------------------------------------------*/
-/***** Styling: Individual About Items  *********/
-.indvabout1 {}                   /* Own in A1#9 */
-.indvabout2 {}                   /* Own in A1#9 */ 
-
-/***** Styling: Individual Work Items   *********/
-.indvwork1 {}                          /* A1#10 */ 
-.indvwork2 {}                          /* A1#10 */ 
-
-/***** Styling: Individual Contacts Items  ******/ 
-.indcontact {}                         /* A1#10 */ 
-
 /*----------------------------------------------------------------------------*\
     #UNIQUE-SECTIONS
 \*----------------------------------------------------------------------------*/
@@ -441,7 +417,7 @@ nav {
 /*#aboutpagejumbo { 
   background: url("../img/webpicaboutheader1.jpg") no-repeat center top; } 
                                                                       /* A1#9 */ 
-#aboutpagejumbo {background-color: transparent;}                      /* A2#3 */
+#aboutpagejumbo { background-color: transparent; }                    /* A2#3 */
 
 #workpagejumbo { 
   background: url("../img/webpicworkheader1.jpg") no-repeat center top; 
@@ -451,10 +427,7 @@ nav {
   background: url("../img/webpicfaqheader1.jpg") no-repeat center top; 
   }                                                                   /* A1#8 */
 
-#faqpagejumbo {
-  background-color: transparent;
-  }                                                                   /* A2#3 */
-
+#faqpagejumbo { background-color: transparent; }                      /* A2#3 */
 
 /*----------------------------------------------------------------------------*\
     #glyphicon-tags
@@ -494,9 +467,10 @@ nav {
 /*----------------------------------------------------------------------------*\
     #WRAPPERS
 \*----------------------------------------------------------------------------*/
-
-#contact-page-section {
-  /*PAGE-SECTION--CONTACT
+/*----------------------------------------------------------------------------*\
+    #contact-page-section
+\*----------------------------------------------------------------------------*/
+#page-section--contact {
   /* Positioning */
   /* Box-model */
   /* Typography */
