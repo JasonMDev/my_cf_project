@@ -389,25 +389,6 @@ nav {
 }
 
 /*----------------------------------------------------------------------------*\
-    #individual-projects-item
-\*----------------------------------------------------------------------------*/
-.indvproject {                   
-  /* Positioning */
-  /* Box-model */
-  padding: .5em;                                               /* Own in A1#9 */
-  margin: .5em;                                                /* Own in A1#9 */
-  
-  /* Typography */
-  text-align: center;                                          /* Own in A1#9 */
-
-  /* Visual */
-  background-color: #f5f5f5;                                   /* Own in A1#9 */
-  border: 1px solid #696200;                                   /* Own in A1#9 */
-  border-radius: 4px;                                          /* Own in A1#9 */
-  /* Misc */
-}
-
-/*----------------------------------------------------------------------------*\
     #UNIQUE-SECTIONS
 \*----------------------------------------------------------------------------*/
 /*----------------------------------------------------------------------------*\
@@ -481,26 +462,6 @@ nav {
                 1px 0 #696200, 0 -1px #696200;                        /* A2#2 */  
   /* Misc */   
   }    
-
-/*----------------------------------------------------------------------------*\
-    #container-elements
-\*----------------------------------------------------------------------------*/
-
-#work1-image-column,
-#work2-image-column {
-  /* Positioning */
-  /* Box-model */
-  padding: .5em;                                               /* Own in A2#1 */
-  margin: .5em;                                                /* Own in A2#1 */
-  
-  /* Typography */
-  text-align: center;                                          /* Own in A2#1 */
-
-  /* Visual */
-  background-color: #f5f5f5;                                   /* Own in A2#1 */
-  border-radius: 4px;                                          /* Own in A2#1 */
-  /* Misc */
-}
 
 /*----------------------------------------------------------------------------*\
     #EXAMPLES-SECTION
