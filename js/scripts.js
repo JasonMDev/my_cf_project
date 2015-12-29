@@ -18,10 +18,10 @@
   fjs.parentNode.insertBefore(js, fjs);
   }( document, 'script', 'facebook-jssdk'));
 
-
+//When the document is ready the following actions will take place.
 $(document).ready(function() {
-	// Code goes here.
-	$("#message-box").css("border","2px solid red");
+	// Change tag's border.
+	$("#message-box").css("background","#ffb380");
 
 	//Stellar.js for paralax effect  '.paralax-section'
   $(window).stellar(); 
@@ -48,4 +48,18 @@ $(document).ready(function() {
     return false;
     });
 
+  //Contact Submit Button
+	$("#btn-submit--contact").on("click", function() {
+		//Can check in the console of the developers tools.
+		//console.log("Clicked!!");
+		var comment = $("#message-box").val();
+		//console.log(comment);
+		$("#visible-comment").html(comment);
+		$("#visible-comment").css("color","white");
+		$("#message-box").hide();
+		return false;
+	});
+
 });
+
+
