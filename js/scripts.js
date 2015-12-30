@@ -61,6 +61,7 @@ $(document).ready(function() {
 	});
 
   //Character count in the Contact message box.
+  //Also checks if characters are below 50.
   $("#message-box").on("keyup", function() {
     //Testing that we have caight the correct key.
     //console.log("Keyup Happened!!");
@@ -72,8 +73,14 @@ $(document).ready(function() {
     // Here we show the running character count by appending the DOM.
     $("#char-count").html(charCount);
 
-
-
+    // Checks if the message box has more than 50 chars and changes text to red.
+    if (charCount > 50) {
+      //True
+      $("#char-count").css("color", "red");
+    } else {
+      //False
+      $("#char-count").css("color", "black");
+    }
   });
 
 });
