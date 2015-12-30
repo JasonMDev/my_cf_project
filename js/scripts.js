@@ -20,7 +20,7 @@
 
 //When the document is ready the following actions will take place.
 $(document).ready(function() {
-	// Change tag's border.
+	// Change tag's background.
 	$("#message-box").css("background","#ffb380");
 
 	//Stellar.js for paralax effect  '.paralax-section'
@@ -59,6 +59,12 @@ $(document).ready(function() {
 		$("#message-box").hide();
 		return false;
 	});
+
+  //Character count in the Contact message box.
+  $("#message-box").on("keyup", function() {
+    //Testing that we have caight the correct key.
+    console.log("Keyup Happened!!");
+  });
 
 });
 
