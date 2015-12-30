@@ -198,6 +198,8 @@
       <hr>
     </div> <!-- /container for Portfolio Concepts-->
 
+    <!-- Fake below-->    
+
     <!-- WORK SECTION -->
     <!-- Generic Bootstrap Container --> 
     <div class="container-fluid">
@@ -207,117 +209,13 @@
         <h2>Current and Previous Work</h2>
         <hr>
         <!-- Generic Bootstrap Row --> 
-        <div class ="row">  
-
-          <!-- Project 1 -->
-          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-            <!-- CUSTOM CLASS: Individual Project Styling  -->            
-            <div class="container--wrapper">
-              <a class="projectlink" id="project1" href="#work1">
-                <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="Click on pic for more detailed information.">
-                  <img class="img-responsive" src="img/railsapp.jpg">
-                  <p>Micropost App</p>
-                </button>
-              </a>
-            </div><!-- /Individual Project Styling-->  
-          </div><!-- /col Project 1-->
-          
-          <!-- Project 2 -->
-          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-            <!-- CUSTOM CLASS: Individual Project Styling  -->
-            <div class="container--wrapper">
-              <a class="projectlink" id="project2" href="#work2">
-                <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="Click on pic for more detailed information.">
-                  <img class="img-responsive" src="img/calculator.jpg">
-                  <p>HTML Calculator</p>
-                </button>  
-              </a>  
-            </div><!-- /Individual Project Styling-->
-
-          </div><!-- /col Project 2-->
-          
-          <!-- Project 3 -->
-          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-            <!-- CUSTOM CLASS: Individual Project Styling  -->
-            <div class ="container--wrapper under-construction">
-              <a class="projectlink" id="project3" href="#work3">
-                <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="Project is still under construction.">
-                  <img class="img-responsive" src="img/webpicworkheader1.jpg">
-                  <p>Work 3</p>                
-                </button>   
-              </a>     
-            </div><!-- /Individual Project Styling-->
-          </div><!-- /col Project 3-->
-
-          <!-- Project 4 -->
-          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-            <!-- CUSTOM CLASS: Individual Project Styling  -->
-            <div class ="container--wrapper under-construction">
-              <a class="projectlink" id="project4" href="#work4">                
-                <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="Project is still under construction.">
-                  <img class="img-responsive" src="img/webpicworkheader1.jpg">
-                  <p>Work 4</p>
-                </button>   
-              </a> 
-            </div><!-- /Individual Project Styling-->
-          </div><!-- /col Project 4-->
-
-          <!-- Project 5 -->
-          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-            <!-- CUSTOM CLASS: Individual Project Styling  -->
-            <div class ="container--wrapper under-construction">
-              <a class="projectlink" id="project5" href="#work5">
-                <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="Project is still under construction.">
-                  <img class="img-responsive" src="img/webpicworkheader1.jpg">
-                  <p>Work 5</p>
-                </button> 
-              </a> 
-            </div><!-- /Individual Project Styling-->
-          </div><!-- /col Project 5-->
-          
-          <!-- Project 6 -->
-          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-            <!-- CUSTOM CLASS: Individual Project Styling  -->
-            <div class ="container--wrapper under-construction">
-              <a class="projectlink" id="project6" href="#work6">
-                <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="Project is still under construction.">
-                  <img class="img-responsive" src="img/webpicworkheader1.jpg">
-                  <p>Work 6</p>
-                </button> 
-              </a> 
-            </div><!-- /Individual Project Styling-->
-          </div><!-- /col Project 6-->
-          
-          <!-- Project 7 -->
-          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-            <!-- CUSTOM CLASS: Individual Project Styling  -->
-            <div class ="container--wrapper under-construction">
-              <a class="projectlink" id="project7" href="#work7">
-                <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="Project is still under construction.">
-                  <img class="img-responsive" src="img/webpicworkheader1.jpg">
-                  <p>Work 7</p>
-                </button> 
-              </a> 
-            </div><!-- /Individual Project Styling-->
-          </div><!-- /col Project 7-->
-
-          <!-- Project 8 -->
-          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-            <!-- CUSTOM CLASS: Individual Project Styling  -->
-            <div class ="container--wrapper under-construction">
-              <a class="projectlink" id="project8" href="#work8">
-                <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="Project is still under construction.">
-                  <img class="img-responsive" src="img/webpicworkheader1.jpg">
-                  <p>Work 8</p>
-                </button> 
-              </a> 
-            </div><!-- /Individual Project Styling-->
-          </div><!-- /col Project 8-->
-
+        <div class ="row" id="work-summary">
+          <!-- The "work.js" file contains the work array with information.  -->
+          <!-- The DOM is appended from the "scripts.js" file. --> 
         </div><!-- /row-->    
       </div><!-- /container-wrapper container-border -->
       <hr>
-    </div> <!-- /container for work Section-->
+    </div> <!-- /container for work Section-->    
 
     <!-- ======================================================================================= -->
     <!--           ABOUT PAGE                  ABOUT PAGE                   ABOUT PAGE           -->
@@ -788,6 +686,7 @@
     <script src="js/jquery.stellar.min.js"></script>
 
     <!-- scripts.js for personal changes -->
+    <script src="js/work.js"></script>
     <script src="js/scripts.js"></script>
     
   </body>

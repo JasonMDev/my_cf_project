@@ -93,6 +93,47 @@ $(document).ready(function() {
     };
   });
 
+  //Access the works array from the "work.js" file.
+  //Appends the DOM with the array information.
+  //console.log(works);
+  //Append current projects.
+  var j = 0;
+  for (var i = 0; i < 4; i=i+2) {
+    //Used for project reference.
+    ++j;
+    $("#work-summary").append("\
+      <div class='col-lg-3 col-md-3 col-sm-3 col-xs-6'>\
+        <div class='container--wrapper'>\
+          <a class='projectlink' id='" + 'project' + j + "' href='" + '#work' + j + "'>\
+            <button type='button' class='btn btn-default' data-toggle='tooltip' data-placement='top' title='Click on pic for more detailed information.'>\
+              <img class='img-responsive' src='" + works[i] + "'>\
+              <p>" + works[i + 1] + "</p>\
+            </button>\
+          </a>\
+        </div>\
+      </div>\
+      ");
+  };
+
+  //Append projects not started.
+  //var j = 0;
+  for (var k = 4; k < works.length; k=k+2) {
+    //Used for project reference.
+    ++j;
+    $("#work-summary").append("\
+      <div class='col-lg-3 col-md-3 col-sm-3 col-xs-6'>\
+        <div class='container--wrapper under-construction'>\
+          <a class='projectlink' id='" + 'project' + j + "' href='" + '#work' + j + "'>\
+            <button type='button' class='btn btn-default' data-toggle='tooltip' data-placement='top' title='Still a seedling...'>\
+              <img class='img-responsive' src='" + works[k] + "'>\
+              <p>" + works[k + 1] + "</p>\
+            </button>\
+          </a>\
+        </div>\
+      </div>\
+      ");
+  };
+
 });
 
 

@@ -3,6 +3,7 @@
 ## General
 
 - [ ] Add actual CV to course. A2L3(replace file in assets.)
+- [ ] Fix padding of the work summary.
 - [ ] Add tooltip in lesson 4 to contact ones.
 - [ ] Create same media query as the carousel for the other headers.
 - [ ] Add header text border.
