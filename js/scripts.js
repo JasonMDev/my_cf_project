@@ -48,16 +48,26 @@ $(document).ready(function() {
     return false;
     });
 
-  //Contact Submit Button
+  //"Click" event handler for Contact Submit Button
 	$("#btn-submit--contact").on("click", function() {
 		//Can check in the console of the developers tools.
 		//console.log("Clicked!!");
 		var comment = $("#message-box").val();
-		//console.log(comment);
-		$("#visible-comment").html(comment);
-		$("#visible-comment").css("color","white");
-		$("#message-box").hide();
-		return false;
+
+    // Checks if charCount is empty and keeps border red.
+    if (comment === "") {
+      //True => Change message-box's border to red if charCount = "".  
+      $("#message-box").css("border", "1px solid red");
+      //console.log("Clicked!!");
+
+    } else {
+      //False => If there are characters, allow submission.      
+      //console.log(comment);
+      $("#visible-comment").html(comment);
+      $("#visible-comment").css("color", "white");
+      $("#message-box").hide();
+      return false;
+    };  		
 	});
 
   //Character count in the Contact message box.
@@ -80,7 +90,7 @@ $(document).ready(function() {
     } else {
       //False
       $("#char-count").css("color", "black");
-    }
+    };
   });
 
 });
