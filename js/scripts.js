@@ -63,7 +63,17 @@ $(document).ready(function() {
   //Character count in the Contact message box.
   $("#message-box").on("keyup", function() {
     //Testing that we have caight the correct key.
-    console.log("Keyup Happened!!");
+    //console.log("Keyup Happened!!");
+
+    //Count the characters in the textarea of teh message-box.
+    var charCount = $("#message-box").val().length;
+    //console.log("charCount");
+    
+    // Here we show the running character count by appending the DOM.
+    $("#char-count").html(charCount);
+
+
+
   });
 
 });
