@@ -96,14 +96,22 @@ $(document).ready(function() {
   //Access the works array from the "work.js" file.
   //Appends the DOM with the array information.
   //console.log(works);
-  //Append current projects.
-  var j = 0;
-  for (var i = 0; i < 4; i=i+2) {
+  var j = 0;  
+  for (var i = 0; i < works.length; i=i+2) {
     //Used for project reference.
     ++j;
+    //Add class ="under-construction" to non-completed.
+    if (i < 4) {
+      //True
+      var underConstruction = "container--wrapper";
+    } else {
+      //False
+      var underConstruction = "container--wrapper under-construction";
+    };
+
     $("#work-summary").append("\
       <div class='col-lg-3 col-md-3 col-sm-3 col-xs-6'>\
-        <div class='container--wrapper'>\
+        <div class='" + underConstruction + "'>\
           <a class='projectlink' id='" + 'project' + j + "' href='" + '#work' + j + "'>\
             <button type='button' class='btn btn-default' data-toggle='tooltip' data-placement='top' title='Click on pic for more detailed information.'>\
               <img class='img-responsive' src='" + works[i] + "'>\
@@ -112,28 +120,26 @@ $(document).ready(function() {
           </a>\
         </div>\
       </div>\
-      ");
+      ");    
   };
 
-  //Append projects not started.
-  //var j = 0;
-  for (var k = 4; k < works.length; k=k+2) {
-    //Used for project reference.
-    ++j;
-    $("#work-summary").append("\
-      <div class='col-lg-3 col-md-3 col-sm-3 col-xs-6'>\
-        <div class='container--wrapper under-construction'>\
-          <a class='projectlink' id='" + 'project' + j + "' href='" + '#work' + j + "'>\
-            <button type='button' class='btn btn-default' data-toggle='tooltip' data-placement='top' title='Still a seedling...'>\
-              <img class='img-responsive' src='" + works[k] + "'>\
-              <p>" + works[k + 1] + "</p>\
-            </button>\
-          </a>\
-        </div>\
-      </div>\
-      ");
+  //Changes border color depending on even or odd. 
+  var images = $("#work-summary button");
+  for (var k=0; k < images.length; ++k ) {
+    if(k%2 === 0 ) {
+      //True
+      $(images[k]).css("border", "1px solid DodgerBlue");
+      console.log(images[k]);
+      console.log("True");
+    } else {
+      //False
+      $(images[k]).css("border", "1px solid salmon");
+      console.log(images[k]);
+      console.log("False");
+    };
   };
 
+  
 });
 
 
