@@ -115,23 +115,21 @@ $(document).ready(function() {
           </a>\
         </div>\
       </div>\
-      ");        
-  };
+      ");
 
-  //Changes border color depending on even or odd. 
-  var images = $("#work-summary .img-responsive");
-  for (var k=0; k < images.length; ++k ) {
-    if(k%2 === 0 ) {
+    //Changes border color depending on even or odd. 
+    var images = $("#work-summary img");
+    if(i%2 === 0 ) {
       //True
-      $(images[k]).css("border", "1px solid DodgerBlue");
+      $(images[i]).css("border", "1px solid DodgerBlue");
       //console.log(images[k]);
       //console.log("True");
     } else {
-      //False
-      $(images[k]).css("border", "1px solid salmon");
-      //console.log(images[k]);
-      //console.log("False");
-   };
+        //False
+        $(images[i]).css("border", "1px solid salmon");
+        //console.log(images[k]);
+        //console.log("False");
+    };   
   };
 
   //Display the title of work when mouses enters the area.

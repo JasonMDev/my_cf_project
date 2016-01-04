@@ -5,7 +5,7 @@ The main objective is to build a Responsive Portfolio Website
 
 ##My Change Log
 ### 2016/01/04
-- Started Achievement 2 Lesson 9
+- Submitted Achievement 2 Lesson 9
 
 ### 2015/12/31
 - Submitted Achievement 2 Lesson 8
