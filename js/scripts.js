@@ -109,7 +109,7 @@ $(document).ready(function() {
     $("#work-summary").append("\
       <div class='col-lg-3 col-md-3 col-sm-3 col-xs-6'>\
         <div class='" + underConstruction + "'>\
-          <a class='work-img' id='" + 'project' + [i+1] + "' href='" + '#work' + [i+1] + "'>\
+          <a class='work-img' id='" + 'project' + [i+1] + "' href='" + works[i].url + "'>\
               <img class='img-responsive' src='" + works[i].pic + "'>\
               <span class='info'><p class='proj-title'>Title:</p>" + works[i].title + "</span>\
           </a>\

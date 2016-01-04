@@ -1,35 +1,43 @@
 var works = [
   {
     title: "Micropost App",
-    pic: "img/railsapp.jpg"
+    pic: "img/railsapp.jpg",
+    url: "#work1"
   },
   {
     title: "HTML Calc.",
-    pic: "img/calculator.jpg"
+    pic: "img/calculator.jpg",
+    url: "#work2"
   },
   {
     title: "Work 3",
-    pic: "img/webpicworkheader1.jpg"
+    pic: "img/webpicworkheader1.jpg",
+    url: "#work3"
   },
   {
     title: "Work 4",
-    pic: "img/webpicworkheader1.jpg"
+    pic: "img/webpicworkheader1.jpg",
+    url: "#work4"
   },
   {
     title: "Work 5",
-    pic: "img/webpicworkheader1.jpg"
+    pic: "img/webpicworkheader1.jpg",
+    url: "#work5"
   },
   {
     title: "Work 6",
-    pic: "img/webpicworkheader1.jpg"
+    pic: "img/webpicworkheader1.jpg",
+    url: "#work6"
   },
   {
     title: "Work 7",
-    pic: "img/webpicworkheader1.jpg"
+    pic: "img/webpicworkheader1.jpg",
+    url: "#work7"
   },
   {
     title: "Work 8",
-    pic: "img/webpicworkheader1.jpg"
+    pic: "img/webpicworkheader1.jpg",
+    url: "#work8"
   },
 ];
 
