@@ -1,20 +1,36 @@
 var works = [
-  "img/railsapp.jpg",
-  "Micropost App",
-  "img/calculator.jpg",
-  "HTML Calculator",
-  "img/webpicworkheader1.jpg",
-  "Work 3",
-  "img/webpicworkheader1.jpg",
-  "Work 4",
-  "img/webpicworkheader1.jpg",
-  "Work 5",
-  "img/webpicworkheader1.jpg",
-  "Work 6",
-  "img/webpicworkheader1.jpg",
-  "Work 7",
-  "img/webpicworkheader1.jpg",
-  "Work 8"
+  {
+    title: "Micropost App",
+    pic: "img/railsapp.jpg"
+  },
+  {
+    title: "HTML Calc.",
+    pic: "img/calculator.jpg"
+  },
+  {
+    title: "Work 3",
+    pic: "img/webpicworkheader1.jpg"
+  },
+  {
+    title: "Work 4",
+    pic: "img/webpicworkheader1.jpg"
+  },
+  {
+    title: "Work 5",
+    pic: "img/webpicworkheader1.jpg"
+  },
+  {
+    title: "Work 6",
+    pic: "img/webpicworkheader1.jpg"
+  },
+  {
+    title: "Work 7",
+    pic: "img/webpicworkheader1.jpg"
+  },
+  {
+    title: "Work 8",
+    pic: "img/webpicworkheader1.jpg"
+  },
 ];
 
 var testWorks = [

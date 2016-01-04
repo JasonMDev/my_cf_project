@@ -96,12 +96,9 @@ $(document).ready(function() {
   //Access the works array from the "work.js" file.
   //Appends the DOM with the array information.
   //console.log(works);
-  var j = 0;  
-  for (var i = 0; i < works.length; i=i+2) {
-    //Used for project reference.
-    ++j;
+  for (var i = 0; i < works.length; ++i) {
     //Add class ="under-construction" to non-completed.
-    if (i < 4) {
+    if (i < 2) {
       //True
       var underConstruction = "container--wrapper";
     } else {
@@ -112,33 +109,39 @@ $(document).ready(function() {
     $("#work-summary").append("\
       <div class='col-lg-3 col-md-3 col-sm-3 col-xs-6'>\
         <div class='" + underConstruction + "'>\
-          <a class='projectlink' id='" + 'project' + j + "' href='" + '#work' + j + "'>\
-            <button type='button' class='btn btn-default' data-toggle='tooltip' data-placement='top' title='Click on pic for more detailed information.'>\
-              <img class='img-responsive' src='" + works[i] + "'>\
-              <p>" + works[i + 1] + "</p>\
-            </button>\
+          <a class='work-img' id='" + 'project' + [i+1] + "' href='" + '#work' + [i+1] + "'>\
+              <img class='img-responsive' src='" + works[i].pic + "'>\
+              <span class='info'><p class='proj-title'>Title:</p>" + works[i].title + "</span>\
           </a>\
         </div>\
       </div>\
-      ");    
+      ");        
   };
 
   //Changes border color depending on even or odd. 
-  var images = $("#work-summary button");
+  var images = $("#work-summary .img-responsive");
   for (var k=0; k < images.length; ++k ) {
     if(k%2 === 0 ) {
       //True
       $(images[k]).css("border", "1px solid DodgerBlue");
-      console.log(images[k]);
-      console.log("True");
+      //console.log(images[k]);
+      //console.log("True");
     } else {
       //False
       $(images[k]).css("border", "1px solid salmon");
-      console.log(images[k]);
-      console.log("False");
-    };
+      //console.log(images[k]);
+      //console.log("False");
+   };
   };
 
+  //Display the title of work when mouses enters the area.
+  //Hides when mouse leaves area.
+  $(".work-img").mouseenter( function () { 
+    //console.log(this);
+    $(".info", this).show();
+  }).mouseleave(function () {
+    $(".info", this).hide();
+  });
   
 });
 

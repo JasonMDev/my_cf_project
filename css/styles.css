@@ -341,7 +341,7 @@ nav {
 /*#jumbo-page--about { 
   background: url("../img/webpicaboutheader1.jpg") no-repeat center top; } 
                                                                       /* A1#9 */ 
-#jumbo-page--about { background-color: transparent; }                    /* A2#3 */
+#jumbo-page--about { background-color: transparent; }                 /* A2#3 */
 
 #jumbo-page--work { 
   background: url("../img/webpicworkheader1.jpg") no-repeat center top; 
@@ -351,7 +351,36 @@ nav {
   background: url("../img/webpicfaqheader1.jpg") no-repeat center top; 
   }                                                                   /* A1#8 */
 
-#jumbo-page--faq { background-color: transparent; }                      /* A2#3 */
+#jumbo-page--faq { background-color: transparent; }                   /* A2#3 */
+
+/*----------------------------------------------------------------------------*\
+    #work-summary
+\*----------------------------------------------------------------------------*/
+.work-img {
+  display: block;                                                     /* A2#9 */
+  margin: auto;                                                       /* A2#9 */
+  max-width: 200px;                                                   /* A2#9 */
+  position: relative;                                                 /* A2#9 */
+}
+
+.info {
+  position: absolute;                                                 /* A2#9 */
+  top: 15%;                                                           /* A2#9 */
+  left: 22%;                                                          /* A2#9 */
+  color: #fff;                                                        /* A2#9 */
+  font-family:Futura;                                                 /* A2#9 */
+  text-transform:uppercase;                                           /* A2#9 */
+  font-weight:700;                                                    /* A2#9 */
+  letter-spacing:0.5em;                                               /* A2#9 */
+  line-height:1.6;                                                    /* A2#9 */
+  text-shadow: -1px 0 #696200, 0  1px #696200, 
+                1px 0 #696200, 0 -1px #696200;                        /* A2#9 */
+  display: none;                                                      /* A2#9 */
+}
+.proj-title {
+  font-weight:100;                                                     /* A2#9 */
+}
+
 
 /*----------------------------------------------------------------------------*\
     #glyphicon-tags
