@@ -442,6 +442,11 @@
           <!-- Contact Information Column -->
           <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
             <h3>Contact</h3>
+            <!-- Google Map Embed API -->
+            <!-- <iframe width="450" height="300" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJU1mggMEEdEgRKnC5biHHLWg&key=AIzaSyBjghrIQ9HriW1_Lv5NZTwQuI15K6iAUAQ" allowfullscreen></iframe> -->
+
+            <!-- Google Maps JS API  -->
+            <div class ="container--wrapper" id="map"></div>
 
             <!-- CUSTOM CLASS: Individual Contact Styling  -->
             <div id="email-column">
@@ -688,6 +693,11 @@
     <!-- scripts.js for personal changes -->
     <script src="js/work.js"></script>
     <script src="js/scripts.js"></script>
+    
+    <!-- Loading the Google Maps API -->
+    <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCf9MJxwoICPDDY3BHkM8oql9LFDjdXeMs&callback=initMap">
+    </script>
     
   </body>
 </html>

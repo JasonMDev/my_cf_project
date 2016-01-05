@@ -1,9 +1,11 @@
 # my_cf_project
 ####This is CareerFoundry Project.
-This is the first Achievement
-The main objective is to build a Responsive Portfolio Website
+The main objective is to build a Responsive and Interactive Portfolio Website
 
 ##My Change Log
+### 2016/01/05
+- Started Achievement 2 Lesson 10
+
 ### 2016/01/04
 - Submitted Achievement 2 Lesson 9
 

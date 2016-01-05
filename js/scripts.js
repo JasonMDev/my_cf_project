@@ -18,6 +18,47 @@
   fjs.parentNode.insertBefore(js, fjs);
   }( document, 'script', 'facebook-jssdk'));
 
+//Loading the Google Maps API
+//var map;
+//function initMap() {
+//  map = new google.maps.Map(document.getElementById('map'), {
+//    center: {lat: 51.2667375, lng: -1.095719},
+//    zoom: 12
+//  });
+//}
+
+//Loading the Google Maps API and marker.
+// The following example creates a marker in Stockholm, Sweden using a DROP
+// animation. Clicking on the marker will toggle the animation between a BOUNCE
+// animation and no animation.
+var marker;
+
+function initMap() {
+  var myLatLng = {lat: 51.2667375, lng: -1.095719};
+
+  var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 12,
+    center: myLatLng
+  });
+
+  marker = new google.maps.Marker({
+    position: myLatLng,
+    map: map,
+    title: 'Here I am!!!',
+    draggable: true,
+    animation: google.maps.Animation.DROP
+  });
+  marker.addListener('click', toggleBounce);
+}
+
+function toggleBounce() {
+  if (marker.getAnimation() !== null) {
+    marker.setAnimation(null);
+  } else {
+    marker.setAnimation(google.maps.Animation.BOUNCE);
+  }
+}
+
 //When the document is ready the following actions will take place.
 $(document).ready(function() {
 	// Change tag's background.
@@ -106,6 +147,7 @@ $(document).ready(function() {
       var underConstruction = "container--wrapper under-construction";
     };
 
+    //Append #work-summary" with works object literal array.
     $("#work-summary").append("\
       <div class='col-lg-3 col-md-3 col-sm-3 col-xs-6'>\
         <div class='" + underConstruction + "'>\
@@ -142,5 +184,3 @@ $(document).ready(function() {
   });
   
 });
-
-
