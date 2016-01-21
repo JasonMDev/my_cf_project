@@ -91,19 +91,15 @@ $(document).ready(function() {
 
   //"Click" event handler for Contact Submit Button
 	$("#btn-submit--contact").on("click", function() {
-		//Can check in the console of the developers tools.
-		//console.log("Clicked!!");
 		var comment = $("#message-box").val();
 
     // Checks if charCount is empty and keeps border red.
     if (comment === "") {
       //True => Change message-box's border to red if charCount = "".  
       $("#message-box").css("border", "1px solid red");
-      //console.log("Clicked!!");
-
+      
     } else {
       //False => If there are characters, allow submission.      
-      //console.log(comment);
       $("#visible-comment").html(comment);
       $("#visible-comment").css("color", "white");
       $("#message-box").hide();
@@ -114,12 +110,9 @@ $(document).ready(function() {
   //Character count in the Contact message box.
   //Also checks if characters are below 50.
   $("#message-box").on("keyup", function() {
-    //Testing that we have caight the correct key.
-    //console.log("Keyup Happened!!");
-
     //Count the characters in the textarea of teh message-box.
     var charCount = $("#message-box").val().length;
-    //console.log("charCount");
+    
     
     // Here we show the running character count by appending the DOM.
     $("#char-count").html(charCount);
@@ -136,7 +129,7 @@ $(document).ready(function() {
 
   //Access the works array from the "work.js" file.
   //Appends the DOM with the array information.
-  //console.log(works);
+  
   for (var i = 0; i < works.length; ++i) {
     //Add class ="under-construction" to non-completed.
     if (i < 2) {
@@ -164,20 +157,18 @@ $(document).ready(function() {
     if(i%2 === 0 ) {
       //True
       $(images[i]).css("border", "1px solid DodgerBlue");
-      //console.log(images[k]);
-      //console.log("True");
+      
     } else {
         //False
         $(images[i]).css("border", "1px solid salmon");
-        //console.log(images[k]);
-        //console.log("False");
+        
     };   
   };
 
   //Display the title of work when mouses enters the area.
   //Hides when mouse leaves area.
   $(".work-img").mouseenter( function () { 
-    //console.log(this);
+    
     $(".info", this).show();
   }).mouseleave(function () {
     $(".info", this).hide();

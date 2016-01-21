@@ -3,8 +3,14 @@
 The main objective is to build a Responsive and Interactive Portfolio Website
 
 ##My Change Log
+### 2016/01/16
+- Cleaned up code.
+
+### 2016/01/06
+- Submitted Achievement 2 Lesson 11
+
 ### 2016/01/05
-- Started Achievement 2 Lesson 10
+- Submitted Achievement 2 Lesson 10
 
 ### 2016/01/04
 - Submitted Achievement 2 Lesson 9
